@@ -1,0 +1,18 @@
+#-------------------------------
+[HEALMACHINE]
+Name = Healing Machine
+NamePlural = Healing Machines
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = A machine developed and used by traveling PokéCenter Nurses for healing pokemon on the go.
+#-------------------------------
+[BATTERYPOUCH]
+Name = Battery Pouch
+NamePlural = Battery Pouches
+Pocket = 8
+Price = 0
+Flags = KeyItem
+FieldUse = Direct
+Description = A bag used to hold and keep count of batteries, and improved by the study of the phenomona of Space and Time.

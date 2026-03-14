@@ -1,0 +1,16 @@
+find:
+
+MultipleForms.register(:MIMIKYU,{
+  "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
+    next 0 if (pkmn.fainted? || endBattle)
+  }
+})
+
+and replace it with:
+
+MultipleForms.register(:MIMIKYU,{
+  "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
+    next 0 if (pkmn.fainted? || endBattle) && pkmn.form == 1
+    next 2 if (pkmn.fainted? || endBattle) && pkmn.form == 3
+  }
+})

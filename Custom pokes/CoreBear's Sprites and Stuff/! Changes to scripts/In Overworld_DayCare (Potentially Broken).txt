@@ -1,0 +1,53 @@
+#===========================================
+
+find:
+
+  when :NIDORANfE, :NIDORANmA
+    if GameData::Species.exists?(:NIDORANfE) && GameData::Species.exists?(:NIDORANmA)
+      babyspecies = [:NIDORANfE, :NIDORANmA][rand(2)]
+    end
+  when :VOLBEAT, :ILLUMISE
+    if GameData::Species.exists?(:VOLBEAT) && GameData::Species.exists?(:ILLUMISE)
+      babyspecies = [:VOLBEAT, :ILLUMISE][rand(2)]
+    end
+
+and underneath it add:
+
+  when :MINUN
+    if mother.species==:MINUN && father.species==:PLUSLE && rand(100)<=20
+      babyspecies = :NEUTRUN
+    elsif mother.species==:MINUN && father.species==:PLUSLE && rand(100)>=20
+      babyspecies = [:MINUN,:PLUSLE][rand(2)]
+    end
+  when :PLUSLE
+    if mother.species==:PLUSLE && father.species==:MINUN && rand(100)<=20
+      babyspecies = :NEUTRUN
+    elsif mother.species==:PLUSLE && father.species==:MINUN && rand(100)>=20
+      babyspecies = [:MINUN,:PLUSLE][rand(2)]
+    end
+
+#===========================================
+
+find:
+
+  # Inheriting Alolan form
+  if [:RATTATA, :SANDSHREW, :VULPIX, :DIGLETT,
+      :MEOWTH, :GEODUDE, :GRIMER, :PONYTA,
+      :SLOWPOKE, :FARFETCHD, :MRMIME, :CORSOLA,
+      :ZIGZAGOON, :DARUMAKA, :YAMASK, :STUNFISK].include?(babyspecies)
+    if mother.form > 0
+      egg.form = mother.form if mother.hasItem?(:EVERSTONE)
+    elsif father.form > 0 &&
+       father.species_data.get_baby_species(true, mother.item_id, father.item_id) == babyspecies
+      egg.form = father.form if father.hasItem?(:EVERSTONE)
+    end
+  end
+
+and underneath it add:
+
+  # CoreBear's Forms
+  if [:BULBASAUR].include?(babyspecies)
+    if [:ROSELIA,:ROSERADE].include?(father.species) || ([[:BULBASAUR,:IVYSAUR,:VENUSAUR].include?(father.species) && father.form == [50,51,52,53,54,55,56]])
+      egg.form = [50,51,52,53,54,55,56][rand(7)]
+    end
+  end

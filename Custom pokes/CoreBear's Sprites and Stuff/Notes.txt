@@ -1,0 +1,38 @@
+==================================
+
+Notes:
+
+================
+
+Most sprites were made a few years ago, and were originally intended to be used with EBDX. Some rescaling and adjustments may be necessary.
+
+Rockom currently only has a front sprite, it was more of a concept than an actual pokemon but I'll get around to it eventually.
+
+Eggs are custom egg sprites to (poorly) match the likes of LilMicolash and Appletun's Apples resources, at https://eeveeexpo.com/resources/1260/
+
+Ivysaur sprites are far from complete, I started them long ago and haven't been working on them due to other commitments. I'll do them and Venusaur to complete the line eventually, but until then you're welcome to make your own or bug me about it on reddit / discord (handle is ".corebear") / Eevee Expo.
+
+Ratatta - Mimikyu only has a front sprite, no busted variant. I'll do it eventually, + back sprites and shinies. You're welcome to pick shiny colours and send them to me, otherwise I'll do normal rat shiny sprites
+
+Credit for Boarbrew goes to u/MangoTango340 on reddit, it only has a front sprite but I actually enjoyed making it.
+
+A gen 1 Bulbasaur recolour is included, but it's barebones and low quality lmao. Only front sprite. I don't plan on working on the back or improving it.
+
+I may or may not continue work on the Ralts line, and if I do Gallade is almost guaranteed to change to match an Oni aesthetic.
+
+==================================
+
+The form identifier can skip numbers, I've taken the liberty of trying to make sure they don't have conflicts with your own.
+
+The Bulbasaur forms are meant to be obtained through breeding, unfortunately the code was made for v19 using a tutorial by TechSkylander but I'll share it as a plugin once I get around to updating for the most recent version of Essentials.
+
+==================================
+
+Credits:
+
+- Gamefreak (Pokemon, sprites, etc.)
+- Maruno (Pokemon Essentials)
+- Luka S.J., for EBDX (No longer in use, but still a very very friendly system with ports to newer versions - https://luka-sj.com/res)
+- Everyone in the Generation 8 Project credits
+- TechSkylander, for the original tutorial found here (https://eeveeexpo.com/resources/662/)
+- Everyone else from the old Relic Castle / new Eevee Expo who've helped me with issues I've encountered (whether they know it or not XD)

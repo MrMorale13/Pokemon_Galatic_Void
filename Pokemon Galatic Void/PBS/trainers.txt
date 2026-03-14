@@ -1,0 +1,287 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[YOUNGSTER,Timmy]
+LoseText = Aww, I lost.
+Pokemon = RATTATA, 4
+    Moves = TACKLE,TAILWHIP,QUICKATTACK,FOCUSENERGY
+Pokemon = RALTS, 7
+    Moves = GROWL,DISARMINGVOICE,CONFUSION,DOUBLETEAM
+#-------------------------------
+[CAMPER,Liam]
+LoseText = A very good battle, indeed!
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
+#-------------------------------
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = Very good.
+Pokemon = GEODUDE,12
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    Gender = male
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    Gender = male
+    IV = 20,20,20,20,20,20
+    Shiny = true
+    Ball = HEAVYBALL
+#-------------------------------
+[LEADER_Bordo,Bordo]
+Items = SUPERPOTION,FULLRESTORE
+LoseText = Looks like your strategy outpaced my electricity!
+Pokemon = SHINX,11
+    Moves = SPARK,BITE,THUNDERWAVE,LEER
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = CHARGOO,12
+    Moves = SPARK,BUGBITE,THUNDERWAVE,LEER
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = MAGNEMITE,13
+    Moves = SONICBOOM,THUNDERSHOCK,THUNDERWAVE,SUPERSONIC
+    AbilityIndex = 1
+    IV = 20,20,20,20,20,20
+Pokemon = PIKACHU,14
+    Moves = THUNDERSHOCK,QUICKATTACK,THUNDERWAVE,DOUBLETEAM
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+#-------------------------------
+[TEAMROCKET_M,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = WEEPINBELL,21
+    Shadow = true
+#-------------------------------
+[TEAMROCKET_F,Grunt,1]
+LoseText = You're too good for me!
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = true
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = Aww, I lost.
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = A very good battle, indeed!
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = You beat me again!
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = Defeated! Oh my!
+Pokemon = MEOWTH,18
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = Defeated! Oh my!
+Pokemon = PERSIAN,32
+#-------------------------------
+[HIKER,Ford]
+LoseText = You're too good for me!
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = Washed out!
+Pokemon = MAGIKARP,12
+Pokemon = MAGIKARP,14
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My Skitty!
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = You didn't have to win so convincingly!
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = Our teamwork failed!
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[POKEMONTRAINER_May,May]
+LoseText = ...
+Pokemon = COMBUSKEN,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = Washed out!
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL1,Blue]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = Not too shabby.
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = A good battle indeed!
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
+#-------------------------------
+[LEADER_Age,Age]
+Items = FULLRESTORE,POTION
+LoseText = Ah… impressive. You didn't get swept away after all.
+Pokemon = SKRELP,16
+    Moves = WATERPULSE,ACID,SMOKESCREEN,HARDEN
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = BRIONNE,17
+    Moves = WATERGUN,DISARMINGVOICE,BABYDOLLEYES,GROWL
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = MOURIN,18
+    Moves = WATERPULSE,ICYWIND,SUPERSONIC,RAINDANCE
+    AbilityIndex = 1
+    IV = 20,20,20,20,20,20
+Pokemon = OCTOKINEPUS,19
+    Moves = WATERPULSE,BITE,CONFUSERAY,OCTAZOOKA
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+Pokemon = GYARADOS,20
+    Moves = WATERPULSE,BITE,DRAGONRAGE,RAINDANCE
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+#-------------------------------
+[RIVAL1,Evan]
+LoseText = Well you were the one who was always better.
+Pokemon = SKINDLING,5
+    Moves = TACKLE,GROWL
+#-------------------------------
+[RIVAL1,Evan,1]
+LoseText = Well you were the one who was always better.
+Pokemon = DAMPYBARA,5
+    Moves = TACKLE,GROWL
+#-------------------------------
+[RIVAL1,Evan,2]
+LoseText = Well you were the one who was always better.
+Pokemon = RHINPLINK,5
+    Moves = TACKLE,GROWL
+#-------------------------------
+[VOIDGRUNT,Grunt A]
+LoseText = The admin won't like this...
+Pokemon = SNEEPY,18
+    Moves = TACKLE,GROWL
+Pokemon = BRAMBLIN,18
+    Moves = ABSORB,ASTONISH
+#-------------------------------
+[YOUNGSTER,Jimmy]
+LoseText = I should have won.
+Pokemon = RAYQUAZA,100
+    Moves = DRAGONASCENT,DRAGONCLAW,EXTREMESPEED,DRAGONDANCE
+    IV = 31,31,31,31,31,31
+Pokemon = ZEKROM,100
+    Moves = BOLTSTRIKE,DRAGONCLAW,CRUNCH,DRAGONDANCE
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[LEADER_Anthony,Anthony]
+Items = SUPERPOTION,SUPERPOTION
+LoseText = Stupid R!!! I guess you won.
+
+Pokemon = PHANTUMP,24
+    Moves = SHADOWSNEAK,NIGHTSHADE,WILLOWISP,LEECHSEED
+    AbilityIndex = 1
+    IV = 22,22,22,22,22,22
+
+Pokemon = RUNERIGUS,25
+    Moves = CONFUSERAY,HEX,PSYWAVE,SPITE
+    AbilityIndex = 0
+    IV = 22,22,22,22,22,22
+
+Pokemon = CERULEDGE,25
+    Moves = BITTERBLADE,SHADOWCLAW,WILLOWISP,NIGHTSHADE
+    AbilityIndex = 0
+    IV = 22,22,22,22,22,22
+
+Pokemon = COFAGRIGUS,25
+    Moves = SHADOWPUNCH,HYPNOSIS,NIGHTSHADE,WILLOWISP
+    AbilityIndex = 0
+    IV = 23,23,23,23,23,23
+
+Pokemon = BANETTE,28
+    Moves = SHADOWCLAW,SUCKERPUNCH,WILLOWISP,SCREECH
+    Item = SITRUSBERRY
+    AbilityIndex = 0
+    IV = 24,24,24,24,24,24
+#-------------------------------
+[MEDIUM,Lila]
+LoseText = The spirits abandoned me...
+Pokemon = SHUPPET,20
+    Moves = SHADOWSNEAK,NIGHTSHADE,SCREECH,ASTONISH
+Pokemon = MISDREAVUS,21
+    Moves = CONFUSERAY,HEX,PSYWAVE,SPITE
+#-------------------------------
+[PSYCHIC_M,Rowan]
+LoseText = The spirits clouded my mind...
+Pokemon = DUSKULL,21
+    Moves = WILLOWISP,NIGHTSHADE,DISABLE,CONFUSERAY
+Pokemon = HAUNTER,22
+    Moves = SHADOWPUNCH,HYPNOSIS,LICK,NIGHTSHADE
+#-------------------------------
+[SWIMMER_M,Liam]
+LoseText = I guess I need more training before the Gym Leader...
+Pokemon = OCTOLECT,16
+    Moves = WATERGUN,WRAP,SMOKESCREEN,CONFUSERAY
+Pokemon = SHELLDER,17
+    Moves = WATERGUN,ICICLESPEAR,LEER,PROTECT
+Pokemon = CHINCHOU,17
+    Moves = BUBBLE,THUNDERSHOCK,SUPERSONIC,WATERGUN
+#-------------------------------
+[SWIMMER_M,Brooks]
+LoseText = Looks like the tide turned against me...
+Pokemon = BARBOACH,16
+    Moves = WATERGUN,MUDSLAP,AMNESIA,MAGNITUDE
+Pokemon = KRABBY,17
+    Moves = BUBBLE,VISEGRIP,HARDEN,LEER
+#-------------------------------
+[SWIMMER_F,Marina]
+LoseText = Guess I got swept away...
+Pokemon = REMORAID,17
+    Moves = WATERGUN,FOCUSENERGY,PSYBEAM,AURORABEAM
+Pokemon = SURSKIT,16
+    Moves = BUBBLE,QUICKATTACK,SWEETSCENT,WATERSPORT
+#-------------------------------
+[SWIMMER_M,Kai]
+LoseText = Guess I need more time in the water...
+Pokemon = BARBOACH,16
+    Moves = WATERGUN,MUDSLAP,AMNESIA,MAGNITUDE
+Pokemon = KRABBY,17
+    Moves = BUBBLE,VISEGRIP,HARDEN,LEER
+Pokemon = SURSKIT,16
+    Moves = BUBBLE,QUICKATTACK,SWEETSCENT,WATERSPORT
+#-------------------------------
+[ENGINEER,Liam]
+LoseText = Gah! My whole system crashed!
+Pokemon = SHINX,9
+    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+    AbilityIndex = 0
+    IV = 10,10,10,10,10,10
+Pokemon = BLITZLE,10
+    Moves = QUICKATTACK,TAILWHIP,THUNDER_WAVE,SHOCKWAVE
+    AbilityIndex = 0
+    IV = 10,10,10,10,10,10

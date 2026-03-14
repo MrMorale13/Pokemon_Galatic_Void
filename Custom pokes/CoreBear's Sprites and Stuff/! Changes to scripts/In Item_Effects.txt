@@ -1,0 +1,146 @@
+#========================================================#
+#
+# Add to the bottom of the script
+#
+#========================================================#
+
+# Battery Pouch (used with healing machine)
+ItemHandlers::UseFromBag.add(:BATTERYPOUCH, proc { |item|
+  batteries = $game_variables[99]
+  choices = (_INTL("Check"),("Upgrade"),("Cancel"))
+  choice = pbMessage("What do you want to do?",choices,2)
+  level = 0 if $game_variables[98] == nil
+  cap = nil if $game_variables[97] == nil
+  case level
+  when 0
+    cap = 6
+  when 1
+    cap = 18
+  when 2
+    cap = 36
+  when 3
+    cap = 90
+  end
+  case choice
+  when 0
+    pbMessage(_INTL("You have {1} Batteries, with a max capacity of {2}.",$game_variables[99],cap))
+  when 1
+    pbMessage(_INTL("Your Battery Pouch currently has a capacity of {1} Batteries.",cap))
+    pbMessage(_INTL("Upgrading will cost half the current max capacity."))
+    choice2 = pbMessage("Are you sure you want to upgrade the Battery Pouch?",(_INTL("Yes"),("No")),1)
+    if choice2 == 0
+      pbMessage(_INTL("Your upgrade was successful!."))
+      level2 = $game_variables[98] + 1
+      case level2
+      when 0
+        cap2 = 6
+      when 1
+        cap2 = 18
+      when 2
+        cap2 = 36
+      when 3
+        cap2 = 90
+      end
+      $game_variables[98] = level2
+      $game_variables[97] = cap2
+      pbMessage(_INTL("The Battery Pouch now has a max capacity of {1}"),cap2)
+  when 2
+    return false
+  end
+  next 1
+})
+
+#========================================================#
+
+# Healing Machine
+ItemHandlers::UseInField.add(:HEALMACHINE,proc{ |item, pkmn, scene|
+  canrevive = false
+  a = 0
+  for i in $player.pokemon_party
+    next if i.hp == i.totalhp && i.status == :NONE
+    a += 1 if i.hp != i.totalhp || i.status != :NONE
+    canrevive = true
+  end
+  if !canrevive
+    pbMessage(_INTL("It won't have any effect."))
+    next 0
+  elsif canrevive
+    case $game_variables[99]
+    when 0
+      pbMessage(_INTL("You do not have any charges left."))
+      pbMessage(_INTL("It won't have any effect."))
+      next 0
+    when 1
+      pbMessage("You have 1 charge left.")
+      if pbConfirmMessage("Would you like to heal your Pokémon?")
+        if a > 1
+          pbMessage(_INTL("You don't have enough charges to heal your party."))
+          if pbConfirmMessage("Would you like to heal one Pokémon?")
+            pkmn = scene.pbChoosePokemon(1,3)
+            pkmn2 = $game_variables[1]
+            next 0 if pkmn2 < 0
+            pkmn = $player.party[pkmn2]
+            if pkmn.hp == pkmn.totalhp && pkmn.status == :NONE
+              pbMessage(_INTL("The Pokémon is already healthy."))
+              pbMessage(_INTL("It won't have any effect."))
+              next 0
+            else
+              pkmn.heal
+              pbMessage(_INTL("The Pokémon was fully healed."))
+              pbMessage(_INTL("You have no more charges left."))
+              $game_variables[99] -= 1
+            end
+          end
+        else
+          $game_variables[99] -= 1
+          for i in $player.party
+            i.heal
+          end
+          pbMessage(_INTL("Your Pokémon were fully healed."))
+          pbMessage(_INTL("You have no more charges left."))
+        end
+      end
+    else
+      pbMessage(_INTL("You have {1} charges left.",$game_variables[99]))
+      if pbConfirmMessage("Would you like to heal your Pokémon?")
+        if a > $game_variables[99]
+          pbMessage(_INTL("You don't have enough charges to heal your party."))
+          if pbConfirmMessage("Would you like to heal one Pokémon?")
+            pkmn = scene.pbChoosePokemon(1,3)
+            pkmn2 = $game_variables[1]
+            next 0 if pkmn2 < 0
+            pkmn = $player.party[pkmn2]
+            if pkmn.hp == pkmn.totalhp && pkmn.status == :NONE
+              pbMessage(_INTL("The Pokémon is already healthy."))
+              pbMessage(_INTL("It won't have any effect."))
+              next 0
+            else
+              pkmn.heal
+              pbMessage(_INTL("The Pokémon was fully healed."))
+              $game_variables[99] -= 1
+              if $game_variables[99] == 1
+                pbMessage(_INTL("You have 1 charge left."))
+              else
+                pbMessage(_INTL("You have {1} charges left.", $game_variables[99]))
+              end
+            end
+          end
+        else
+          $game_variables[99] -= a
+          for i in $player.party
+            i.heal
+          end
+          pbMessage(_INTL("Your Pokémon were fully healed."))
+          if $game_variables[99] == 1
+            pbMessage(_INTL("You have 1 charge left."))
+          else
+            pbMessage(_INTL("You have {1} charges left.",$game_variables[99]))
+          end
+        end
+      end
+    end
+  end
+  next 1
+})
+
+#========================================================#

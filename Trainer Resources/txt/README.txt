@@ -1,0 +1,1 @@
+if you got this outside of EE/PC, you should credit DEOXYSACID for all these sprites!

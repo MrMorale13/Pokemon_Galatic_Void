@@ -1,0 +1,12 @@
+SpecialBattleIntroAnimations.register("rarehunter_grunt_animation", 40,   # Priority 40
+  proc { |battle_type, foe, location|   # Condition
+    next false unless [1, 3].include?(battle_type)   # Only if a trainer battle
+    trainer_types = [:RAREHUNTERGRUNT_M, :RAREHUNTERGRUNT_F, :RAREHUNTERACE_M, :RAREHUNTERACE_F,
+     :RAREHUNTERELITE_M, :RAREHUNTERELITE_F, :RAREHUNTERCOMMANDER_M, :RAREHUNTERCOMMANDER_F,
+    :RAREHUNTERGUARDIAN_M, :RAREHUNTERGUARDIAN_F]
+    next foe.any? { |f| trainer_types.include?(f.trainer_type) }
+  },
+  proc { |viewport, battle_type, foe, location|   # Animation
+    pbBattleAnimationCore("Rarehunter", viewport, location)
+  }
+)

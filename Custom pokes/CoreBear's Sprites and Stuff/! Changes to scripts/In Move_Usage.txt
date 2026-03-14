@@ -1,0 +1,49 @@
+find:
+
+    if !@battle.moldBreaker && target.isSpecies?(:MIMIKYU) &&
+       target.form==0 && target.ability == :DISGUISE
+      target.damageState.disguise = true
+      return
+    end
+
+and replace it with:
+
+    if !@battle.moldBreaker && target.isSpecies?(:MIMIKYU) &&
+       (target.form == 0 || target.form == 2) && target.ability == :DISGUISE
+      target.damageState.disguise = true
+      return
+    end
+
+#===========================================
+
+find:
+
+    if target.damageState.disguise
+      @battle.pbShowAbilitySplash(target)
+      if PokeBattle_SceneConstants::USE_ABILITY_SPLASH
+        @battle.pbDisplay(_INTL("Its disguise served it as a decoy!"))
+      else
+        @battle.pbDisplay(_INTL("{1}'s disguise served it as a decoy!",target.pbThis))
+      end
+      @battle.pbHideAbilitySplash(target)
+      target.pbChangeForm(1,_INTL("{1}'s disguise was busted!",target.pbThis))
+      target.pbReduceHP(target.totalhp/8)
+
+and replace it with:
+
+    if target.damageState.disguise
+      @battle.pbShowAbilitySplash(target)
+      if PokeBattle_SceneConstants::USE_ABILITY_SPLASH
+        @battle.pbDisplay(_INTL("Its disguise served it as a decoy!"))
+      else
+        @battle.pbDisplay(_INTL("{1}'s disguise served it as a decoy!",target.pbThis))
+      end
+      @battle.pbHideAbilitySplash(target)
+      # Correct broken disguise
+      if target.form == 0
+        target.pbChangeForm(1,_INTL("{1}'s disguise was busted!",target.pbThis))
+        target.pbReduceHP(target.totalhp/8)
+      elsif target.form == 2
+        target.pbChangeForm(3,_INTL("{1}'s disguise was busted!",target.pbThis))
+        target.pbReduceHP(target.totalhp/8)
+      end

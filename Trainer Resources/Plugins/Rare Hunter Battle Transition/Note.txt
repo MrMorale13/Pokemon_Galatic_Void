@@ -1,0 +1,1 @@
+Should the rb script for registering the Rare Hunter Transition, copy the Rare Hunter Register Transition to Overworld_BattleIntroAnim. That's all you need to do. Once that's done, delete the .rb to avoid any issues.

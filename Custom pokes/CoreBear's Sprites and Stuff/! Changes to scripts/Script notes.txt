@@ -1,0 +1,4 @@
+Changes in here are liable to breaking and conflicting with other scripts and plugins. Edit the scripts and insert these at your will, otherwise bug me about making a plugin and I'll do it. I remember experiencing issues with a popular plugin (may have been Deluxe Battle Kit) when working on daycare changes, but otherwise my recommendation is read other people's scripts if it gives you trouble and see if they make any conflicting changes. Otherwise again, let me know the problem and I'll sort it out, don't bug them about my patchwork scripts lmao
+
+Battery Pouch (and therefore Healing Machine) are almost guaranteed to be broken, I'll fix them when eventually. Ping me if it's that important to you lmao.
+Healing Machine uses batteries (stored in Game Variable [99]) so use scripts to increase that variable to make it work hopefully.

@@ -1,0 +1,18 @@
+#========================================================#
+#
+# Add to the bottom of the script
+#
+#========================================================#
+
+# Smoke Bomb (drops evasion and accuracy, AKA the gamble grenade)
+ItemHandlers::UseInBattle.add(:SMOKEBOMB, proc { |item, battler, battle|
+  battle.allBattlers.each do |b|
+    if !b.pbOwnedByPlayer?
+      show_anim = false
+      b.pbLowerStatStage(:EVASION, 3, b)
+      b.pbLowerStatStage(:ACCURACY, 3, b, show_anim)
+    end
+  end
+})
+
+#========================================================#

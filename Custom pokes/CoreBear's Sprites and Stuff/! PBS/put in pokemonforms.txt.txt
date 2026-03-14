@@ -1,0 +1,97 @@
+[BULBASAUR,50]
+FormName = Rose-bulb (Red)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,51]
+FormName = Rose-bulb (Orange)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,52]
+FormName = Rose-bulb (Yellow)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,53]
+FormName = Rose-bulb (Green)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,54]
+FormName = Rose-bulb (Blue)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,55]
+FormName = Rose-bulb (Purple)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,56]
+FormName = Rose-bulb (Pink)
+Abilities = POISONPOINT,NATURALCURE
+HiddenAbility = LEAFGUARD
+Pokedex = Bulbasaur born of a rosey father. Usually cultivated by florists for it's nice appearance and aroma.
+Color = Green
+#
+#
+[BULBASAUR,57]
+FormName = Corn-bulb
+Abilities = HARVEST
+HiddenAbility = HARVEST
+Pokedex = Generally pokemon grow to adapt to their surroundings; such is the way of evolution. In some areas, to hide from prey, this Pokémon's bulb shape and colour.
+Color = Green
+#
+#
+[BULBASAUR,58]
+FormName = Melon-bulb
+Abilities = HARVEST
+HiddenAbility = HARVEST
+Pokedex = Generally pokemon grow to adapt to their surroundings; such is the way of evolution. In some areas, to hide from prey, this Pokémon's bulb shape and colour.
+Color = Green
+#
+#
+[BULBASAUR,59]
+FormName = Pumpkin-bulb (Fake)
+Abilities = HARVEST
+HiddenAbility = HARVEST
+Pokedex = Generally pokemon grow to adapt to their surroundings; such is the way of evolution. In some areas, to hide from prey, this Pokémon's bulb shape and colour.
+Color = Green
+#
+#
+[BULBASAUR,60]
+FormName = Pumpkin-bulb (Real)
+Abilities = HARVEST
+HiddenAbility = HARVEST
+Pokedex = Generally pokemon grow to adapt to their surroundings; such is the way of evolution. In some areas, to hide from prey, this Pokémon's bulb shape and colour.
+Color = Green
+#
+#
+[MIMIKYU,2]
+FormName = Clefairy (Disguised)
+Abilities = DISGUISE
+Pokedex = A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.
+#
+#
+[MIMIKYU,4]
+FormName = Clefairy (Busted Form)
+Pokedex = Sad that its true identity may be exposed, Mimikyu will mercilessly seek revenge on any opponent that breaks its neck.
