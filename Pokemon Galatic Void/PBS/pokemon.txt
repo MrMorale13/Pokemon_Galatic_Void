@@ -4311,7 +4311,7 @@ Habitat = Forest
 Category = Owl
 Pokedex = It has an internal organ that senses the earth's rotation. Using this special organ, a Hoothoot begins hooting at precisely the same time every day.
 Generation = 2
-Evolutions = NOCTOWL,Level,20
+Evolutions = NOCTOWL,LevelGalaxy,20
 #-------------------------------
 [NOCTOWL]
 Name = Noctowl
@@ -24007,7 +24007,7 @@ Weight = 33.3
 Color = Brown
 Shape = BipedalTail
 Category = Rabbit
-Pokedex = A vicious and treacherous Pok�mon. Bunninja always shows its back to the opponent as a way of mockery.
+Pokedex = A vicious and treacherous Pokemon. Bunninja always shows its back to the opponent as a way of mockery.
 Generation = 0
 #-------------------------------
 [UMAMOTH]
@@ -24032,7 +24032,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Forest
 Category = Mothman
-Pokedex = Umamoth are caring Pok�mon who warns people about upcoming disasters. Although they often gather around the cities lights for no reason.
+Pokedex = Umamoth are caring Pokemon who warns people about upcoming disasters. Although they often gather around the cities lights for no reason.
 #-------------------------------
 [BELSTATUE]
 Name = Belstatue
@@ -24070,9 +24070,9 @@ BaseExp = 70
 EVs = ATTACK,1
 CatchRate = 180
 Happiness = 50
-Abilities = INNERFOCUS,AMPLIFIER
+Abilities = INNERFOCUS,PUNKROCK
 HiddenAbilities = SOUNDPROOF
-Moves = 1,POUND,1,THUNDERWAVE,5,KARATECHOP,10,SING,15,SPEEDOFSOUND,20,ROUND,25,SUPERSONIC,30,SPARK,35,LOUDCLAP,40,THUNDERPUNCH,45,POWERSUITE,50,WILDCHARGE,55,ZAPCANNON
+Moves = 1,POUND,1,THUNDERWAVE,5,KARATECHOP,10,SING,15,SPEEDOFLIGHT,20,ROUND,25,SUPERSONIC,30,SPARK,35,LOUDCLAP,40,THUNDERPUNCH,45,POWERSUITE,50,WILDCHARGE,55,ZAPCANNON
 TutorMoves = SEISMICTOSS,RAINDANCE,THUNDERWAVE,THIEF,FLING,ECHOEDVOICE,RETURN,HIDDENPOWER,FOCUSBLAST,SUPERPOWER,VENOMKICK,RAIDKICK,FLASHCANNON,FORESTKICK,THUNDER,ZAPCANNON,KNOCKOFF,POWERSUITE,TOXIC,SUBSTITUTE,ROCKSMASH,FLASH,STRENGTH
 EggMoves = KNOCKOFF,VITALTHROW,BOOMBURST,MAGNETRISE,NUZZLE,LOWKICK,FEINT,FOCUSPUNCH
 EggGroups = Field,Humanlike
@@ -24082,7 +24082,7 @@ Weight = 20.0
 Color = Yellow
 Shape = BipedalTail
 Category = Musical
-Pokedex = Cubchestra's body emits beautiful sounds as it moves, this often gather nearby Pok�mon to play.
+Pokedex = Cubchestra's body emits beautiful sounds as it moves, this often gather nearby Pokemon to play.
 Evolutions = THUNPHONY,Level,31
 #-------------------------------
 [THUNPHONY]
@@ -24095,9 +24095,9 @@ BaseExp = 179
 EVs = ATTACK,2
 CatchRate = 45
 Happiness = 50
-Abilities = INNERFOCUS,AMPLIFIER
+Abilities = INNERFOCUS,PUNKROCK
 HiddenAbilities = SOUNDPROOF
-Moves = 0,GUNGNIRPUNCH,1,THUNDERPUNCH,1,THUNDERWAVE,5,KARATECHOP,10,SING,15,SPEEDOFSOUND,20,ROUND,25,SUPERSONIC,30,SPARK,33,BRICKBREAK,37,LOUDCLAP,43,DRAINPUNCH,48,POWERSUITE,53,WILDCHARGE,59,ZAPCANNON,65,GUNGNIRPUNCH
+Moves = 0,GUNGNIRPUNCH,1,THUNDERPUNCH,1,THUNDERWAVE,5,KARATECHOP,10,SING,15,SPEEDOFLIGHT,20,ROUND,25,SUPERSONIC,30,SPARK,33,BRICKBREAK,37,LOUDCLAP,43,DRAINPUNCH,48,POWERSUITE,53,WILDCHARGE,59,ZAPCANNON,65,GUNGNIRPUNCH
 TutorMoves = SEISMICTOSS,RAINDANCE,THUNDERWAVE,THIEF,FLING,ECHOEDVOICE,RETURN,HIDDENPOWER,FOCUSBLAST,SUPERPOWER,VENOMKICK,RAIDKICK,FLASHCANNON,FORESTKICK,THUNDER,ZAPCANNON,KNOCKOFF,POWERSUITE,TOXIC,SUBSTITUTE,ROCKSMASH,FLASH,STRENGTH
 EggGroups = Field,Humanlike
 HatchSteps = 6400
@@ -24106,7 +24106,7 @@ Weight = 35.5
 Color = Yellow
 Shape = BipedalTail
 Category = Musical
-Pokedex = This Pokemon's strength is drastically boosted while singing. Thunphonys relentless fighting style is known by the name of �God-Slaying Fist�.
+Pokedex = This Pokemon's strength is drastically boosted while singing. Thunphonys relentless fighting style is known by the name of the God-Slaying Fist.
 #-------------------------------
 [APPRENSITH]
 Name = Apprensith
@@ -24130,7 +24130,7 @@ Weight = 20.0
 Color = Green
 Shape = BipedalTail
 Category = C�-s�th
-Pokedex = If you hear three terrifying barks at night, Apprensith and Sithwitch will come to hunt women to supply milk for the Fairy-type Pok�mon. 
+Pokedex = If you hear three terrifying barks at night, Apprensith and Sithwitch will come to hunt women to supply milk for the Fairy-type Pokemon. 
 Evolutions = SITHWITCH,Level,31
 #-------------------------------
 [SITHWITCH]
@@ -24154,7 +24154,7 @@ Weight = 35.5
 Color = Green
 Shape = BipedalTail
 Category = C�-s�th
-Pokedex = Sithwitch can walk without making a sound and can understand human speech; this makes it a perfect guard dog for the Fairy-type Pok�mon.
+Pokedex = Sithwitch can walk without making a sound and can understand human speech; this makes it a perfect guard dog for the Fairy-type Pokemon.
 #-------------------------------
 [MIMIEGG]
 Name = Mimiegg
@@ -24179,7 +24179,7 @@ Color = Red
 Shape = Head
 Habitat = Urban
 Category = Egg Mimic
-Pokedex = Mimiegg sneaks into other Pok�mon�s nests to wait for the mother to leave. When it does, the Pok�mon eats all the eggs and flees.
+Pokedex = Mimiegg sneaks into other Pokemon�s nests to wait for the mother to leave. When it does, the Pokemon eats all the eggs and flees.
 Evolutions = EGGVOUR,Level,28
 #-------------------------------
 [EGGVOUR]
@@ -24204,4 +24204,73 @@ Color = Red
 Shape = Head
 Habitat = Urban
 Category = Egg Mimic
-Pokedex = When a big prey gets closer to this Pok�mon�s mouth, its body shrinks until it can be swallowed whole. Eggvour no longer need to prey the weak.
+Pokedex = When a big prey gets closer to this Pokemon�s mouth, its body shrinks until it can be swallowed whole. Eggvour no longer need to prey the weak.
+#-------------------------------
+[STELLARYX]
+Name = Stellaryx
+Types = GALAXY,STEEL
+BaseStats = 105,100,125,150,120,80
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 306
+EVs = SPECIAL_ATTACK,3
+CatchRate = 3
+Happiness = 0
+Abilities = COSMICARMOR
+HiddenAbilities = STARCORE
+Moves = 1,STARPULSE,1,GRAVITYWELL,1,COSMICPOWER,1,FLASHCANNON,8,SWIFT,16,IRONDEFENSE,24,NEBULABURST,32,COMETCRASH,40,COSMICVEIL,48,CALMMIND,56,SUPERNOVA,64,STELLARCATACLYSM,72,HYPERBEAM
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 5.2
+Weight = 420.0
+Color = Blue
+Shape = Serpentine
+Habitat = None
+Category = Cosmic Dragon
+Pokedex = Stellaryx was born in the heart of a dying galaxy. The glowing stars across its wings are fragments of ancient constellations bound to its body.
+#-------------------------------
+[OBLIVIX]
+Name = Oblivix
+Types = VOID,DARK
+BaseStats = 100,135,90,135,90,130
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 306
+EVs = ATTACK,1,SPECIAL_ATTACK,2
+CatchRate = 3
+Happiness = 0
+Abilities = VOIDABSORB
+HiddenAbilities = NULLFIELD
+Moves = 1,PULVERIZINGBEAM,1,SOULCONTRACT,1,BITE,1,SCARYFACE,8,VOIDCLAW,16,BLACKOUT,24,CRUNCH,32,NULLSURGE,40,NIGHTSLASH,48,VOIDCONSUME,56,ERASURE,64,DARKPULSE,72,EVENTHORIZON
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 5.1
+Weight = 361.0
+Color = Purple
+Shape = BipedalTail
+Habitat = None
+Category = Void Dragon
+Pokedex = Oblivix is said to be a living singularity. The hollow void in its chest devours light, sound, and even matter itself, leaving only emptiness behind.
+#-------------------------------
+[ASTRALITH]
+Name = Astralith
+Types = GALAXY,VOID
+BaseStats = 110,90,100,160,120,120
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 340
+EVs = SPECIAL_ATTACK,3
+CatchRate = 3
+Happiness = 0
+Abilities = COSMICBALANCE
+HiddenAbilities = NULLFIELD
+Moves = 1,STARPULSE,1,PULVERIZINGBEAM,1,GRAVITYWELL,1,COSMICPOWER,8,NEBULABURST,16,NULLSURGE,24,BLACKOUT,32,COSMICVEIL,40,VOIDCONSUME,48,CALMMIND,56,SUPERNOVA,64,ERASURE,72,SINGULARITY,80,ASTRALANNIHILATION
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 3.6
+Weight = 210.0
+Color = Purple
+Shape = MultiWinged
+Habitat = None
+Category = Cosmic Balance
+Pokedex = Astralith exists at the point where galaxies and the endless void converge. It is said to maintain the fragile equilibrium of the universe, preventing reality from collapsing into darkness.

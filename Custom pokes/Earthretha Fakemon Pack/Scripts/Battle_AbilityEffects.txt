@@ -1,6 +1,6 @@
 Battle::AbilityEffects::EndOfRoundEffect.add(:STATIONARY,
   proc { |ability, battler, battle|
-    # A Pokémon's turnCount is 0 if it became active after the beginning of a
+    # A Pokemon's turnCount is 0 if it became active after the beginning of a
     # round
     if battler.turnCount > 0 && battle.choices[battler.index][0] != :Run &&
        battler.pbCanRaiseStatStage?(:DEFENSE, battler)

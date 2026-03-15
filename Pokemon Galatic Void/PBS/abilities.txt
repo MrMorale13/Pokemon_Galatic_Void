@@ -1275,3 +1275,27 @@ Description = Water-type moves become stronger when HP is above half.
 [IRONBARK]
 Name = Iron Bark
 Description = Physical damage taken is slightly reduced.
+#-------------------------------
+[STATIONARY]
+Name = Stationary
+Description = The Pokémon slowly restores HP each turn.
+#-------------------------------
+[COSMICARMOR]
+Name = Cosmic Armor
+Description = Reduces damage from super-effective moves.
+#-------------------------------
+[STARCORE]
+Name = Star Core
+Description = Powers up Galaxy-type moves.
+#-------------------------------
+[VOIDABSORB]
+Name = Void Absorb
+Description = Restores HP if hit by a Void-type move.
+#-------------------------------
+[NULLFIELD]
+Name = Null Field
+Description = Weakens Galaxy-type moves used against the Pokémon.
+#-------------------------------
+[COSMICBALANCE]
+Name = Cosmic Balance
+Description = Reduces damage from Galaxy- and Void-type moves.

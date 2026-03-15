@@ -679,7 +679,7 @@ Description = This attack's power increases the more the target has powered up w
 #-------------------------------
 [DARKVOID]
 Name = Dark Void
-Type = DARK
+Type = VOID
 Category = Status
 Accuracy = 50
 TotalPP = 10
@@ -9951,9 +9951,22 @@ Flags = Contact,CanProtect,CanMirrorMove,Sound
 EffectChance = 30
 Description = Slaps the foes to make a startling sound. It may also make the targets flinch.
 #-------------------------------
+[SPEEDOFLIGHT]
+Name = Speed of Light
+Type = GALAXY
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+Priority = 2
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Sound
+Description = The user rushes at the target in the speed of light. This move always goes first.
+#-------------------------------
 [SPEEDOFSOUND]
 Name = Speed of Sound
-Type = GALAXY
+Type = NORMAL
 Category = Physical
 Power = 40
 Accuracy = 100
@@ -9975,7 +9988,7 @@ Target = NearOther
 Priority = -6
 FunctionCode = SwitchOutTargetDamagingMove
 Flags = Contact,CanProtect,CanMirrorMove,Sound,Punching
-Description = The user punches the target and switches it out another Pok�mon in its party. In the wild, the battle ends.
+Description = The user punches the target and switches it out another Pokemon in its party. In the wild, the battle ends.
 #-------------------------------
 [POWERSUITE]
 Name = Power Suite
@@ -10087,3 +10100,130 @@ Priority = 2
 FunctionCode = RemoveProtections
 Flags = CanMirrorMove
 Description = An magic attack that hits a target using Protect or Detect. It also lifts the effects of those moves.
+#-------------------------------
+[VOIDCLAW]
+Name = Void Claw
+Type = VOID
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slashes the target with claws formed from living darkness.
+#-------------------------------
+[NULLSURGE]
+Name = Null Surge
+Type = VOID
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerSpecialDefense1
+Flags = CanProtect,CanMirrorMove
+Description = A wave of null energy crashes into the target and may lower its Sp. Def.
+#-------------------------------
+[ABYSSGRASP]
+Name = Abyss Grasp
+Type = VOID
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user seizes the target with void-tendrils, trapping it for several turns.
+#-------------------------------
+[BLACKOUT]
+Name = Blackout
+Type = VOID
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerAccuracy1
+Flags = CanProtect,CanMirrorMove
+Description = The user swallows the area in darkness, lowering the Accuracy of nearby foes.
+#-------------------------------
+[ERASURE]
+Name = Erasure
+Type = VOID
+Category = Special
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The target is blasted by destructive void energy that threatens to erase all matter.
+#-------------------------------
+[SINGULARITY]
+Name = Singularity
+Type = VOID
+Category = Status
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = LowerSpeed2
+Flags = CanProtect
+Description = A crushing point of gravity forms and sharply lowers the Speed of nearby foes.
+#-------------------------------
+[EMPTYHEART]
+Name = Empty Heart
+Type = VOID
+Category = Status
+TotalPP = 10
+Target = User
+FunctionCode = RaiseAttack1RaiseSpeed1
+Description = The user abandons all hesitation, raising its Attack and Speed.
+#-------------------------------
+[VOIDCONSUME]
+Name = Void Consume
+Type = VOID
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserHalfOfTotalDamageDealt
+Flags = CanProtect,CanMirrorMove
+Description = The user drains energy through the void and restores HP equal to half the damage dealt.
+#-------------------------------
+[ABYSSALWING]
+Name = Abyssal Wing
+Type = VOID
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserHalfOfTotalDamageDealt
+Flags = CanProtect,CanMirrorMove
+Description = The user unleashes a wing-shaped blast of void energy that restores its HP.
+#-------------------------------
+[EVENTHORIZON]
+Name = Event Horizon
+Type = VOID
+Category = Special
+Power = 110
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerSpeed1
+Flags = CanProtect,CanMirrorMove
+Description = The target is dragged toward a point of no return and may have its Speed lowered.
+#-------------------------------
+[ASTRALANNIHILATION]
+Name = Astral Annihilation
+Type = GALAXY
+Category = Special
+Power = 120
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = DoubleDamageIfTargetIsType
+Flags = CanProtect,CanMirrorMove
+Description = Cosmic and void energies collide violently. It deals double damage to VOID Pokémon.
+#-------------------------------

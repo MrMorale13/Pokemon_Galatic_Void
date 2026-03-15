@@ -132,15 +132,14 @@ Immunities = DRAGON
 Name = Galaxy
 IconPosition = 19
 IsSpecialType = true
-Weaknesses = ELECTRIC,FAIRY
+Weaknesses = ELECTRIC,FAIRY,VOID
 Resistances = FLYING,ICE,ROCK
 Immunities = GROUND,FIRE
-
 #-------------------------------
 [VOID]
 Name = Void
 IconPosition = 20
 IsSpecialType = true
-Weaknesses = ELECTRIC,FAIRY
+Weaknesses = ELECTRIC,FAIRY,GALAXY
 Resistances = PSYCHIC,GHOST,GRASS
-Immunities = FIGHTING
+Immunities = FIGHTING,NORMAL
