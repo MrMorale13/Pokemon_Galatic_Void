@@ -6667,10 +6667,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [ASTRALITH]
-BackSprite = 0,37
-FrontSprite = 0,43
+BackSprite = 0,6
+FrontSprite = 0,18
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [BELSTATUE]
 BackSprite = 0,0
@@ -6727,8 +6727,8 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [OBLIVIX]
-BackSprite = 0,90
-FrontSprite = 0,99
+BackSprite = 0,6
+FrontSprite = 0,9
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -6745,7 +6745,19 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [STELLARYX]
-BackSprite = 0,64
-FrontSprite = 0,47
+BackSprite = 0,10
+FrontSprite = 0,13
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[UMAMOTH]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[THUNPHONY]
+BackSprite = 0,0
+FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
