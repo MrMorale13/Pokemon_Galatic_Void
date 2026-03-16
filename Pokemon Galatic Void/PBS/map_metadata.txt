@@ -95,16 +95,15 @@ MapPosition = 0,13,10
 #-------------------------------
 [021]   # V&G Route 2
 Name = Route 2
-Outdoor = true
 ShowArea = true
-Weather = Rain,100
 MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11
+Environment = None
 #-------------------------------
 [022]   # King City
 Name = King City
-Outdoor = true
+ShowArea = true
 #-------------------------------
 [023]   # Lerucean Town
 Name = Lerucean Town
@@ -158,11 +157,11 @@ MapSize = 2,1101
 #-------------------------------
 [032]   # V&G Route 1
 Name = V&G Route 1
-Outdoor = true
+ShowArea = true
 #-------------------------------
 [033]   # Crescent Hill
 Name = Crescent Hill
-Outdoor = true
+ShowArea = true
 #-------------------------------
 [034]   # Ice Cave
 Name = Route 3
@@ -411,11 +410,12 @@ BattleBack = city
 #-------------------------------
 [076]   # Azure Bay City
 Name = Azure Bay City
-Outdoor = true
+ShowArea = true
 #-------------------------------
 [080]   # V&G Route 3
 Name = moo?
 Outdoor = true
+ShowArea = true
 Weather = Storm,100
 #-------------------------------
 [081]   # ocean 1
@@ -444,4 +444,5 @@ Outdoor = true
 Weather = Storm,100
 #-------------------------------
 [086]   # Haunted Gym Battle
+Name = Haunted Gym Battle
 DarkMap = true
