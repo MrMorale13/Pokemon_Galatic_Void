@@ -2321,3 +2321,34 @@ HiddenAbilities = TINTEDLENS
 Moves = 1,PECK,1,GROWL,1,TACKLE,1,STARPULSE,9,CONFUSION,12,REFLECT,15,PSYCHOSHIFT,18,AIRSLASH,23,EXTRASENSORY,28,TAKEDOWN,33,UPROAR,38,ROOST,43,MOONBLAST,48,HYPNOSIS,53,DREAMEATER
 Pokedex = A rare regional Noctowl that draws power from starlight. Its wings shimmer like constellations in the night sky.
 #-------------------------------
+[VENONAT,1]
+FormName = Void
+Types = BUG,VOID
+BaseStats = 60,55,50,60,60,50
+Abilities = COMPOUNDEYES
+HiddenAbilities = TINTEDLENS
+Evolutions = UMAMOTH,Level,25
+#-------------------------------
+[ODDISH,1]
+FormName = Void
+Types = GRASS,FIRE
+Abilities = CHLOROPHYLL
+HiddenAbilities = FLAMEBODY
+Moves = 1,ABSORB,1,GROWTH,5,ACID,9,EMBER,13,SLEEPPOWDER,15,POISONPOWDER,17,MAGICALLEAF
+Evolutions = GLOOM,Level,21
+#-------------------------------
+[GLOOM,1]
+FormName = Void
+Types = GRASS,FIRE
+Abilities = CHLOROPHYLL
+HiddenAbilities = FLAMEBODY
+Moves = 1,ABSORB,1,GROWTH,1,ACID,1,EMBER,1,MAGICALLEAF,13,SLEEPPOWDER,15,POISONPOWDER,21,FLAMEBURST,25,MEGADRAIN,29,STUNSPORE
+Evolutions = VILEPLUME,Item,FIRESTONE
+#-------------------------------
+[VILEPLUME,1]
+FormName = Void
+Types = GRASS,FIRE
+Abilities = CHLOROPHYLL
+HiddenAbilities = FLAMEBODY
+Moves = 1,ABSORB,1,GROWTH,1,ACID,1,EMBER,1,MAGICALLEAF,21,FLAMEBURST,25,MEGADRAIN,29,STUNSPORE,34,PETALBLIZZARD,39,FLAMETHROWER,44,SOLARBEAM
+#-------------------------------

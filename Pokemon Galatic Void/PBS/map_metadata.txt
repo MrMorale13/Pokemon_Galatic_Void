@@ -438,11 +438,14 @@ Name = V&G Route 3.5
 Outdoor = true
 Weather = Storm,100
 #-------------------------------
-[085]   # Gym 3 City
+[085]   # Richmond Hill 
 Name = Gym 3 City
 Outdoor = true
 Weather = Storm,100
 #-------------------------------
 [086]   # Haunted Gym Battle
 Name = Haunted Gym Battle
+DarkMap = true
+#-------------------------------
+[099]   # Haunted Gym Basement
 DarkMap = true

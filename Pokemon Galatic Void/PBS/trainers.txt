@@ -183,12 +183,50 @@ LoseText = Well you were the one who was always better.
 Pokemon = RHINPLINK,5
     Moves = TACKLE,GROWL
 #-------------------------------
-[VOIDGRUNT,Grunt A]
+[TEAMVOID,Grunt]
 LoseText = The admin won't like this...
-Pokemon = SNEEPY,18
-    Moves = TACKLE,GROWL
-Pokemon = BRAMBLIN,18
-    Moves = ABSORB,ASTONISH
+Pokemon = SNEEPY,17
+    Moves = LEECHSEED,RAZORLEAF,FLAMECHARGE,BITE
+Pokemon = BRAMBLIN,17
+    Moves = ABSORB,ASTONISH,ROLLOUT,MEGADRAIN
+Pokemon = MIMIEGG,18
+    Moves = BITE,MEANLOOK,GLARE
+#-------------------------------
+[TEAMVOID,Grunt,1]
+LoseText = ...Why aren't you breaking?
+Pokemon = MIMIEGG,17
+    Moves = BITE,MEANLOOK,GLARE,STOCKPILE
+Pokemon = VENONAT_1,17
+    Moves = CONFUSION,POISONPOWDER,SUPERSONIC,DISABLE
+Pokemon = ODDISH_1,17
+    Moves = ABSORB,SLEEPPOWDER,POISONPOWDER,ACID
+#-------------------------------
+[TEAMVOID,Grunt,2]
+LoseText = Hehe… can you still focus?
+Pokemon = TWINS,18
+    Moves = CONFUSERAY,DISABLE,PSYBEAM,MEANLOOK
+Pokemon = MIMIEGG,17
+    Moves = BITE,GLARE,MEANLOOK,CRUNCH
+Pokemon = BOMBGHOST,17
+    Moves = ASTONISH,SMOKESCREEN,NIGHTSHADE,CONFUSERAY
+#-------------------------------
+[TEAMVOID,Grunt,3]
+LoseText = The admin… will deal with you…
+Pokemon = SITHWITCH,18
+    Moves = CONFUSION,MEGADRAIN,CHARM,LEECHSEED
+Pokemon = MIMIEGG,18
+    Moves = CRUNCH,MEANLOOK,GLARE,STOCKPILE
+Pokemon = VENONAT_1,17
+    Moves = CONFUSION,POISONPOWDER,SUPERSONIC,DISABLE
+#-------------------------------
+[TEAMVOID,Grunt,4]
+LoseText = ...Why won't you just fall already?!
+Pokemon = SHARKIP,18
+    Moves = BITE,LEER,WATERGUN,CRUNCH
+Pokemon = BOMBGHOST,17
+    Moves = ASTONISH,SMOKESCREEN,NIGHTSHADE,CONFUSERAY
+Pokemon = TWINS,18
+    Moves = PSYBEAM,CONFUSERAY,DISABLE,MEANLOOK
 #-------------------------------
 [YOUNGSTER,Jimmy]
 LoseText = I should have won.

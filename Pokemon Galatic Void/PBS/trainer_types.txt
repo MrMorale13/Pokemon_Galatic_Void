@@ -419,7 +419,7 @@ BaseMoney = 100
 BattleBGM = Battle Champion
 VictoryBGM = Battle victory leader
 #-------------------------------
-[VOIDGRUNT]
+[TEAMVOID]
 Name = Team Void
 Gender = Male
 BaseMoney = 30
