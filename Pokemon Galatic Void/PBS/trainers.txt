@@ -220,13 +220,31 @@ Pokemon = VENONAT_1,17
     Moves = CONFUSION,POISONPOWDER,SUPERSONIC,DISABLE
 #-------------------------------
 [TEAMVOID,Grunt,4]
-LoseText = ...Why won't you just fall already?!
+LoseText = What the—?!
 Pokemon = SHARKIP,18
     Moves = BITE,LEER,WATERGUN,CRUNCH
 Pokemon = BOMBGHOST,17
     Moves = ASTONISH,SMOKESCREEN,NIGHTSHADE,CONFUSERAY
 Pokemon = TWINS,18
     Moves = PSYBEAM,CONFUSERAY,DISABLE,MEANLOOK
+#-------------------------------
+[TEAMVOID,Grunt,5]
+LoseText = Boss!
+Pokemon = PACKBATS,18
+    Moves = BITE,WINGATTACK,QUICKATTACK,FOCUSENERGY
+Pokemon = CROOBER,17
+    Moves = ASTONISH,SMOKESCREEN,BITE,CONFUSERAY
+Pokemon = SCYTHER,18
+    Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
+#-------------------------------
+[TEAMVOID,Grunt,6]
+LoseText = ...Why won't you just fall already?!
+Pokemon = GOOBOLT,18
+    Moves = THUNDERSHOCK,CHARGE,BITE,QUICKATTACK
+Pokemon = STALASS,17
+    Moves = ASTONISH,BITE,LEER,HEADBUTT
+Pokemon = CUBCHESTRA,18
+    Moves = PSYBEAM,CONFUSION,SING,ROUND
 #-------------------------------
 [YOUNGSTER,Jimmy]
 LoseText = I should have won.
