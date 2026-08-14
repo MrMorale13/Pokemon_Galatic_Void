@@ -448,4 +448,10 @@ Name = Haunted Gym Battle
 DarkMap = true
 #-------------------------------
 [099]   # Haunted Gym Basement
+Name = Haunted Gym Basement
 DarkMap = true
+#-------------------------------
+[103]   # King Trail A3
+Outdoor = true
+Weather = Fog,100
+Environment = Grass
