@@ -462,16 +462,5 @@ BaseMoney = 15
 [MAN]
 Name = Man
 Gender = Male
-BaseMoney = 32
+BaseMoney = 45
 #-------------------------------
-[LADY_1]
-Name = Lady
-Gender = Female
-BaseMoney = 37
-#-------------------------------
-[BEAUTY]
-Name = BEAUTY
-Gender = Female
-BaseMoney = 65
-#-------------------------------
-
