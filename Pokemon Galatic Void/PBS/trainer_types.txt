@@ -457,3 +457,8 @@ Name = Backpacker
 Gender = Female
 BaseMoney = 24
 #-------------------------------
+[NERD]
+Name = Nerd
+Gender = Male
+BaseMoney = 15
+#-------------------------------

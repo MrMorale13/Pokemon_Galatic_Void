@@ -492,3 +492,51 @@ Pokemon = RHYHORN,20
 Pokemon = MACHOKE,22
     Moves = KARATECHOP,SEISMICTOSS,FOCUSENERGY,REVENGE
 #-------------------------------
+[YOUNGSTER,Aiden]
+LoseText = Whoa... you're already this strong?
+Pokemon = SENTRET,5
+    Moves = TACKLE,DEFENSECURL,QUICKATTACK
+Pokemon = SHINX,6
+    Moves = TACKLE,LEER,THUNDERSHOCK
+#-------------------------------
+[LASS,Mia]
+LoseText = Okay, I definitely underestimated you!
+Pokemon = BUDEW,5
+    Moves = ABSORB,GROWTH,STUNSPORE
+Pokemon = PETIDAW,6
+    Moves = TACKLE,GROWL,SANDATTACK
+#-------------------------------
+[PICNICKER,Eli]
+LoseText = My strategy got squashed!
+Pokemon = WURMPLE,5
+    Moves = TACKLE,STRINGSHOT,POISONSTING
+Pokemon = SEWADDLE,6
+    Moves = TACKLE,STRINGSHOT,BUGBITE
+Pokemon = JOLTIK,6
+    Moves = ABSORB,STRINGSHOT,THUNDERSHOCK
+#-------------------------------
+[BACKPACKER_M,Noah]
+LoseText = Loser...
+Pokemon = WOOPER,6
+    Moves = WATERGUN,TAILWHIP,MUDSPORT
+Pokemon = SPEAROW,7
+    Moves = PECK,GROWL,LEER
+#-------------------------------
+[MEDIUM,Lily]
+LoseText = Fine you won but hurry off to class.
+Pokemon = FOMANTIS,6
+    Moves = LEAFAGE,GROWTH,FURYCUTTER
+Pokemon = ROCKRUFF,7
+    Moves = TACKLE,LEER,SANDATTACK,BITE
+#-------------------------------
+[NERD,Theo]
+LoseText = ERM What?
+Pokemon = MAREEP,7
+    Moves = THUNDERSHOCK,GROWL,THUNDERWAVE
+Pokemon = RIOLU,7
+    Moves = QUICKATTACK,COUNTER,ENDURE,FEINT
+Pokemon = CONKREEP,8
+    Moves = TACKLE,HARDEN,METALSOUND,ROCKTHROW
+    Item = ORANBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------

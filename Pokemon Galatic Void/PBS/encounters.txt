@@ -50,9 +50,10 @@ LandNight,21
 #-------------------------------
 [021] # V&G Route 2
 Land,21
-    30,PIDGEY,6,9
-    25,BIDOOF,6,9
+    25,PIDGEY,6,9
+    20,BIDOOF,6,9
     15,BUNEARY,6,8
+    10,SANDILE,7,10
     10,SPROUTSY,7,9
     8,PACKBATS,7,9
     7,GOOBOLT,7,10
@@ -330,28 +331,6 @@ Water,2
     15,OCTOLECT,12,14
     10,TENTACOOL,12,14
     5,CRISHY,12,14
-#-------------------------------
-[077] # Azure Bay gym floor 1
-Land,21
-    20,GOOBOLT,14,16
-    20,PACKBATS,14,16
-    15,SNEEPY,14,16
-    15,SPROUTSY,14,16
-    10,PETIDAW,15,17
-    5,CROOBER,15,17
-    5,STALAD,15,17
-LandNight,21
-    25,PACKBATS,14,16
-    20,GOOBOLT,14,16
-    20,STALAD,14,17
-    10,PETIDAW,15,17
-    5,CROOBER,15,17
-    5,HOOTHOOT,14,16
-Water,2
-    45,OCTOLECT,14,16
-    30,TENTACOOL,14,16
-    15,WOOPER,14,16
-    10,MAGIKARP,14,17
 #-------------------------------
 [080,1] # V&G Route 3
 Land,21
