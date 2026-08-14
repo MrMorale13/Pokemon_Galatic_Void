@@ -443,3 +443,14 @@ SkillLevel = 50
 BattleBGM = Battle trainer
 VictoryBGM = Battle victory trainer
 IntroME = Battle intro trainer
+#-------------------------------
+[BACKPACKER_M]
+Name = Backpacker
+Gender = Male
+BaseMoney = 24
+#-------------------------------
+[BACKPACKER_F]
+Name = Backpacker
+Gender = Female
+BaseMoney = 24
+#-------------------------------

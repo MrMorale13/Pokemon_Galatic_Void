@@ -341,3 +341,106 @@ Pokemon = BLITZLE,10
     Moves = QUICKATTACK,TAILWHIP,THUNDERWAVE,SHOCKWAVE
     AbilityIndex = 0
     IV = 10,10,10,10,10,10
+#-------------------------------
+[BACKPACKER_M,Sean]
+LoseText = Guess I've still got a long way to go!
+
+Pokemon = SANDSHREW,17
+    Moves = SANDATTACK,RAPIDSPIN,FURYCUTTER,ROLLOUT
+Pokemon = PACKBATS,18
+    Moves = BITE,WINGATTACK,QUICKATTACK,FOCUSENERGY
+Pokemon = GROWLITHE,20
+    Moves = EMBER,BITE,LEER,FLAMEWHEEL
+#-------------------------------
+[HIKER,Mason]
+LoseText = These caves aren't for the faint of heart!
+
+Pokemon = GEODUDE,18
+    Moves = ROCKTHROW,DEFENSECURL,ROLLOUT,MAGNITUDE
+Pokemon = NOSEPASS,19
+    Moves = ROCKTHROW,HARDEN,THUNDERWAVE,ROCKPOLISH
+#-------------------------------
+[PICNICKER,Nora]
+LoseText = Maybe caves aren't really my thing...
+
+Pokemon = PETIDAW,18
+    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+Pokemon = CUBCHESTRA,19
+    Moves = CONFUSION,SING,ROUND,DISARMINGVOICE
+#-------------------------------
+[HIKER,Douglas]
+LoseText = You're tougher than you look!
+
+Pokemon = MACHOP,18
+    Moves = KARATECHOP,LEER,FOCUSENERGY,SEISMICTOSS
+Pokemon = ROGGENROLA,18
+    Moves = ROCKBLAST,HEADBUTT,SANDATTACK,IRONDEFENSE
+Pokemon = ONIX,20
+    Moves = ROCKTHROW,BIND,ROCKTOMB,RAGE
+#-------------------------------
+[RUINMANIAC,Felix]
+LoseText = Maybe I should stick to studying ruins...
+
+Pokemon = BRONZOR,19
+    Moves = CONFUSION,CONFUSERAY,HYPNOSIS,IMPRISON
+Pokemon = MAWILE,20
+    Moves = BITE,ASTONISH,FAIRYWIND,FAKETEARS
+#-------------------------------
+[POKEMONRANGER_M, Justin]
+LoseText = That's one adventure I won't forget!
+
+Pokemon = WOOBAT,19
+    Moves = CONFUSION,GUST,ASSURANCE,HEARTSTAMP
+Pokemon = GOOBOLT,20
+    Moves = THUNDERSHOCK,CHARGE,BITE,QUICKATTACK
+#-------------------------------
+[POKEMANIAC,Trent]
+LoseText = No way! My rare Pokémon!
+
+Pokemon = SABLEYE,19
+    Moves = ASTONISH,CONFUSERAY,SHADOWSNEAK,DETECT
+Pokemon = SNEASEL,21
+    Moves = QUICKATTACK,ICYWIND,FEINTATTACK,METALCLAW
+#-------------------------------
+[HIKER,Grant]
+LoseText = You climbed right over my defenses!
+
+Pokemon = GRAVELER,20
+    Moves = ROCKTHROW,MAGNITUDE,DEFENSECURL,ROLLOUT
+Pokemon = STALAD,20
+    Moves = BITE,HEADBUTT,LEER,ROCKTOMB
+#-------------------------------
+[BACKPACKER_F,Riley]
+LoseText = I guess you were better prepared!
+
+Pokemon = CROOBER,19
+    Moves = ASTONISH,SMOKESCREEN,BITE,CONFUSERAY
+Pokemon = NUMEL,20
+    Moves = EMBER,MAGNITUDE,FOCUSENERGY,GROWL
+#-------------------------------
+[RUINMANIAC,Iris]
+LoseText = There's still so much about this cave I don't understand...
+
+Pokemon = BALTOY,20
+    Moves = CONFUSION,ROCKTOMB,RAPIDSPIN,MUDSLAP
+Pokemon = DUSKULL,21
+    Moves = NIGHTSHADE,CONFUSERAY,DISABLE,WILLOWISP
+#-------------------------------
+[COOLTRAINER_M,Caleb]
+LoseText = Now THAT was a battle!
+
+Pokemon = GOLBAT,20
+    Moves = WINGATTACK,BITE,CONFUSERAY,SWIFT
+Pokemon = LUXIO,21
+    Moves = SPARK,BITE,LEER,CHARGE
+Pokemon = SCYTHER,22
+    Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
+#-------------------------------
+[HIKER,Bruno]
+LoseText = You've got some serious strength!
+
+Pokemon = RHYHORN,20
+    Moves = HORNATTACK,STOMP,FURYATTACK,SCARYFACE
+Pokemon = MACHOKE,22
+    Moves = KARATECHOP,SEISMICTOSS,FOCUSENERGY,REVENGE
+#-------------------------------
