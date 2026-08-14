@@ -6574,3 +6574,38 @@ FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = A peculiar set of armor that makes certain species of Pokémon evolve.
 #-------------------------------
+[ROOK]
+Name = Rook
+NamePlural = Rooks
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A mysterious chess piece shaped like a rook. It resonates with certain Pokémon and can trigger a special transformation.
+#-------------------------------
+[KNIGHT]
+Name = Knight
+NamePlural = Knights
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A mysterious chess piece shaped like a knight. It resonates with certain Pokémon and can trigger a special transformation.
+#-------------------------------
+[BISHOP]
+Name = Bishop
+NamePlural = Bishops
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A mysterious chess piece shaped like a bishop. It resonates with certain Pokémon and can trigger a special transformation.
+#-------------------------------
+[GALAXYSTONE]
+Name = Galaxy Stone
+NamePlural = Galaxy Stones
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A radiant stone filled with galactic energy. Its strange power can trigger a special transformation.
