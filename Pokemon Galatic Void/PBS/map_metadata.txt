@@ -447,5 +447,16 @@ Weather = Storm,100
 Name = Haunted Gym Battle
 DarkMap = true
 #-------------------------------
+<<<<<<< Updated upstream
+=======
+[092]   # cave r3
+DarkMap = true
+Environment = Cave
+#-------------------------------
+[098]   # Cave r3_top
+DarkMap = true
+Environment = Cave
+#-------------------------------
+>>>>>>> Stashed changes
 [099]   # Haunted Gym Basement
 DarkMap = true
