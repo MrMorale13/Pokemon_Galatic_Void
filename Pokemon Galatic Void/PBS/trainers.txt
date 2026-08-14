@@ -183,6 +183,54 @@ LoseText = Well you were the one who was always better.
 Pokemon = RHINPLINK,5
     Moves = TACKLE,GROWL
 #-------------------------------
+[RIVAL1,Evan,3]
+LoseText = Seriously? I thought I had you this time...
+
+Pokemon = PETIDAW,12
+    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+    IV = 15,15,15,15,15,15
+
+Pokemon = SHINX,13
+    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+    IV = 15,15,15,15,15,15
+
+Pokemon = SKINDLING,14
+    Moves = EMBER,BITE,GROWL,QUICKATTACK
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+#-------------------------------
+[RIVAL1,Evan,4]
+LoseText = Seriously? I thought I had you this time...
+
+Pokemon = PETIDAW,12
+    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+    IV = 15,15,15,15,15,15
+
+Pokemon = SHINX,13
+    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+    IV = 15,15,15,15,15,15
+
+Pokemon = DAMPYBARA,14
+    Moves = WATERGUN,BITE,GROWL,QUICKATTACK
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+#-------------------------------
+[RIVAL1,Evan,5]
+LoseText = Seriously? I thought I had you this time...
+
+Pokemon = PETIDAW,12
+    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+    IV = 15,15,15,15,15,15
+
+Pokemon = SHINX,13
+    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+    IV = 15,15,15,15,15,15
+
+Pokemon = RHINPLINK,14
+    Moves = VINEWHIP,TACKLE,GROWL,ROCKTHROW
+    Item = ORANBERRY
+    IV = 20,20,20,20,20,20
+#-------------------------------
 [TEAMVOID,Grunt]
 LoseText = The admin won't like this...
 Pokemon = SNEEPY,17
@@ -331,7 +379,7 @@ Pokemon = KRABBY,17
 Pokemon = SURSKIT,16
     Moves = BUBBLE,QUICKATTACK,SWEETSCENT,WATERSPORT
 #-------------------------------
-[ENGINEER,Liam]
+[SCIENTIST,Liam]
 LoseText = Gah! My whole system crashed!
 Pokemon = SHINX,9
     Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE

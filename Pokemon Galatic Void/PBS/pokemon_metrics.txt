@@ -6809,3 +6809,45 @@ BackSprite = 0,0
 FrontSprite = 0,18
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[CONARCH]
+BackSprite = 0,6
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CONBASTION]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CONCLERIC]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CONKREEP]
+BackSprite = 0,8
+FrontSprite = -3,15
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CONQUESS]
+BackSprite = 0,7
+FrontSprite = -2,14
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CONSTELLARA]
+BackSprite = 0,12
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CONVALIER]
+BackSprite = 0,6
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
