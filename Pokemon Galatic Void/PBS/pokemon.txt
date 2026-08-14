@@ -24525,3 +24525,55 @@ Habitat = Urban
 Category = Cavalier Pokémon
 Pokedex = It charges into battle along unpredictable paths, striking opponents before they can prepare. Its loyalty to its chosen sovereign is absolute.
 Generation = 9
+#-------------------------------
+[SNOWPLOW]
+Name = Snowplow
+Types = ICE
+BaseStats = 60,65,60,40,45,50
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 75
+EVs = ATTACK,1
+CatchRate = 190
+Happiness = 70
+Abilities = SLUSHRUSH
+HiddenAbilities = SNOWCLOAK
+Moves = 1,TACKLE,1,GROWL,5,POWDERSNOW,8,LEER,11,ICESHARD,14,STOMP,17,ICYWIND,21,HEADBUTT,25,ICEFANG,29,TAKEDOWN,33,MIST,37,ICICLECRASH
+TutorMoves = PROTECT,REST,SLEEPTALK,SUBSTITUTE,ENDURE,FACADE,ROCKSMASH
+EggGroups = Field
+HatchSteps = 5120
+Height = 1.2
+Weight = 68.0
+Color = Brown
+Shape = Quadruped
+Habitat = Mountain
+Category = Plow Pokémon
+Pokedex = Snowplow uses its broad antlers to clear paths through deep snow. Travelers often follow the trails it leaves behind.
+Generation = 0
+Evolutions = ZAMBOOSE,Level,32
+#-------------------------------
+[ZAMBOOSE]
+Name = Zamboose
+Types = ICE,STEEL
+BaseStats = 90,105,105,50,70,55
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 175
+EVs = ATTACK,2
+CatchRate = 75
+Happiness = 70
+Abilities = SLUSHRUSH
+HiddenAbilities = STURDY
+Moves = 1,TACKLE,1,GROWL,1,POWDERSNOW,1,ICESHARD,8,LEER,11,ICESHARD,14,STOMP,17,ICYWIND,21,HEADBUTT,25,ICEFANG,29,TAKEDOWN,33,IRONDEFENSE,37,ICICLECRASH,42,IRONHEAD,47,HEAVYSLAM,52,BLIZZARD
+TutorMoves = PROTECT,REST,SLEEPTALK,SUBSTITUTE,ENDURE,FACADE,ROCKSMASH,IRONHEAD,IRONDEFENSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 2.4
+Weight = 310.0
+Color = White
+Shape = Quadruped
+Habitat = Mountain
+Category = Snowplow Pokémon
+Pokedex = Zamboose charges through severe snowstorms without slowing down. Its reinforced body can carve a road through snow that would stop even heavy machinery.
+Generation = 0
+#-------------------------------

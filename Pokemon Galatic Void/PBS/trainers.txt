@@ -540,3 +540,16 @@ Pokemon = CONKREEP,8
     Item = ORANBERRY
     IV = 15,15,15,15,15,15
 #-------------------------------
+[MAN,John]
+LoseText = Guess I need more time in the water...
+Pokemon = KRABBY,20
+    Moves = BUBBLE,VISEGRIP,HARDEN,LEER
+Pokemon = RIOLU,21
+    Moves = QUICKATTACK,COUNTER,ENDURE,FEINT
+#-------------------------------
+[LASS,Meg]
+LoseText = Okay, I definitely underestimated you!
+Pokemon = BUDEW,19
+    Moves = ABSORB,GROWTH,STUNSPORE
+Pokemon = SCYTHER,22
+    Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
