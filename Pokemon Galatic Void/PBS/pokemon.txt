@@ -24179,7 +24179,7 @@ Color = Red
 Shape = Head
 Habitat = Urban
 Category = Egg Mimic
-Pokedex = Mimiegg sneaks into other Pokemon�s nests to wait for the mother to leave. When it does, the Pokemon eats all the eggs and flees.
+Pokedex = Mimiegg sneaks into other Pokemon s nests to wait for the mother to leave. When it does, the Pokemon eats all the eggs and flees.
 Evolutions = EGGVOUR,Level,28
 #-------------------------------
 [EGGVOUR]
@@ -24204,7 +24204,7 @@ Color = Red
 Shape = Head
 Habitat = Urban
 Category = Egg Mimic
-Pokedex = When a big prey gets closer to this Pokemon�s mouth, its body shrinks until it can be swallowed whole. Eggvour no longer need to prey the weak.
+Pokedex = When a big prey gets closer to this Pokemon s mouth, its body shrinks until it can be swallowed whole. Eggvour no longer need to prey the weak.
 #-------------------------------
 [STELLARYX]
 Name = Stellaryx

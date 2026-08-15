@@ -553,3 +553,16 @@ Pokemon = BUDEW,19
     Moves = ABSORB,GROWTH,STUNSPORE
 Pokemon = SCYTHER,22
     Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
+#-------------------------------
+[LADY_1,Sebrina]
+LoseText = I think I'm going to puke...
+Pokemon = SNOWPLOW, 24
+	Moves = ICESHARD,POWDERSNOW,LEER,HEADBUTT
+#-------------------------------
+[BEAUTY,Ashton]
+LoseText = I just wanted to show off my bike.
+Pokemon = SHARKIP, 24
+	Moves = CRUNCH,SCARYFACE,AQUAJET,FOCUSENERGY
+Pokemon = CONKREEP, 17
+	Moves = METALCLAW,IRONDEFENSE,ROCKTHROW,METALSOUND
+#-------------------------------
