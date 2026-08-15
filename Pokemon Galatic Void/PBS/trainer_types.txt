@@ -462,5 +462,17 @@ BaseMoney = 15
 [MAN]
 Name = Man
 Gender = Male
+<<<<<<< Updated upstream
 BaseMoney = 45
 #-------------------------------
+=======
+BaseMoney = 32
+#-------------------------------
+[LADY_1]
+Name = Lady
+Gender = Female
+BaseMoney = 37
+#-------------------------------
+
+
+>>>>>>> Stashed changes
