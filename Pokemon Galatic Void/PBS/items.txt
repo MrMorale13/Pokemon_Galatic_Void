@@ -6580,7 +6580,7 @@ NamePlural = Rooks
 Pocket = 8
 Price = 0
 FieldUse = Direct
-Flags = KeyItem
+Flags = EvolutionStone
 Description = A mysterious chess piece shaped like a rook. It resonates with certain Pokémon and can trigger a special transformation.
 #-------------------------------
 [KNIGHT]
@@ -6589,7 +6589,7 @@ NamePlural = Knights
 Pocket = 8
 Price = 0
 FieldUse = Direct
-Flags = KeyItem
+Flags = EvolutionStone
 Description = A mysterious chess piece shaped like a knight. It resonates with certain Pokémon and can trigger a special transformation.
 #-------------------------------
 [BISHOP]
@@ -6598,7 +6598,7 @@ NamePlural = Bishops
 Pocket = 8
 Price = 0
 FieldUse = Direct
-Flags = KeyItem
+Flags = EvolutionStone
 Description = A mysterious chess piece shaped like a bishop. It resonates with certain Pokémon and can trigger a special transformation.
 #-------------------------------
 [GALAXYSTONE]
@@ -6607,5 +6607,5 @@ NamePlural = Galaxy Stones
 Pocket = 8
 Price = 0
 FieldUse = Direct
-Flags = KeyItem
+Flags = EvolutionStone
 Description = A radiant stone filled with galactic energy. Its strange power can trigger a special transformation.
