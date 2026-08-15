@@ -24,19 +24,16 @@ BaseMoney = 60
 Name = Rival
 Gender = Male
 BaseMoney = 16
-BattleBGM = Champion Evan
 #-------------------------------
 [RIVAL2]
 Name = Rival
 Gender = Male
 BaseMoney = 36
-BattleBGM = Champion Evan
 #-------------------------------
 [RIVAL3]
 Name = Rival
 Gender = Male
 BaseMoney = 36
-BattleBGM = Champion Evan
 #-------------------------------
 [AROMALADY]
 Name = Aroma Lady
@@ -462,3 +459,19 @@ Name = Nerd
 Gender = Male
 BaseMoney = 15
 #-------------------------------
+[MAN]
+Name = Man
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[LADY_1]
+Name = Lady
+Gender = Female
+BaseMoney = 37
+#-------------------------------
+[BEAUTY]
+Name = BEAUTY
+Gender = Female
+BaseMoney = 65
+#-------------------------------
+

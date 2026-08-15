@@ -540,3 +540,29 @@ Pokemon = CONKREEP,8
     Item = ORANBERRY
     IV = 15,15,15,15,15,15
 #-------------------------------
+[MAN,John]
+LoseText = Guess I need more time in the water...
+Pokemon = KRABBY,20
+    Moves = BUBBLE,VISEGRIP,HARDEN,LEER
+Pokemon = RIOLU,21
+    Moves = QUICKATTACK,COUNTER,ENDURE,FEINT
+#-------------------------------
+[LASS,Meg]
+LoseText = Okay, I definitely underestimated you!
+Pokemon = BUDEW,19
+    Moves = ABSORB,GROWTH,STUNSPORE
+Pokemon = SCYTHER,22
+    Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
+#-------------------------------
+[LADY_1,Sebrina]
+LoseText = I think I'm going to puke...
+Pokemon = SNOWPLOW, 24
+	Moves = ICESHARD,POWDERSNOW,LEER,HEADBUTT
+#-------------------------------
+[BEAUTY,Ashton]
+LoseText = I just wanted to show off my bike.
+Pokemon = SHARKIP, 24
+	Moves = CRUNCH,SCARYFACE,AQUAJET,FOCUSENERGY
+Pokemon = CONKREEP, 17
+	Moves = METALCLAW,IRONDEFENSE,ROCKTHROW,METALSOUND
+#-------------------------------
