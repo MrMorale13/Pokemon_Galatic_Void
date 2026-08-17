@@ -24,11 +24,15 @@ BaseMoney = 60
 Name = Rival
 Gender = Male
 BaseMoney = 16
+BattleBGM = Champion_Evan
+VictoryBGM = Battle victory trainer
 #-------------------------------
 [RIVAL2]
 Name = Rival
 Gender = Male
 BaseMoney = 36
+BattleBGM = Champion_Evan
+VictoryBGM = Battle victory trainer
 #-------------------------------
 [RIVAL3]
 Name = Rival
@@ -332,6 +336,7 @@ VictoryBGM = Battle victory leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 65
 BattleBGM = Battle VS Age
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -339,6 +344,7 @@ VictoryBGM = Battle victory leader
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
+SkillLevel = 55
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
@@ -423,9 +429,9 @@ VictoryBGM = Battle victory leader
 Name = Team Void
 Gender = Male
 BaseMoney = 30
+IntroBGM = Battle trainer
 BattleBGM = Battle trainer
 VictoryBGM = Battle victory
-IntroBGM = Battle trainer
 #-------------------------------
 [LEADER_Anthony]
 Name = Leader
@@ -433,7 +439,6 @@ Gender = Male
 BaseMoney = 80
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
-IntroME = Battle intro
 #-------------------------------
 [MEDIUM]
 Name = Medium
@@ -442,7 +447,6 @@ BaseMoney = 20
 SkillLevel = 50
 BattleBGM = Battle trainer
 VictoryBGM = Battle victory trainer
-IntroME = Battle intro trainer
 #-------------------------------
 [BACKPACKER_M]
 Name = Backpacker
@@ -462,16 +466,9 @@ BaseMoney = 15
 [MAN]
 Name = Man
 Gender = Male
-BaseMoney = 32
+BaseMoney = 45
 #-------------------------------
 [LADY_1]
 Name = Lady
 Gender = Female
 BaseMoney = 37
-#-------------------------------
-[BEAUTY]
-Name = BEAUTY
-Gender = Female
-BaseMoney = 65
-#-------------------------------
-

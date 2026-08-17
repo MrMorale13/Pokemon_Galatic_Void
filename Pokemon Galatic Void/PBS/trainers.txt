@@ -2,9 +2,9 @@
 #-------------------------------
 [YOUNGSTER,Timmy]
 LoseText = Aww, I lost.
-Pokemon = RATTATA, 4
+Pokemon = RATTATA,4
     Moves = TACKLE,TAILWHIP,QUICKATTACK,FOCUSENERGY
-Pokemon = RALTS, 7
+Pokemon = RALTS,7
     Moves = GROWL,DISARMINGVOICE,CONFUSION,DOUBLETEAM
 #-------------------------------
 [CAMPER,Liam]
@@ -185,15 +185,12 @@ Pokemon = RHINPLINK,5
 #-------------------------------
 [RIVAL1,Evan,3]
 LoseText = Seriously? I thought I had you this time...
-
 Pokemon = PETIDAW,12
     Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
     IV = 15,15,15,15,15,15
-
 Pokemon = SHINX,13
     Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
     IV = 15,15,15,15,15,15
-
 Pokemon = SKINDLING,14
     Moves = EMBER,BITE,GROWL,QUICKATTACK
     Item = ORANBERRY
@@ -201,15 +198,12 @@ Pokemon = SKINDLING,14
 #-------------------------------
 [RIVAL1,Evan,4]
 LoseText = Seriously? I thought I had you this time...
-
 Pokemon = PETIDAW,12
     Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
     IV = 15,15,15,15,15,15
-
 Pokemon = SHINX,13
     Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
     IV = 15,15,15,15,15,15
-
 Pokemon = DAMPYBARA,14
     Moves = WATERGUN,BITE,GROWL,QUICKATTACK
     Item = ORANBERRY
@@ -217,15 +211,12 @@ Pokemon = DAMPYBARA,14
 #-------------------------------
 [RIVAL1,Evan,5]
 LoseText = Seriously? I thought I had you this time...
-
 Pokemon = PETIDAW,12
     Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
     IV = 15,15,15,15,15,15
-
 Pokemon = SHINX,13
     Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
     IV = 15,15,15,15,15,15
-
 Pokemon = RHINPLINK,14
     Moves = VINEWHIP,TACKLE,GROWL,ROCKTHROW
     Item = ORANBERRY
@@ -306,31 +297,26 @@ Pokemon = ZEKROM,100
 [LEADER_Anthony,Anthony]
 Items = SUPERPOTION,SUPERPOTION
 LoseText = Stupid R!!! I guess you won.
-
 Pokemon = PHANTUMP,24
     Moves = SHADOWSNEAK,NIGHTSHADE,WILLOWISP,LEECHSEED
     AbilityIndex = 1
     IV = 22,22,22,22,22,22
-
 Pokemon = RUNERIGUS,25
     Moves = CONFUSERAY,HEX,PSYWAVE,SPITE
     AbilityIndex = 0
     IV = 22,22,22,22,22,22
-
 Pokemon = CERULEDGE,25
     Moves = BITTERBLADE,SHADOWCLAW,WILLOWISP,NIGHTSHADE
     AbilityIndex = 0
     IV = 22,22,22,22,22,22
-
 Pokemon = COFAGRIGUS,25
     Moves = SHADOWPUNCH,HYPNOSIS,NIGHTSHADE,WILLOWISP
     AbilityIndex = 0
     IV = 23,23,23,23,23,23
-
 Pokemon = BANETTE,28
     Moves = SHADOWCLAW,SUCKERPUNCH,WILLOWISP,SCREECH
-    Item = SITRUSBERRY
     AbilityIndex = 0
+    Item = SITRUSBERRY
     IV = 24,24,24,24,24,24
 #-------------------------------
 [MEDIUM,Lila]
@@ -392,7 +378,6 @@ Pokemon = BLITZLE,10
 #-------------------------------
 [BACKPACKER_M,Sean]
 LoseText = Guess I've still got a long way to go!
-
 Pokemon = SANDSHREW,17
     Moves = SANDATTACK,RAPIDSPIN,FURYCUTTER,ROLLOUT
 Pokemon = PACKBATS,18
@@ -402,7 +387,6 @@ Pokemon = GROWLITHE,20
 #-------------------------------
 [HIKER,Mason]
 LoseText = These caves aren't for the faint of heart!
-
 Pokemon = GEODUDE,18
     Moves = ROCKTHROW,DEFENSECURL,ROLLOUT,MAGNITUDE
 Pokemon = NOSEPASS,19
@@ -410,7 +394,6 @@ Pokemon = NOSEPASS,19
 #-------------------------------
 [PICNICKER,Nora]
 LoseText = Maybe caves aren't really my thing...
-
 Pokemon = PETIDAW,18
     Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
 Pokemon = CUBCHESTRA,19
@@ -418,7 +401,6 @@ Pokemon = CUBCHESTRA,19
 #-------------------------------
 [HIKER,Douglas]
 LoseText = You're tougher than you look!
-
 Pokemon = MACHOP,18
     Moves = KARATECHOP,LEER,FOCUSENERGY,SEISMICTOSS
 Pokemon = ROGGENROLA,18
@@ -428,15 +410,13 @@ Pokemon = ONIX,20
 #-------------------------------
 [RUINMANIAC,Felix]
 LoseText = Maybe I should stick to studying ruins...
-
 Pokemon = BRONZOR,19
     Moves = CONFUSION,CONFUSERAY,HYPNOSIS,IMPRISON
 Pokemon = MAWILE,20
     Moves = BITE,ASTONISH,FAIRYWIND,FAKETEARS
 #-------------------------------
-[POKEMONRANGER_M, Justin]
+[POKEMONRANGER_M,Justin]
 LoseText = That's one adventure I won't forget!
-
 Pokemon = WOOBAT,19
     Moves = CONFUSION,GUST,ASSURANCE,HEARTSTAMP
 Pokemon = GOOBOLT,20
@@ -444,7 +424,6 @@ Pokemon = GOOBOLT,20
 #-------------------------------
 [POKEMANIAC,Trent]
 LoseText = No way! My rare Pokémon!
-
 Pokemon = SABLEYE,19
     Moves = ASTONISH,CONFUSERAY,SHADOWSNEAK,DETECT
 Pokemon = SNEASEL,21
@@ -452,7 +431,6 @@ Pokemon = SNEASEL,21
 #-------------------------------
 [HIKER,Grant]
 LoseText = You climbed right over my defenses!
-
 Pokemon = GRAVELER,20
     Moves = ROCKTHROW,MAGNITUDE,DEFENSECURL,ROLLOUT
 Pokemon = STALAD,20
@@ -460,7 +438,6 @@ Pokemon = STALAD,20
 #-------------------------------
 [BACKPACKER_F,Riley]
 LoseText = I guess you were better prepared!
-
 Pokemon = CROOBER,19
     Moves = ASTONISH,SMOKESCREEN,BITE,CONFUSERAY
 Pokemon = NUMEL,20
@@ -468,7 +445,6 @@ Pokemon = NUMEL,20
 #-------------------------------
 [RUINMANIAC,Iris]
 LoseText = There's still so much about this cave I don't understand...
-
 Pokemon = BALTOY,20
     Moves = CONFUSION,ROCKTOMB,RAPIDSPIN,MUDSLAP
 Pokemon = DUSKULL,21
@@ -476,7 +452,6 @@ Pokemon = DUSKULL,21
 #-------------------------------
 [COOLTRAINER_M,Caleb]
 LoseText = Now THAT was a battle!
-
 Pokemon = GOLBAT,20
     Moves = WINGATTACK,BITE,CONFUSERAY,SWIFT
 Pokemon = LUXIO,21
@@ -486,7 +461,6 @@ Pokemon = SCYTHER,22
 #-------------------------------
 [HIKER,Bruno]
 LoseText = You've got some serious strength!
-
 Pokemon = RHYHORN,20
     Moves = HORNATTACK,STOMP,FURYATTACK,SCARYFACE
 Pokemon = MACHOKE,22
@@ -553,16 +527,3 @@ Pokemon = BUDEW,19
     Moves = ABSORB,GROWTH,STUNSPORE
 Pokemon = SCYTHER,22
     Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
-#-------------------------------
-[LADY_1,Sebrina]
-LoseText = I think I'm going to puke...
-Pokemon = SNOWPLOW, 24
-	Moves = ICESHARD,POWDERSNOW,LEER,HEADBUTT
-#-------------------------------
-[BEAUTY,Ashton]
-LoseText = I just wanted to show off my bike.
-Pokemon = SHARKIP, 24
-	Moves = CRUNCH,SCARYFACE,AQUAJET,FOCUSENERGY
-Pokemon = CONKREEP, 17
-	Moves = METALCLAW,IRONDEFENSE,ROCKTHROW,METALSOUND
-#-------------------------------
