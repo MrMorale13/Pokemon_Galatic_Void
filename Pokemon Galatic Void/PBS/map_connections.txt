@@ -32,11 +32,27 @@
 47,East,8,52,West,0
 # Route 8 (69) - Safari Zone outside (66)
 69,North,0,66,South,10
-# V&G Route 2 (21) - Azure Bay City (76)
+# V&G Route 3 (80) - V&G Route 3.5 (84)
+80,South,13,84,North,0
+# Richmond Hill  (85) - V&G Route 3.5 (84)
+85,North,9,84,South,0
+# King Trail A2 (102) - V&G Route 3.5 (84)
+102,West,17,84,East,0
+# ocean 1 (81) - V&G Route 3 (80)
+81,South,0,80,North,0
+# ocean 2 (82) - V&G Route 3 (80)
+82,East,39,80,West,0
+# ocean border 2 (83) - V&G Route 3 (80)
+83,East,0,80,West,0
+# Azure Bay (76) - ocean 1 (81)
+76,South,3,81,North,0
+# ocean 2 (82) - ocean 1 (81)
+82,East,0,81,West,0
+# ocean border 2 (83) - ocean 1 (81)
+83,North,22,81,South,0
+# V&G Route 2 (21) - Azure Bay (76)
 21,South,0,76,North,16
-# ocean 1 (81) - Azure Bay City (76)
-81,North,0,76,South,3
-# ocean 2 (82) - Azure Bay City (76)
+# ocean 2 (82) - Azure Bay (76)
 82,North,19,76,South,0
 # Crescent Hill (33) - V&G Route 2 (21)
 33,West,2,21,East,0
@@ -44,19 +60,11 @@
 32,West,2,33,East,0
 # King City (22) - V&G Route 1 (32)
 22,West,1,32,East,0
-# V&G Route 3 (80) - ocean 1 (81)
-80,North,0,81,South,0
-# ocean border 2 (83) - ocean 1 (81)
-83,North,22,81,South,0
-# ocean 2 (82) - ocean 1 (81)
-82,East,0,81,West,0
-# V&G Route 3.5 (84) - V&G Route 3 (80)
-84,North,0,80,South,13
-# ocean border 2 (83) - V&G Route 3 (80)
-83,East,0,80,West,0
-# ocean 2 (82) - V&G Route 3 (80)
-82,East,39,80,West,0
-# Richmond Hill  (85) - V&G Route 3.5 (84)
-85,North,9,84,South,0
-# ocean 2 (82) - ocean border 2 (83)
-82,South,0,83,North,0
+# ocean border 2 (83) - ocean 2 (82)
+83,North,0,82,South,0
+# King Trail A2 (102) - Richmond Hill  (85)
+102,South,0,85,North,63
+# V&G Route 4 (115) - King Trail A2 (102)
+115,South,0,102,North,9
+# Old Maple (104) - V&G Route 4 (115)
+104,South,0,115,North,0
