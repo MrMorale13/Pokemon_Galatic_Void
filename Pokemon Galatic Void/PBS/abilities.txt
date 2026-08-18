@@ -1299,3 +1299,4 @@ Description = Weakens Galaxy-type moves used against the Pokémon.
 [COSMICBALANCE]
 Name = Cosmic Balance
 Description = Reduces damage from Galaxy- and Void-type moves.
+#-------------------------------
