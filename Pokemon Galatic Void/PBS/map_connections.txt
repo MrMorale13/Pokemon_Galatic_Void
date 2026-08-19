@@ -32,12 +32,22 @@
 47,East,8,52,West,0
 # Route 8 (69) - Safari Zone outside (66)
 69,North,0,66,South,10
+# V&G Route 4 (115) - Old Maple (104)
+115,North,0,104,South,0
+# Azure Bay (76) - Old Maple (104)
+76,South,79,104,North,0
+# V&G Route 5 (116) - Old Maple (104)
+116,West,0,104,East,0
+# King Trail A2 (102) - V&G Route 4 (115)
+102,North,9,115,South,0
+# V&G Route 3.5 (84) - King Trail A2 (102)
+84,East,0,102,West,17
+# Richmond Hill  (85) - King Trail A2 (102)
+85,North,63,102,South,0
 # V&G Route 3 (80) - V&G Route 3.5 (84)
 80,South,13,84,North,0
 # Richmond Hill  (85) - V&G Route 3.5 (84)
 85,North,9,84,South,0
-# King Trail A2 (102) - V&G Route 3.5 (84)
-102,West,17,84,East,0
 # ocean 1 (81) - V&G Route 3 (80)
 81,South,0,80,North,0
 # ocean 2 (82) - V&G Route 3 (80)
@@ -54,6 +64,8 @@
 21,South,0,76,North,16
 # ocean 2 (82) - Azure Bay (76)
 82,North,19,76,South,0
+# V&G Route 5 (116) - Azure Bay (76)
+116,North,0,76,South,129
 # Crescent Hill (33) - V&G Route 2 (21)
 33,West,2,21,East,0
 # V&G Route 1 (32) - Crescent Hill (33)
@@ -62,9 +74,3 @@
 22,West,1,32,East,0
 # ocean border 2 (83) - ocean 2 (82)
 83,North,0,82,South,0
-# King Trail A2 (102) - Richmond Hill  (85)
-102,South,0,85,North,63
-# V&G Route 4 (115) - King Trail A2 (102)
-115,South,0,102,North,9
-# Old Maple (104) - V&G Route 4 (115)
-104,South,0,115,North,0
