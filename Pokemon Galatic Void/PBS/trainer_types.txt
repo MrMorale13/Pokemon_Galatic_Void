@@ -472,3 +472,14 @@ BaseMoney = 45
 Name = Lady
 Gender = Female
 BaseMoney = 37
+#-------------------------------
+[BACKPACKER_LASS]
+Name = Backpacker
+Gender = Female
+BaseMoney = 48
+#-------------------------------
+[TEACHER_F]
+Name = Lady
+Gender = Female
+BaseMoney = 37
+#-------------------------------

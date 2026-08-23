@@ -2,9 +2,9 @@
 #-------------------------------
 [YOUNGSTER,Timmy]
 LoseText = Aww, I lost.
-Pokemon = RATTATA,4
-    Moves = TACKLE,TAILWHIP,QUICKATTACK,FOCUSENERGY
-Pokemon = RALTS,7
+Pokemon = SENTRET,4
+    Moves = SCRATCH,FORESIGHT,DEFENSECURL,QUICKATTACK
+Pokemon = RALTS,5
     Moves = GROWL,DISARMINGVOICE,CONFUSION,DOUBLETEAM
 #-------------------------------
 [CAMPER,Liam]
@@ -249,6 +249,15 @@ Pokemon = MIMIEGG,17
 Pokemon = BOMBGHOST,17
     Moves = ASTONISH,SMOKESCREEN,NIGHTSHADE,CONFUSERAY
 #-------------------------------
+[TEAMVOID_M,Grunt,1]
+LoseText = The admin… will deal with you…
+Pokemon = SITHWITCH,18
+    Moves = CONFUSION,MEGADRAIN,CHARM,LEECHSEED
+Pokemon = MIMIEGG,18
+    Moves = CRUNCH,MEANLOOK,GLARE,STOCKPILE
+Pokemon = VENONAT_1,17
+    Moves = CONFUSION,POISONPOWDER,SUPERSONIC,DISABLE
+#-------------------------------
 [TEAMVOID,Grunt,3]
 LoseText = The admin… will deal with you…
 Pokemon = SITHWITCH,18
@@ -452,26 +461,30 @@ Pokemon = DUSKULL,21
 #-------------------------------
 [COOLTRAINER_M,Caleb]
 LoseText = Now THAT was a battle!
-Pokemon = GOLBAT,20
-    Moves = WINGATTACK,BITE,CONFUSERAY,SWIFT
-Pokemon = LUXIO,21
-    Moves = SPARK,BITE,LEER,CHARGE
-Pokemon = SCYTHER,22
-    Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
+Pokemon = GOOBOLT,15
+    Moves = THUNDERSHOCK,CHARGE,BITE,QUICKATTACK
+Pokemon = SANDILE,16
+    Moves = BITE,SANDATTACK,TORMENT,SANDTOMB
+Pokemon = ROCKRUFF,18
+    Moves = TACKLE,LEER,SANDATTACK,BITE
+    Item = ORANBERRY
+    IV = 15,15,15,15,15,15
 #-------------------------------
 [HIKER,Bruno]
-LoseText = You've got some serious strength!
-Pokemon = RHYHORN,20
-    Moves = HORNATTACK,STOMP,FURYATTACK,SCARYFACE
-Pokemon = MACHOKE,22
-    Moves = KARATECHOP,SEISMICTOSS,FOCUSENERGY,REVENGE
+LoseText = We don't talk about Bruno because he needed a Machop.
+Pokemon = SANDSHREW,14
+    Moves = SCRATCH,DEFENSECURL,POISONSTING,SANDATTACK
+Pokemon = STALAD,16
+    Moves = TACKLE,HARDEN,METALSOUND,ROCKTHROW
+Pokemon = ROCKRUFF,17
+    Moves = TACKLE,LEER,SANDATTACK,BITE
 #-------------------------------
 [YOUNGSTER,Aiden]
 LoseText = Whoa... you're already this strong?
 Pokemon = SENTRET,5
     Moves = TACKLE,DEFENSECURL,QUICKATTACK
-Pokemon = SHINX,6
-    Moves = TACKLE,LEER,THUNDERSHOCK
+Pokemon = PIKACHU,5
+    Moves = THUNDERSHOCK,GROWL,TAILWHIP,PLAYNICE
 #-------------------------------
 [LASS,Mia]
 LoseText = Okay, I definitely underestimated you!
@@ -480,30 +493,32 @@ Pokemon = BUDEW,5
 Pokemon = PETIDAW,6
     Moves = TACKLE,GROWL,SANDATTACK
 #-------------------------------
-[PICNICKER,Eli]
+[PICNICKER_1,Gorlok ]
 LoseText = My strategy got squashed!
-Pokemon = WURMPLE,5
-    Moves = TACKLE,STRINGSHOT,POISONSTING
-Pokemon = SEWADDLE,6
-    Moves = TACKLE,STRINGSHOT,BUGBITE
-Pokemon = JOLTIK,6
-    Moves = ABSORB,STRINGSHOT,THUNDERSHOCK
+Pokemon = CATERPIE,5
+    Moves = TACKLE,STRINGSHOT
+Pokemon = SPROUTSY,6
+    Moves = TACKLE,GROWL,ABSORB
+Pokemon = BUDEW,6
+    Moves = ABSORB,GROWTH,STUNSPORE
 #-------------------------------
 [BACKPACKER_M,Noah]
 LoseText = Loser...
-Pokemon = WOOPER,6
+Pokemon = WOOPER,5
     Moves = WATERGUN,TAILWHIP,MUDSPORT
-Pokemon = SPEAROW,7
-    Moves = PECK,GROWL,LEER
+Pokemon = PIDGEY,5
+    Moves = TACKLE,GUST,SANDATTACK
 #-------------------------------
-[MEDIUM,Lily]
-LoseText = Fine you won but hurry off to class.
-Pokemon = FOMANTIS,6
-    Moves = LEAFAGE,GROWTH,FURYCUTTER
-Pokemon = ROCKRUFF,7
-    Moves = TACKLE,LEER,SANDATTACK,BITE
+[TEACHER,Lily]
+LoseText = Looks like I still have something to learn!
+Pokemon = BUDEW,5
+    Moves = ABSORB,GROWTH
+Pokemon = RALTS,6
+    Moves = GROWL,DISARMINGVOICE,CONFUSION
+Pokemon = SPROUTSY,6
+    Moves = TACKLE,GROWL,ABSORB
 #-------------------------------
-[NERD,Theo]
+[NERD_1,Theo]
 LoseText = ERM What?
 Pokemon = MAREEP,7
     Moves = THUNDERSHOCK,GROWL,THUNDERWAVE
@@ -516,14 +531,101 @@ Pokemon = CONKREEP,8
 #-------------------------------
 [MAN,John]
 LoseText = Guess I need more time in the water...
-Pokemon = KRABBY,20
-    Moves = BUBBLE,VISEGRIP,HARDEN,LEER
-Pokemon = RIOLU,21
-    Moves = QUICKATTACK,COUNTER,ENDURE,FEINT
-#-------------------------------
+Pokemon = FINNEON,19
+    Moves = WATERGUN,GUST,ATTRACT,SAFEGUARD
+Pokemon = HORSEA,20
+    Moves = BUBBLE,SMOKESCREEN,WATERGUN,TWISTER
+
 [LASS,Meg]
 LoseText = Okay, I definitely underestimated you!
 Pokemon = BUDEW,19
+    Moves = ABSORB,GROWTH,STUNSPORE,MEGADRAIN
+Pokemon = APPRENSITH,21
+    Moves = ABSORB,FAIRYWIND,MAGICALLEAF,SWEETSCENT
+#-------------------------------
+[LADY_1,Sabrina]
+LoseText = I think I might barf.
+Pokemon = SNOWPLOW,19
     Moves = ABSORB,GROWTH,STUNSPORE
-Pokemon = SCYTHER,22
+#-------------------------------
+[NERD_1,Nolan]
+LoseText = ERM What?
+Pokemon = ESPURR,18
+    Moves = CONFUSION,FAKEOUT,COVET,PSYBEAM
+Pokemon = WINGULL,18
+    Moves = WATERGUN,QUICKATTACK,WINGATTACK,SUPERSONIC
+Pokemon = CUBCHESTRA,19
+    Moves = TACKLE,HARDEN,METALSOUND,ROCKTHROW
+    Item = ORANBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[BACKPACKER_LASS,Marina]
+LoseText = I just  wanted to ask you about my bike.
+Pokemon = FLABEBE,18
+    Moves = TACKLE,VINEWHIP,FAIRYWIND,LUCKYCHANT
+Pokemon = SKITTY,19
+    Moves = TACKLE,SING,ATTRACT,DOUBLESLAP
+Pokemon = APPRENSITH,20
+    Moves = FAIRYWIND,CHARM,CONFUSION,MEGADRAIN
+#-------------------------------
+[BACKPACKER_LASS,Amy]
+LoseText = Okay... I really wasn't expecting that!
+Pokemon = FLABEBE,18
+    Moves = TACKLE,VINEWHIP,FAIRYWIND,LUCKYCHANT
+Pokemon = SKITTY,19
+    Moves = TACKLE,SING,ATTRACT,DOUBLESLAP
+Pokemon = APPRENSITH,20
+    Moves = FAIRYWIND,CHARM,CONFUSION,MEGADRAIN
+#-------------------------------
+[BACKPACKER_M,Giovanni]
+LoseText = Guess this trail is tougher than I thought!
+Pokemon = NUZLEAF,25
+    Moves = RAZORLEAF,FAKEOUT,NATUREPOWER,TORMENT
+Pokemon = PANCHAM,26
+    Moves = ARMTHRUST,SLASH,CIRCLETHROW,WORKUP
+#-------------------------------
+[BUGCATCHER,Milo]
+LoseText = Even my strongest bugs couldn't stop you!
+Pokemon = HERACROSS,26
+    Moves = AERIALACE,BRICKBREAK,FURYATTACK,ENDURE
+Pokemon = PINSIR,27
+    Moves = VICEGRIP,SEISMICTOSS,HARDEN,BRICKBREAK
+#-------------------------------
+[POKEMONRANGER_F,Elise]
+LoseText = You really know how to handle the wild!
+Pokemon = STANTLER,26
+    Moves = STOMP,CONFUSERAY,SANDATTACK,TAKEDOWN
+Pokemon = LUNACORN,27
+    Moves = STARPULSE,SYNTHESIS,MAGICALLEAF,CONFUSERAY
+#-------------------------------
+[HIKER,Grant]
+LoseText = You climbed right over my strategy!
+Pokemon = CONKREEP,26
+    Moves = METALCLAW,HEADBUTT,SMARTSTRIKE,IRONDEFENSE
+Pokemon = GRAVETTLE,28
+    Moves = BUGBITE,ROCKTHROW,STARPULSE,IRONDEFENSE
+#-------------------------------
+[COOLTRAINER_M,Darius]
+LoseText = Okay, you've earned that badge.
+Pokemon = TROPIUS,27
+    Moves = RAZORLEAF,GUST,STOMP,SWEETSCENT
+Pokemon = SCYTHER,28
     Moves = WINGATTACK,FURYCUTTER,QUICKATTACK,FOCUSENERGY
+Pokemon = LUNACORN,29
+    Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[PICNICKER_1,Gorlok,2 ]
+LoseText = NO I LOST MY PEN!
+Pokemon = BUTTERFREE,25
+    Moves = PSYBEAM,AIRSLASH,SLEEPPOWDER,STUNSPORE
+Pokemon = PETALNIA,26
+    Moves = MAGICALLEAF,DRAININGKISS,LEECHSEED,SWEETSCENT
+Pokemon = ROSELIA,27
+    Moves = MEGADRAIN,LEECHSEED,MAGICALLEAF,STUNSPORE
+    Item = ORANBERRY
+Pokemon = LUNACORN,28
+    Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
+    Item = ORANBERRY
+#-------------------------------

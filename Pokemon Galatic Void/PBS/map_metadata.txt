@@ -37,7 +37,7 @@ ShowArea = true
 MapPosition = 0,13,10
 MapSize = 2,11
 #-------------------------------
-[008]   # Daisy's house
+[008]   # Game House
 Name = Lappet Town
 MapPosition = 0,13,12
 #-------------------------------
@@ -95,11 +95,12 @@ MapPosition = 0,13,10
 #-------------------------------
 [021]   # V&G Route 2
 Name = Route 2
+Outdoor = true
 ShowArea = true
 MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11
-Environment = None
+Environment = Grass
 #-------------------------------
 [022]   # King City
 Name = King City
@@ -157,7 +158,9 @@ MapSize = 2,1101
 #-------------------------------
 [032]   # V&G Route 1
 Name = V&G Route 1
+Outdoor = true
 ShowArea = true
+Environment = Grass
 #-------------------------------
 [033]   # Crescent Hill
 Name = Crescent Hill
@@ -287,18 +290,18 @@ MapPosition = 0,17,10
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[055]   # Battle Tower
+[055]   # Battle tower 2f
 Name = Battle Frontier
 HealingSpot = 52,30,10
 MapPosition = 0,17,10
 #-------------------------------
-[056]   # Battle Tower arena
+[056]   # Battle Tower Arena
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[057]   # Stadium Cup lobby
+[057]   # House 4
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
@@ -408,15 +411,16 @@ Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
-[076]   # Azure Bay City
+[076]   # Azure Bay
 Name = Azure Bay City
 ShowArea = true
 #-------------------------------
 [080]   # V&G Route 3
-Name = moo?
+Name = Route 3
 Outdoor = true
 ShowArea = true
 Weather = Storm,100
+Environment = Grass
 #-------------------------------
 [081]   # ocean 1
 Name = ocean 1
@@ -437,21 +441,27 @@ Weather = Rain,100
 Name = V&G Route 3.5
 Outdoor = true
 Weather = Storm,100
+Environment = Grass
 #-------------------------------
 [085]   # Richmond Hill 
-Name = Gym 3 City
+Name = Silverpine Town
 Outdoor = true
-Weather = Storm,100
+Weather = Storm,50
+SnapEdges = true
 #-------------------------------
 [086]   # Haunted Gym Battle
 Name = Haunted Gym Battle
 DarkMap = true
 #-------------------------------
 [092]   # cave r3
+Name = Starfall Cavern
 DarkMap = true
 Environment = Cave
 #-------------------------------
+[097]   # Cave r3_bottom
+#-------------------------------
 [098]   # Cave r3_top
+Name = Cave r3_top
 DarkMap = true
 Environment = Cave
 #-------------------------------
@@ -459,7 +469,22 @@ Environment = Cave
 Name = Haunted Gym Basement
 DarkMap = true
 #-------------------------------
+[101]   # King Trail
+Outdoor = true
+Bicycle = true
+Environment = Forest
+#-------------------------------
+[102]   # King Trail A2
+Outdoor = true
+Environment = Forest
+#-------------------------------
 [103]   # King Trail A3
+Name = King Trail A3
 Outdoor = true
 Weather = Fog,100
+Environment = ForestGrass
+#-------------------------------
+[115]   # V&G Route 4
+Outdoor = true
+Bicycle = true
 Environment = Grass
