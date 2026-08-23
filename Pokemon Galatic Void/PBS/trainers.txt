@@ -509,7 +509,7 @@ Pokemon = WOOPER,5
 Pokemon = PIDGEY,5
     Moves = TACKLE,GUST,SANDATTACK
 #-------------------------------
-[TEACHER,Lily]
+[TEACHER_F,Lily]
 LoseText = Looks like I still have something to learn!
 Pokemon = BUDEW,5
     Moves = ABSORB,GROWTH
@@ -589,7 +589,7 @@ LoseText = Even my strongest bugs couldn't stop you!
 Pokemon = HERACROSS,26
     Moves = AERIALACE,BRICKBREAK,FURYATTACK,ENDURE
 Pokemon = PINSIR,27
-    Moves = VICEGRIP,SEISMICTOSS,HARDEN,BRICKBREAK
+    Moves = VISEGRIP,SEISMICTOSS,HARDEN,BRICKBREAK
 #-------------------------------
 [POKEMONRANGER_F,Elise]
 LoseText = You really know how to handle the wild!
@@ -616,7 +616,7 @@ Pokemon = LUNACORN,29
     Item = SITRUSBERRY
     IV = 15,15,15,15,15,15
 #-------------------------------
-[PICNICKER_1,Gorlok,2 ]
+[PICNICKER_1,Gorlok,2]
 LoseText = NO I LOST MY PEN!
 Pokemon = BUTTERFREE,25
     Moves = PSYBEAM,AIRSLASH,SLEEPPOWDER,STUNSPORE
@@ -628,4 +628,211 @@ Pokemon = ROSELIA,27
 Pokemon = LUNACORN,28
     Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
     Item = ORANBERRY
+#-------------------------------
+[FISHERMAN,Reed]
+LoseText = Guess the fish weren't biting today!
+
+Pokemon = POLIWHIRL,27
+    Moves = WATERGUN,HYPNOSIS,MUDSHOT,BUBBLEBEAM
+
+Pokemon = BASCULIN,28
+    Moves = AQUAJET,BITE,HEADBUTT,SCARYFACE
+#-------------------------------
+[LASS,Maribel]
+LoseText = I thought I had that one!
+Pokemon = ROSELIA,27
+    Moves = MEGADRAIN,LEECHSEED,STUNSPORE,MAGICALLEAF
+Pokemon = GOGOAT,28
+    Moves = RAZORLEAF,TAKEDOWN,BULLDOZE,SYNTHESIS
+Pokemon = LUNACORN,29
+    Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
+#-------------------------------
+[COOLTRAINER_F,Serena]
+LoseText = You're keeping up with King Trail just fine!
+Pokemon = PAWNIARD,28
+    Moves = METALCLAW,FURYCUTTER,FEINTATTACK,SCARYFACE
+Pokemon = HERACROSS,29
+    Moves = AERIALACE,BRICKBREAK,FURYATTACK,ENDURE
+Pokemon = CONQUESS,30
+    Moves = METALCLAW,HEADBUTT,SMARTSTRIKE,IRONDEFENSE
+#-------------------------------
+[POKEMONRANGER_M,Rowan]
+LoseText = That's the kind of strength this trail demands!
+Pokemon = STANTLER,28
+    Moves = STOMP,CONFUSERAY,TAKEDOWN,SANDATTACK
+Pokemon = NEBUNOX,29
+    Moves = BITE,STARPULSE,NASTYPLOT,DARKPULSE
+Pokemon = LEAVANNY,30
+    Moves = RAZORLEAF,STRUGGLEBUG,SLASH,STRINGSHOT
+Pokemon = LUNACORN,31
+    Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[FISHERMAN,Reed]
+LoseText = Guess the fish weren't biting today!
+Pokemon = POLIWHIRL,27
+    Moves = WATERGUN,HYPNOSIS,MUDSHOT,BUBBLEBEAM
+Pokemon = BASCULIN,28
+    Moves = AQUAJET,BITE,HEADBUTT,SCARYFACE
+#-------------------------------
+[AROMALADY,Maribel]
+LoseText = I thought I had that one!
+Pokemon = ROSELIA,27
+    Moves = MEGADRAIN,LEECHSEED,STUNSPORE,MAGICALLEAF
+Pokemon = GOGOAT,28
+    Moves = RAZORLEAF,TAKEDOWN,BULLDOZE,SYNTHESIS
+Pokemon = LUNACORN,29
+    Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
+#-------------------------------
+[BACKPACKER_LASS,Serena]
+LoseText = You're keeping up with King Trail just fine!
+Pokemon = PAWNIARD,28
+    Moves = METALCLAW,FURYCUTTER,FEINTATTACK,SCARYFACE
+Pokemon = HERACROSS,29
+    Moves = AERIALACE,BRICKBREAK,FURYATTACK,ENDURE
+Pokemon = CONQUESS,30
+    Moves = METALCLAW,HEADBUTT,SMARTSTRIKE,IRONDEFENSE
+#-------------------------------
+[CAMPER,Rowan]
+LoseText = That's the kind of strength this trail demands!
+Pokemon = STANTLER,28
+    Moves = STOMP,CONFUSERAY,TAKEDOWN,SANDATTACK
+Pokemon = NEBUNOX,29
+    Moves = BITE,STARPULSE,NASTYPLOT,DARKPULSE
+Pokemon = LEAVANNY,30
+    Moves = RAZORLEAF,STRUGGLEBUG,SLASH,STRINGSHOT
+Pokemon = LUNACORN,31
+    Moves = MAGICALLEAF,STARPULSE,SYNTHESIS,COSMICPOWER
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[MEDIUM,Selene]
+LoseText = The spirits were quieter than usual...
+
+Pokemon = WISPBIT,29
+    Moves = HEX,WILLOWISP,SHADOWBALL,COSMICPOWER
+
+Pokemon = PUMPKABOO,30
+    Moves = RAZORLEAF,LEECHSEED,SHADOWSNEAK,CONFUSERAY
+
+Pokemon = NULLIMP,31
+    Moves = HEX,VOIDCLAW,WILLOWISP,BLACKOUT
+#-------------------------------
+
+[PSYCHIC_M,Lucian]
+LoseText = I couldn't predict that outcome...
+
+Pokemon = HAUNTER,29
+    Moves = HEX,CONFUSERAY,SHADOWBALL,SPITE
+
+Pokemon = NEBUNOX,30
+    Moves = BITE,STARPULSE,NASTYPLOT,DARKPULSE
+
+Pokemon = MIMIKYU,31
+    Moves = SHADOWSNEAK,CHARM,FEINTATTACK,SHADOWCLAW
+#-------------------------------
+[BLACKBELT,Kaizen]
+LoseText = You've proven your strength!
+Pokemon = MEDITITE,29
+    Moves = FORCEPALM,CONFUSION,DETECT,FEINT
+Pokemon = HERACROSS,30
+    Moves = BRICKBREAK,AERIALACE,FURYATTACK,ENDURE
+Pokemon = CROAGUNK,30
+    Moves = REVENGE,SUCKERPUNCH,POISONJAB,TAUNT
+Pokemon = LUCARIO,32
+    Moves = FORCEPALM,METALCLAW,QUICKATTACK,BONECLUB
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[AROMALADY_A,Aurelia]
+LoseText = Your light shines brighter than mine!
+Pokemon = VOLBEAT,29
+    Moves = CONFUSERAY,QUICKATTACK,MOONLIGHT,SIGNALBEAM
+Pokemon = LUXIO,30
+    Moves = SPARK,BITE,CHARGE,ROAR
+Pokemon = ROSELIA,30
+    Moves = MAGICALLEAF,LEECHSEED,STUNSPORE,MEGADRAIN
+Pokemon = AMPHAROS,32
+    Moves = SPARK,CONFUSERAY,CHARGE,THUNDERWAVE
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[MEDIUM_C,Camellia]
+LoseText = The spirits have chosen their answer...
+
+Pokemon = HAUNTER,30
+    Moves = HEX,CONFUSERAY,SHADOWBALL,SPITE
+
+Pokemon = MIMIKYU,31
+    Moves = SHADOWSNEAK,CHARM,SHADOWCLAW,FEINTATTACK
+
+Pokemon = NULLIMP,31
+    Moves = HEX,VOIDCLAW,WILLOWISP,BLACKOUT
+
+Pokemon = TREVENANT,33
+    Moves = HEX,LEECHSEED,WILLOWISP,SHADOWCLAW
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------
+[BIRDKEEPER,Theo]
+LoseText = Guess I got clipped!
+
+Pokemon = STARAVIA,31
+    Moves = WINGATTACK,QUICKATTACK,DOUBLETEAM,ENDEAVOR
+
+Pokemon = MURKROW,32
+    Moves = WINGATTACK,FEINTATTACK,HAZE,TAUNT
+#-------------------------------
+
+[POKEMONBREEDER,Maisie]
+LoseText = Looks like we still have some growing to do!
+
+Pokemon = DEERLING,31
+    Moves = DOUBLEKICK,LEECHSEED,TAKEDOWN,AROMATHERAPY
+
+Pokemon = TEDDIURSA,32
+    Moves = FURYSWIPES,FEINTATTACK,SWEETSCENT,SLASH
+
+Pokemon = ROSELIA,33
+    Moves = GIGADRAIN,LEECHSEED,STUNSPORE,MAGICALLEAF
+#-------------------------------
+
+[RUINMANIAC,Cliff]
+LoseText = Maybe I should stick to exploring...
+
+Pokemon = SANDSLASH,32
+    Moves = BULLDOZE,FURYCUTTER,SWIFT,SLASH
+
+Pokemon = GRAVELER,33
+    Moves = ROCKTHROW,BULLDOZE,SELFDESTRUCT,ROCKBLAST
+
+Pokemon = MAWILE,33
+    Moves = BITE,FAIRYWIND,IRONDEFENSE,CRUNCH
+#-------------------------------
+
+[BACKPACKER_F,Jade]
+LoseText = Okay, that was worth stopping for!
+
+Pokemon = GOGOAT,32
+    Moves = RAZORLEAF,TAKEDOWN,BULLDOZE,SYNTHESIS
+
+Pokemon = ABSOL,33
+    Moves = SLASH,BITE,SWORDSDANCE,QUICKATTACK
+
+Pokemon = NEBUNOX,34
+    Moves = STARPULSE,BITE,NASTYPLOT,DARKPULSE
+#-------------------------------
+[COOLTRAINER_F,Melina]
+LoseText = You've definitely earned those three badges.
+Pokemon = LEAVANNY,33
+    Moves = RAZORLEAF,SLASH,STRUGGLEBUG,FELLSTINGER
+Pokemon = LUCARIO,34
+    Moves = FORCEPALM,METALCLAW,BONECLUB,QUICKATTACK
+Pokemon = GRAVETTLE,34
+    Moves = BUGBITE,ROCKSLIDE,STARPULSE,IRONDEFENSE
+Pokemon = ABSOL,35
+    Moves = SLASH,BITE,SWORDSDANCE,QUICKATTACK
+    Item = SITRUSBERRY
+    IV = 15,15,15,15,15,15
 #-------------------------------

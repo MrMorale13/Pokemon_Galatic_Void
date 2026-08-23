@@ -483,3 +483,47 @@ Name = Lady
 Gender = Female
 BaseMoney = 37
 #-------------------------------
+[TEAMVOID_M]
+Name = Team Void
+Gender = Male
+BaseMoney = 32
+IntroBGM = Battle trainer
+BattleBGM = Battle trainer
+VictoryBGM = Battle victory
+#-------------------------------
+[TEAMVOID_F]
+Name = Team Void
+Gender = Female
+BaseMoney = 35
+IntroBGM = Battle trainer
+BattleBGM = Battle trainer
+VictoryBGM = Battle victory
+#-------------------------------
+[PICNICKER_1]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[NERD_1]
+Name = Nerd
+Gender = Male
+BaseMoney = 15
+#-------------------------------
+[TEACHER]
+Name = Teacher
+Gender = Female
+BaseMoney = 37
+#-------------------------------
+[AROMALADY_A]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[MEDIUM_C]
+Name = Medium
+Gender = Female
+BaseMoney = 20
+SkillLevel = 50
+BattleBGM = Battle trainer
+VictoryBGM = Battle victory trainer
+#-------------------------------

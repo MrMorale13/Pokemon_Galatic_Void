@@ -1,32 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[032] # V&G Route 1
-Land,10
-    25,PIDGEY,3,5
-    20,SENTRET,3,5
-    15,SPROUTSY,3,5
-    12,CATERPIE,3,4
-    10,BUNEARY,3,5
-    8,BUDEW,3,5
-    5,PIKACHU,4,5
-    5,RALTS,4,5
-
-LandNight,10
-    25,HOOTHOOT,3,5
-    20,SPINARAK,3,5
-    15,SENTRET,3,5
-    15,SPROUTSY,3,5
-    10,BUNEARY,3,5
-    5,ODDISH,3,5
-    5,PIKACHU,4,5
-    5,RALTS,4,5
-
-Water,2
-    50,MAGIKARP,3,5
-    25,WOOPER,3,5
-    15,SURSKIT,3,5
-    10,POLIWAG,4,5
-#-------------------------------
 [021] # V&G Route 2
 Land,21
     20,BIDOOF,7,13
@@ -37,8 +10,7 @@ Land,21
     8,SANDSHREW,11,14
     6,STALAD,11,14
     6,STALASS,11,14
-    5,ROCKRUFF,14,14
-
+    5,ROCKRUFF,14
 LandNight,21
     20,HOOTHOOT,9,13
     18,SANDILE,10,15
@@ -47,9 +19,8 @@ LandNight,21
     10,STALAD,11,14
     10,STALASS,11,14
     8,SANDSHREW,11,14
-    5,ROCKRUFF,14,14
+    5,ROCKRUFF,14
     2,MURKROW,14,15
-
 Water,2
     35,WOOPER,9,14
     30,MAGIKARP,9,14
@@ -57,25 +28,48 @@ Water,2
     10,POLIWAG,11,15
     5,OCTOLECT,13,14
 #-------------------------------
+[032] # V&G Route 1
+Land,10
+    25,PIDGEY,3,5
+    20,SENTRET,3,5
+    15,SPROUTSY,3,5
+    12,CATERPIE,3,4
+    10,BUNEARY,3,5
+    8,BUDEW,3,5
+    5,PIKACHU,4,5
+    5,RALTS,4,5
+LandNight,10
+    25,HOOTHOOT,3,5
+    20,SPINARAK,3,5
+    15,SENTRET,3,5
+    15,SPROUTSY,3,5
+    10,BUNEARY,3,5
+    5,ODDISH,3,5
+    5,PIKACHU,4,5
+    5,RALTS,4,5
+Water,2
+    50,MAGIKARP,3,5
+    25,WOOPER,3,5
+    15,SURSKIT,3,5
+    10,POLIWAG,4,5
+#-------------------------------
 [076] # Azure Bay
 Land,21
     25,WINGULL,10,14
     20,PETIDAW,10,14
-    15,MEOWTH,10,14
     15,BUIZEL,11,15
+    15,MEOWTH,10,14
     10,SHELLOS,11,15
     10,TAILLOW,10,14
     5,POOCHYENA,12,16
-
 LandNight,21
     25,MEOWTH,10,14
     20,CROOBER,11,15
-    15,POOCHYENA,10,14
     15,HOOTHOOT,10,14
+    15,POOCHYENA,10,14
     10,MURKROW,12,16
     10,PETIDAW,10,14
     5,SHELLOS,12,16
-
 Water,2
     30,CRISHY,10,14
     25,TENTACOOL,10,15
@@ -87,25 +81,23 @@ Water,2
 Land,21
     20,APPRENSITH,15,18
     18,COMBEE,15,18
-    15,FLABEBE,15,18
     15,BUDEW,15,18
+    15,FLABEBE,15,18
     12,WINGULL,15,18
     10,CUBCHESTRA,16,19
     5,SKITTY,16,19
     3,ROSELIA,17,20
     2,EEVEE,18,20
-
 LandNight,21
     20,MURKROW,15,18
     18,SHUPPET,15,18
-    15,PURRLOIN,15,18
     15,CUBCHESTRA,16,19
+    15,PURRLOIN,15,18
     10,APPRENSITH,15,18
     10,ESPURR,16,19
     7,MISDREAVUS,17,20
     3,SABLEYE,18,20
     2,ABSOL,18,20
-
 Water,2
     25,FINNEON,15,18
     20,HORSEA,15,18
@@ -126,7 +118,6 @@ Land,21
     7,PINECO,18,21
     5,PHANPY,18,21
     2,CONKREEP,20,22
-
 LandNight,21
     20,VENONAT,17,20
     18,DUSKULL,17,20
@@ -166,21 +157,21 @@ Cave,22
 [098,1] # Cave r3_top
 Cave,22
     20,BOLDORE,22,25
-    15,LAIRON,22,25
     15,DRILBUR,21,24
+    15,LAIRON,22,25
     10,NOIBAT,21,24
     10,PACKBATS,22,25
     10,PACKBATS_1,22,25
     8,MAWILE,22,25
-    5,SABLEYE,23,25
     5,ONIX,23,26
+    5,SABLEYE,23,25
     2,CARBINK,24,26
 #-------------------------------
 [101] # King Trail
 Land,21
     18,NUZLEAF,23,26
-    15,STANTLER,23,26
     15,CONKREEP,24,27
+    15,STANTLER,23,26
     12,HERACROSS,24,27
     10,PINSIR,24,27
     10,TROPIUS,24,27
@@ -188,19 +179,17 @@ Land,21
     7,LUNACORN,25,28
     3,GRAVETTLE,26,28
     2,SCYTHER,27,28
-
 LandNight,21
     18,PHANTUMP,23,26
-    15,STUNKY,23,26
-    15,NOCTOWL,24,27
     15,CONKREEP,24,27
+    15,NOCTOWL,24,27
+    15,STUNKY,23,26
     10,HOUNDOUR,24,27
     8,ARIADOS,24,27
     7,LUNACORN,25,28
     5,ABSOL,26,28
     5,GRAVETTLE,26,28
     2,SCYTHER,27,28
-
 Water,2
     25,POLIWHIRL,23,26
     20,LOMBRE,23,26
@@ -214,28 +203,26 @@ Water,2
 [102] # King Trail A2
 Land,21
     18,LEAVANNY,25,28
-    15,STANTLER,25,28
     15,ROSELIA,25,28
+    15,STANTLER,25,28
     12,GOGOAT,26,29
-    10,HERACROSS,26,29
     10,CONKREEP,25,27
+    10,HERACROSS,26,29
     8,PAWNIARD,26,29
-    5,LUNACORN,27,29
     5,CONQUESS,28,30
+    5,LUNACORN,27,29
     2,GRAVETTLE,28,30
-
 LandNight,21
     18,PHANTUMP,25,28
     15,MURKROW,25,28
     15,PAWNIARD,26,29
     12,HOUNDOOM,26,29
-    10,STANTLER,25,28
     10,CONKREEP,25,27
+    10,STANTLER,25,28
     8,NEBUNOX,27,30
     5,ABSOL,27,29
     5,CONQUESS,28,30
     2,NULLIMP,28,30
-
 Water,2
     22,POLIWHIRL,25,28
     20,FLOATZEL,25,29
@@ -259,7 +246,6 @@ Land,21
     7,ABYSSPROUT,28,31
     3,ROSERADE,29,32
     2,MIMIKYU,30,32
-
 LandNight,21
     18,SHIINOTIC,27,31
     15,TREVENANT,27,31
@@ -272,7 +258,6 @@ LandNight,21
     4,MIMIKYU,29,32
     3,NULLIMP,29,32
     2,MIMIEGG,30,32
-
 Water,2
     22,LOMBRE,27,30
     20,POLIWHIRL,27,30
@@ -284,3 +269,6 @@ Water,2
     2,FEEBAS,29,32
     1,MILOTIC,31,32
 #-------------------------------
+[115] # V&G Route 4
+#-------------------------------
+[116] # V&G Route 5
