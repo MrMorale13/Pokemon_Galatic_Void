@@ -24726,31 +24726,7 @@ Habitat = Forest
 Category = Nebula Fox
 Pokedex = Nebunox prowls only after sunset. Its tail resembles drifting nebulae, and travelers sometimes mistake its glow for distant stars.
 Generation = 9
-#-------------------------------
-[VACUUB]
-Name = Vacuub
-Types = VOID
-BaseStats = 85,70,80,85,80,60
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 155
-EVs = HP,2
-CatchRate = 100
-Happiness = 50
-Abilities = SOUNDPROOF,UNNERVE
-HiddenAbilities = VOIDABSORB
-Moves = 1,POUND,1,GROWL,5,ASTONISH,9,DISABLE,13,BITE,17,VOIDCLAW,21,SCREECH,25,BLACKOUT,29,STOCKPILE,29,SWALLOW,33,NULLSURGE,37,CRUNCH,41,VOIDCONSUME
-TutorMoves = DARKPULSE,PROTECT,REST,SLEEPTALK,SNARL,SUBSTITUTE,TAUNT,THIEF
-EggGroups = Amorphous
-HatchSteps = 5120
-Height = 0.6
-Weight = 9.0
-Color = Black
-Shape = HeadLegs
-Habitat = Cave
-Category = Silence Cub
-Pokedex = Vacuub feeds on sound. When several gather together, forests and caves can become so quiet that even footsteps seem to disappear.
-Generation = 9
+
 #-------------------------------
 [RIFTALON]
 Name = Riftalon
@@ -24930,3 +24906,52 @@ Category = Night Sky
 Pokedex = Eventide's body resembles a moving patch of the night sky. Old stories claim that every bright point within it is a memory collected by Wispbit.
 Generation = 9
 #-------------------------------
+[VACUUB]
+Name = Vacuub
+Types = VOID
+BaseStats = 85,70,80,85,80,60
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 155
+EVs = HP,2
+CatchRate = 100
+Happiness = 50
+Abilities = SOUNDPROOF,UNNERVE
+HiddenAbilities = VOIDABSORB
+Moves = 1,POUND,1,GROWL,5,ASTONISH,9,DISABLE,13,BITE,17,VOIDCLAW,21,SCREECH,25,BLACKOUT,29,STOCKPILE,29,SWALLOW,33,NULLSURGE,37,CRUNCH,41,VOIDCONSUME
+TutorMoves = DARKPULSE,PROTECT,REST,SLEEPTALK,SNARL,SUBSTITUTE,TAUNT,THIEF
+EggGroups = Amorphous
+HatchSteps = 5120
+Height = 0.6
+Weight = 9.0
+Color = Black
+Shape = HeadLegs
+Habitat = Cave
+Category = Silence Cub
+Pokedex = Vacuub feeds on sound. When several gather together, forests and caves can become so quiet that even footsteps seem to disappear.
+Generation = 9
+Evolutions = ABYSSURSA,Level,30
+#-------------------------------
+[ABYSSURSA]
+Name = Abyssursa
+Types = VOID
+BaseStats = 105,115,85,55,80,60
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 175
+EVs = ATTACK,2
+CatchRate = 60
+Happiness = 50
+Abilities = PRESSURE
+Moves = 1,TACKLE,1,LEER,1,ASTONISH,1,BITE,8,SHADOWSNEAK,12,FURYSWIPES,16,SCARYFACE,20,SLASH,24,SHADOWCLAW,28,CRUNCH,32,TAKEDOWN,36,PHANTOMFORCE,40,THRASH,44,DOUBLEEDGE
+TutorMoves = PROTECT,REST,SLEEPTALK,SUBSTITUTE,SHADOWBALL,DARKPULSE
+EggGroups = Field
+HatchSteps = 5120
+Height = 1.8
+Weight = 126.0
+Color = Black
+Shape = Quadruped
+Habitat = Cave
+Category = Abyss Bear
+Pokedex = Its body constantly collapses inward upon itself. Objects that drift too close to the voids in its body can disappear without a trace.
+Generation = 0
