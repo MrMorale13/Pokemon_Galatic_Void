@@ -527,3 +527,11 @@ SkillLevel = 50
 BattleBGM = Battle trainer
 VictoryBGM = Battle victory trainer
 #-------------------------------
+[NEGAEVAN]
+Name = Nega Evan
+Gender = Male
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = Corrupt_Evan
+VictoryBGM = Battle victory trainer
+#-------------------------------

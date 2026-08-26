@@ -6609,3 +6609,306 @@ Price = 0
 FieldUse = Direct
 Flags = EvolutionStone
 Description = A radiant stone filled with galactic energy. Its strange power can trigger a special transformation.
+#-------------------------------
+[OBLIVIXVOIDCORE]
+Name = Oblivix Voidcore
+NamePlural = Oblivix Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Oblivix to enter Void Corruption.
+#-------------------------------
+[OBLIVIXSTARCORE]
+Name = Oblivix Starcore
+NamePlural = Oblivix Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Oblivix to enter Galaxy Corruption.
+
+#-------------------------------
+[ERUPTILEVOIDCORE]
+Name = Eruptile Voidcore
+NamePlural = Eruptile Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Eruptile to enter Void Corruption.
+#-------------------------------
+[ERUPTILESTARCORE]
+Name = Eruptile Starcore
+NamePlural = Eruptile Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Eruptile to enter Galaxy Corruption.
+
+#-------------------------------
+[MORTARINEVOIDCORE]
+Name = Mortarine Voidcore
+NamePlural = Mortarine Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Mortarine to enter Void Corruption.
+#-------------------------------
+[MORTARINESTARCORE]
+Name = Mortarine Starcore
+NamePlural = Mortarine Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Mortarine to enter Galaxy Corruption.
+
+#-------------------------------
+[GALLADEVOIDCORE]
+Name = Gallade Voidcore
+NamePlural = Gallade Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Gallade to enter Void Corruption.
+#-------------------------------
+[GALLADESTARCORE]
+Name = Gallade Starcore
+NamePlural = Gallade Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Gallade to enter Galaxy Corruption.
+
+
+#===============================================================================
+# GALAXY ONLY
+#===============================================================================
+
+#-------------------------------
+[GARCHOMPSTARCORE]
+Name = Garchomp Starcore
+NamePlural = Garchomp Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Garchomp to enter Galaxy Corruption.
+
+#-------------------------------
+[HYDREIGONSTARCORE]
+Name = Hydreigon Starcore
+NamePlural = Hydreigon Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Hydreigon to enter Galaxy Corruption.
+
+
+#===============================================================================
+# VOID ONLY
+#===============================================================================
+
+#-------------------------------
+[GENGARVOIDCORE]
+Name = Gengar Voidcore
+NamePlural = Gengar Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Gengar to enter Void Corruption.
+
+#-------------------------------
+[FLAREONVOIDCORE]
+Name = Flareon Voidcore
+NamePlural = Flareon Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Flareon to enter Void Corruption.
+
+#-------------------------------
+[SWAMPERTVOIDCORE]
+Name = Swampert Voidcore
+NamePlural = Swampert Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Swampert to enter Void Corruption.
+
+#-------------------------------
+[ELECTIVIREVOIDCORE]
+Name = Electivire Voidcore
+NamePlural = Electivire Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Electivire to enter Void Corruption.
+
+#-------------------------------
+[LUCARIOVOIDCORE]
+Name = Lucario Voidcore
+NamePlural = Lucario Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Lucario to enter Void Corruption.
+
+#-------------------------------
+[KINGAMBITVOIDCORE]
+Name = Kingambit Voidcore
+NamePlural = Kingambit Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Kingambit to enter Void Corruption.
+
+#-------------------------------
+[CERULEDGEVOIDCORE]
+Name = Ceruledge Voidcore
+NamePlural = Ceruledge Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Ceruledge to enter Void Corruption.
+
+#-------------------------------
+[HARIYAMAVOIDCORE]
+Name = Hariyama Voidcore
+NamePlural = Hariyama Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Hariyama to enter Void Corruption.
+
+#-------------------------------
+[MACHAMPVOIDCORE]
+Name = Machamp Voidcore
+NamePlural = Machamp Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Machamp to enter Void Corruption.
+
+#-------------------------------
+[METAGROSSVOIDCORE]
+Name = Metagross Voidcore
+NamePlural = Metagross Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Metagross to enter Void Corruption.
+
+#-------------------------------
+[GOLURKVOIDCORE]
+Name = Golurk Voidcore
+NamePlural = Golurk Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Golurk to enter Void Corruption.
+
+#-------------------------------
+[SABLEYEVOIDCORE]
+Name = Sableye Voidcore
+NamePlural = Sableye Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Sableye to enter Void Corruption.
+
+#-------------------------------
+[AGGRONVOIDCORE]
+Name = Aggron Voidcore
+NamePlural = Aggron Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Aggron to enter Void Corruption.
+
+#-------------------------------
+[TYRANTRUMVOIDCORE]
+Name = Tyrantrum Voidcore
+NamePlural = Tyrantrum Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Tyrantrum to enter Void Corruption.
+
+#-------------------------------
+[RHYPERIORVOIDCORE]
+Name = Rhyperior Voidcore
+NamePlural = Rhyperior Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Rhyperior to enter Void Corruption.
+
+#-------------------------------
+[URSHIFUVOIDCORE]
+Name = Urshifu Voidcore
+NamePlural = Urshifu Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Urshifu to enter Void Corruption.
+
+#-------------------------------
+[BANETTEVOIDCORE]
+Name = Banette Voidcore
+NamePlural = Banette Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Banette to enter Void Corruption.
+
+#-------------------------------
+[VICTREEBELVOIDCORE]
+Name = Victreebel Voidcore
+NamePlural = Victreebel Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Victreebel to enter Void Corruption.
+
+#-------------------------------
+[VIKAVOLTVOIDCORE]
+Name = Vikavolt Voidcore
+NamePlural = Vikavolt Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Vikavolt to enter Void Corruption.
+
+#-------------------------------
+[VOLCARONAVOIDCORE]
+Name = Volcarona Voidcore
+NamePlural = Volcarona Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Volcarona to enter Void Corruption.
+
+#-------------------------------
+[WAILORDVOIDCORE]
+Name = Wailord Voidcore
+NamePlural = Wailord Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Wailord to enter Void Corruption.
+
+#-------------------------------
+[TYRANITARVOIDCORE]
+Name = Tyranitar Voidcore
+NamePlural = Tyranitar Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Tyranitar to enter Void Corruption.
+
+#-------------------------------
+[MAWILEVOIDCORE]
+Name = Mawile Voidcore
+NamePlural = Mawile Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A dark core that allows Mawile to enter Void Corruption.
+#-------------------------------

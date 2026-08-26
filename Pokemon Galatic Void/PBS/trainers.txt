@@ -836,3 +836,127 @@ Pokemon = ABSOL,35
     Item = SITRUSBERRY
     IV = 15,15,15,15,15,15
 #-------------------------------
+[HIKER,Brent]
+LoseText = Solid as stone... but not solid enough!
+Pokemon = GRAVELER,30
+Pokemon = SANDSLASH,31
+#-------------------------------
+[RUINMANIAC,Dale]
+LoseText = I dug too deep into that battle!
+Pokemon = RHYHORN,30
+Pokemon = CLAYDOL,31
+Pokemon = ONIX,31
+#-------------------------------
+[ENGINEER,Mason]
+LoseText = Marcus has a surprise waiting for you that’s a lot harder to overcome.
+Pokemon = DRILBUR,31
+Pokemon = GRAVELER,31
+Pokemon = MUDSDALE,32
+#-------------------------------
+[BACKPACKER_LASS,Tessa]
+LoseText = That battle shook my whole disguise!
+Pokemon = NUMEL,30
+Pokemon = SANDACONDA,32
+Pokemon = RHYHORN,32
+#-------------------------------
+[RUINMANIAC,Cole]
+LoseText = You buried my strategy!
+Pokemon = GOLURK,32
+Pokemon = DONPHAN,32
+Pokemon = GEOLIDON,33
+#-------------------------------
+[HIKER,Carter]
+LoseText = Guess my disguise was better than my battling!
+Pokemon = GRAVELER,31
+Pokemon = DRILBUR,31
+Pokemon = SANDACONDA,32
+#-------------------------------
+[NEGAEVAN,Nega Evan,1]
+LoseText = Huh... you actually pulled it off.
+
+Pokemon = LUCARIO,43
+    Moves = AURASPHERE,METEORMASH,DARKPULSE,CALMMIND
+    Item = WISEGLASSES
+    IV = 25,25,25,25,25,25
+Pokemon = EMPOLEON,44
+    Moves = SURF,FLASHCANNON,ICEBEAM,AQUAJET
+    Item = MYSTICWATER
+    IV = 25,25,25,25,25,25
+Pokemon = DELPHOX,44
+    Moves = FLAMETHROWER,PSYCHIC,WILLOWISP,CALMMIND
+    Item = CHARCOAL
+    IV = 25,25,25,25,25,25
+Pokemon = HAWLUCHA,45
+    Moves = AERIALACE,BRICKBREAK,SWORDSDANCE,ROOST
+    Item = SHARPBEAK
+    IV = 25,25,25,25,25,25
+Pokemon = BANETTE,46
+    Moves = SHADOWCLAW,WILLOWISP,SUCKERPUNCH,CONFUSERAY
+    Item = SPELLTAG
+    IV = 25,25,25,25,25,25
+Pokemon = TYRANITAR,47
+    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE,DRAGONCLAW
+    Item = SITRUSBERRY
+    IV = 28,28,28,28,28,28
+#-------------------------------
+[NEGAEVAN,Nega Evan,2]
+LoseText = Okay... you're becoming a problem.
+
+Pokemon = CERULEDGE,55
+    Moves = BITTERBLADE,SHADOWCLAW,SWORDSDANCE,NIGHTSLASH
+    Item = CHARCOAL
+    IV = 31,31,31,31,31,31
+Pokemon = SNORLAX,56
+    Moves = BODYSLAM,CRUNCH,REST,HEAVYSLAM
+    Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+Pokemon = CRABOMINABLE,56
+    Moves = ICEPUNCH,BRICKBREAK,ROCKSLIDE,EARTHQUAKE
+    Item = BLACKBELT
+    IV = 31,31,31,31,31,31
+Pokemon = CONQUESS,57
+    Moves = SMARTSTRIKE,HEADBUTT,IRONDEFENSE,BRICKBREAK
+    Item = METALCOAT
+    IV = 31,31,31,31,31,31
+Pokemon = NEBUNOX,58
+    Moves = DARKPULSE,STARPULSE,NASTYPLOT,COSMICPOWER
+    Item = BLACKGLASSES
+    IV = 31,31,31,31,31,31
+Pokemon = DARKRAI,60
+    Moves = DARKPULSE,HYPNOSIS,DREAMEATER,NASTYPLOT
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[NEGAEVAN,Nega Evan,3]
+LoseText = ...You beat everything I had?
+
+Pokemon = TYRANITAR,78
+    Moves = STONEEDGE,CRUNCH,EARTHQUAKE,DRAGONDANCE
+    Item = SMOOTHROCK
+    IV = 31,31,31,31,31,31
+
+Pokemon = DELPHOX,79
+    Moves = FLAMETHROWER,PSYCHIC,SHADOWBALL,CALMMIND
+    Item = LIFEORB
+    IV = 31,31,31,31,31,31
+
+Pokemon = CERULEDGE,80
+   Moves = BITTERBLADE,SHADOWCLAW,SWORDSDANCE,CLOSECOMBAT
+    Item = SPELLTAG
+    IV = 31,31,31,31,31,31
+
+Pokemon = DARKRAI,81
+    Moves = DARKPULSE,HYPNOSIS,DREAMEATER,NASTYPLOT
+    Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+
+Pokemon = ARCEUS,82
+    Moves = JUDGMENT,RECOVER,EARTHPOWER,CALMMIND
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
+
+Pokemon = LUCARIO,85
+    Moves = AURASPHERE,METEORMASH,DARKPULSE,SWORDSDANCE
+    Item = LUCARIOVOIDCORE
+    IV = 31,31,31,31,31,31
+#-------------------------------
