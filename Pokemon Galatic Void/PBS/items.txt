@@ -6609,3 +6609,20 @@ Price = 0
 FieldUse = Direct
 Flags = EvolutionStone
 Description = A radiant stone filled with galactic energy. Its strange power can trigger a special transformation.
+#-------------------------------
+[OBLIVIXVOIDCORE]
+Name = Oblivix Voidcore
+NamePlural = Oblivix Voidcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A strange core that lets Oblivix enter Void Corruption.
+#-------------------------------
+[OBLIVIXSTARCORE]
+Name = Oblivix Starcore
+NamePlural = Oblivix Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that lets Oblivix enter Galaxy Corruption.
+#-------------------------------
