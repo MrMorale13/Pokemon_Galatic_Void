@@ -273,7 +273,7 @@ module GalacticVoidCorruption
   }
 
   DRAIN_DENOMINATOR = 8
-end
+
   #-----------------------------------------------------------------------------
   # Gets the Corruption Stone data for this Pokemon.
   #-----------------------------------------------------------------------------
