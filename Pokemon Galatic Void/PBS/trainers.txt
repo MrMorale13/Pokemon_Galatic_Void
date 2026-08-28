@@ -910,3 +910,15 @@ Pokemon = LUCARIO,85
     Moves = AURASPHERE,METEORMASH,DARKPULSE,SWORDSDANCE
     Item = LUCARIOVOIDCORE
     IV = 31,31,31,31,31,31
+#-------------------------------
+[NERD_1,Billy]
+LoseText = ERM What?
+Pokemon = BUNEARY,7
+    Moves = POUND,DEFENSECURL,QUICKATTACK
+Pokemon = RALTS,7
+    Moves = CONFUSION,GROWL,DOUBLETEAM
+Pokemon = PIKACHU,8
+    Moves = THUNDERSHOCK,GROWL,TAILWHIP,QUICKATTACK
+    Item = ORANBERRY
+    IV = 15,15,15,15,15,15
+#-------------------------------

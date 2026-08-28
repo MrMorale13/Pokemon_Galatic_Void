@@ -30,23 +30,27 @@ Water,2
 #-------------------------------
 [032] # V&G Route 1
 Land,10
-    25,PIDGEY,3,5
-    20,SENTRET,3,5
+    20,PIDGEY,3,5
+    16,SENTRET,3,5
     15,SPROUTSY,3,5
     12,CATERPIE,3,4
-    10,BUNEARY,3,5
+    12,PETIDAW,3,5
     8,BUDEW,3,5
+    7,BUNEARY,3,5
     5,PIKACHU,4,5
     5,RALTS,4,5
+
 LandNight,10
-    25,HOOTHOOT,3,5
+    20,HOOTHOOT,3,5
     20,SPINARAK,3,5
-    15,SENTRET,3,5
     15,SPROUTSY,3,5
-    10,BUNEARY,3,5
+    12,SENTRET,3,5
+    10,PETIDAW,3,5
+    8,BUNEARY,3,5
     5,ODDISH,3,5
     5,PIKACHU,4,5
     5,RALTS,4,5
+
 Water,2
     50,MAGIKARP,3,5
     25,WOOPER,3,5

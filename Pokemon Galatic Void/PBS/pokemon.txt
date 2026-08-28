@@ -23906,9 +23906,10 @@ HatchSteps = 3840
 Height = 0.5
 Weight = 7.0
 Color = Brown
-Shape = Quadruped
-Habitat = Grassland
-Category = Pup
+Evolutions = CROOBER,Level,18
+Shape = Winged
+Habitat = Forest
+Category = Tiny Bird
 Pokedex = A playful puppy Pokémon that follows travelers hoping for food. It quickly grows attached to kind trainers.
 Generation = 9
 #-------------------------------
@@ -23929,9 +23930,9 @@ HatchSteps = 3840
 Height = 0.6
 Weight = 9.0
 Color = Black
-Shape = Quadruped
-Habitat = Urban
-Category = Sneak Pup
+Shape = Winged
+Habitat = Forest
+Category = Bird
 Pokedex = Known for sneaking into camps at night to steal food. It disappears into the shadows before anyone notices.
 Generation = 9
 #-------------------------------
