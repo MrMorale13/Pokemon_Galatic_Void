@@ -161,6 +161,7 @@ MapSize = 2,1101
 Name = Route 1
 Outdoor = true
 ShowArea = true
+BattleBack = field
 Environment = Grass
 #-------------------------------
 [033]   # Crescent Hill
@@ -423,6 +424,7 @@ Name = Route 3
 Outdoor = true
 ShowArea = true
 Weather = Storm,100
+BattleBack = field
 Environment = Grass
 #-------------------------------
 [081]   # ocean 1
@@ -444,6 +446,7 @@ Weather = Rain,100
 Name = Route 3
 Outdoor = true
 Weather = Storm,100
+BattleBack = field
 Environment = Grass
 #-------------------------------
 [085]   # Silverpine Town
@@ -461,14 +464,17 @@ DarkMap = true
 Name = Starfall Cavern 1f
 Outdoor = true
 DarkMap = true
+BattleBack = cave
 Environment = Cave
 #-------------------------------
 [097]   # Cave r3_bottom
 Name = Starfallen Cavern bf
+BattleBack = cave
 #-------------------------------
 [098]   # Cave r3_top
 Name = Starfallen Cavern 2f
 DarkMap = true
+BattleBack = cave
 Environment = Cave
 #-------------------------------
 [099]   # Haunted Gym Basement
@@ -478,23 +484,28 @@ DarkMap = true
 [100]   # ???
 Name = ???
 ShowArea = true
+BattleBack = cave
+Environment = Cave
 #-------------------------------
 [101]   # King Trail
 Name = King Trail
 Outdoor = true
 ShowArea = true
 Bicycle = true
+BattleBack = forest
 Environment = Forest
 #-------------------------------
 [102]   # King Trail A2
 Name = King Trail A2
 Outdoor = true
-Environment = Forest
+BattleBack = forest
+Environment = ForestGrass
 #-------------------------------
 [103]   # King Trail A3
 Name = King Trail A3
 Outdoor = true
 Weather = Fog,100
+BattleBack = forest
 Environment = ForestGrass
 #-------------------------------
 [104]   # Old Maple
@@ -506,6 +517,7 @@ ShowArea = true
 Name = V&G Route 4
 Outdoor = true
 Bicycle = true
+BattleBack = field
 Environment = Grass
 #-------------------------------
 [116]   # V&G Route 5
@@ -513,3 +525,12 @@ Name = Route 5
 Outdoor = true
 Weather = Sandstorm,25
 Environment = Rock
+#-------------------------------
+[123]   # Red House
+BattleBack = indoor
+#-------------------------------
+[124]   # Yellow House
+BattleBack = indoor
+#-------------------------------
+[125]   # Green House
+BattleBack = indoor
