@@ -185,11 +185,11 @@ Pokemon = RHINPLINK,5
 #-------------------------------
 [RIVAL1,Evan,3]
 LoseText = Seriously? I thought I had you this time...
-Pokemon = PETIDAW,12
-    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+Pokemon = RALTS,12
+    Moves = CONFUSION,GROWL,DOUBLETEAM,TELEPORT
     IV = 15,15,15,15,15,15
-Pokemon = SHINX,13
-    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+Pokemon = ROCKRUFF,13
+    Moves = TACKLE,LEER,SANDATTACK,ROCKTHROW
     IV = 15,15,15,15,15,15
 Pokemon = SKINDLING,14
     Moves = EMBER,BITE,GROWL,QUICKATTACK
@@ -198,11 +198,11 @@ Pokemon = SKINDLING,14
 #-------------------------------
 [RIVAL1,Evan,4]
 LoseText = Seriously? I thought I had you this time...
-Pokemon = PETIDAW,12
-    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+Pokemon = RALTS,12
+    Moves = CONFUSION,GROWL,DOUBLETEAM,TELEPORT
     IV = 15,15,15,15,15,15
-Pokemon = SHINX,13
-    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+Pokemon = ROCKRUFF,13
+    Moves = TACKLE,LEER,SANDATTACK,ROCKTHROW
     IV = 15,15,15,15,15,15
 Pokemon = DAMPYBARA,14
     Moves = WATERGUN,BITE,GROWL,QUICKATTACK
@@ -211,11 +211,11 @@ Pokemon = DAMPYBARA,14
 #-------------------------------
 [RIVAL1,Evan,5]
 LoseText = Seriously? I thought I had you this time...
-Pokemon = PETIDAW,12
-    Moves = BITE,QUICKATTACK,GROWL,SANDATTACK
+Pokemon = RALTS,12
+    Moves = CONFUSION,GROWL,DOUBLETEAM,TELEPORT
     IV = 15,15,15,15,15,15
-Pokemon = SHINX,13
-    Moves = TACKLE,LEER,THUNDERSHOCK,CHARGE
+Pokemon = ROCKRUFF,13
+    Moves = TACKLE,LEER,SANDATTACK,ROCKTHROW
     IV = 15,15,15,15,15,15
 Pokemon = RHINPLINK,14
     Moves = VINEWHIP,TACKLE,GROWL,ROCKTHROW
