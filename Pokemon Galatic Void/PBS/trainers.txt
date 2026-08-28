@@ -31,7 +31,7 @@ Pokemon = ONIX,14
     Ball = HEAVYBALL
 #-------------------------------
 [LEADER_Bordo,Bordo]
-Items = SUPERPOTION,FULLRESTORE
+Items = SUPERPOTION,SUPERPOTION
 LoseText = Looks like your strategy outpaced my electricity!
 Pokemon = SHINX,11
     Moves = SPARK,BITE,THUNDERWAVE,LEER
@@ -145,7 +145,7 @@ Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
 #-------------------------------
 [LEADER_Age,Age]
-Items = FULLRESTORE,POTION
+Items = FULLRESTORE,SUPERPOTION
 LoseText = ...
 Pokemon = SKRELP,16
     Moves = WATERPULSE,ACID,SMOKESCREEN,HARDEN
@@ -921,4 +921,27 @@ Pokemon = PIKACHU,8
     Moves = THUNDERSHOCK,GROWL,TAILWHIP,QUICKATTACK
     Item = ORANBERRY
     IV = 15,15,15,15,15,15
+#-------------------------------
+[LEADER_Marcus,Marcus]
+LoseText = So that's what you're capable of...
+Items = SUPERPOTION,FULLRESTORE
+
+Pokemon = BOLDORE,33
+    Moves = ROCKSLIDE,IRONDEFENSE,BULLDOZE,STEALTHROCK
+    Item = HARDSTONE
+
+Pokemon = CONKREEP,34
+    Moves = ROCKTHROW,METALSOUND,IRONDEFENSE,HEADBUTT
+
+Pokemon = GRAVETTLE,34
+    Moves = BUGBITE,ROCKSLIDE,STARPULSE,IRONDEFENSE
+    Item = SITRUSBERRY
+
+Pokemon = MAWILE,35
+    Moves = CRUNCH,IRONDEFENSE,FAIRYWIND,BITE
+
+Pokemon = TYRANITAR,36
+    Moves = ROCKSLIDE,CRUNCH,EARTHQUAKE,SCARYFACE
+    Item = TYRANITARVOIDCORE
+    IV = 31,31,31,31,31,31
 #-------------------------------

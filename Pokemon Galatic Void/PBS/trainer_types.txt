@@ -436,7 +436,7 @@ BattleBGM = Battle trainer
 VictoryBGM = Battle victory
 #-------------------------------
 [LEADER_Anthony]
-Name = Leader
+Name = Gym Leader
 Gender = Male
 BaseMoney = 80
 BattleBGM = Battle Gym Leader
@@ -535,3 +535,12 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Corrupt_Evan
 VictoryBGM = Battle victory trainer
+#-------------------------------
+[LEADER_Marcus]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+SkillLevel = 70
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
