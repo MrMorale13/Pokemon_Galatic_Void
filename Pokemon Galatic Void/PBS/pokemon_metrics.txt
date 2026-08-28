@@ -5737,8 +5737,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [RHINTAIN]
-BackSprite = 0,0
-FrontSprite = 0,7
+BackSprite = 0,7
+FrontSprite = -2,17
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -5767,8 +5767,8 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [MORTARINE]
-BackSprite = 0,0
-FrontSprite = 0,7
+BackSprite = 0,16
+FrontSprite = 7,6
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -6811,7 +6811,7 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CONARCH]
-BackSprite = 0,6
+BackSprite = 0,19
 FrontSprite = 0,7
 ShadowX = 0
 ShadowSize = 3
@@ -6847,10 +6847,10 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [CONVALIER]
-BackSprite = 0,6
-FrontSprite = 0,12
+BackSprite = 0,22
+FrontSprite = 7,15
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [ZAMBOOSE]
 BackSprite = 0,13
@@ -6953,3 +6953,9 @@ BackSprite = 0,47
 FrontSprite = 0,33
 ShadowX = 19
 ShadowSize = 2
+#-------------------------------
+[TYRANITAR,2]
+BackSprite = 0,13
+FrontSprite = 9,7
+ShadowX = 0
+ShadowSize = 3

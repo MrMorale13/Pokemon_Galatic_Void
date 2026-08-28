@@ -138,10 +138,17 @@ module GalacticVoidCorruption
     ],
 
     :LUCARIOVOIDCORE => [
-      :LUCARIO,
+    :LUCARIO,
       VOID,
       0,
-      VOID_FORM
+      2
+    ],
+
+    :LUCARIOSTARCORE => [
+      :LUCARIO,
+      GALAXY,
+      0,
+      3
     ],
 
     :KINGAMBITVOIDCORE => [
@@ -260,7 +267,7 @@ module GalacticVoidCorruption
       :TYRANITAR,
       VOID,
       0,
-      VOID_FORM
+      2
     ],
 
     :MAWILEVOIDCORE => [

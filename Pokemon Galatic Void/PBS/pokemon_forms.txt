@@ -786,6 +786,18 @@ Weight = 255.0
 Pokedex = Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.
 Generation = 6
 #-------------------------------
+[TYRANITAR,2]
+FormName = Void Corruption
+Types = ROCK,VOID
+Abilities = INTIMIDATE
+HiddenAbilities = MOLDBREAKER
+Height = 2.0
+Weight = 202.0
+Color = Black
+Category = Void Armor
+Pokedex = Void energy seeps through the cracks in Tyranitar's armor, intensifying its destructive instincts and surrounding it in an unstable dark aura.
+Generation = 9
+#-------------------------------
 [SCEPTILE,1]
 FormName = Mega Sceptile
 MegaStone = SCEPTILITE
@@ -1159,6 +1171,30 @@ Height = 1.3
 Weight = 57.5
 Pokedex = It readies itself to face its enemies by focusing its mental energies. Its fighting style can be summed up in a single word: heartless.
 Generation = 6
+#-------------------------------
+[LUCARIO,2]
+FormName = Void Corruption
+Types = FIGHTING,VOID
+Abilities = STEADFAST
+HiddenAbilities = JUSTIFIED
+Height = 1.3
+Weight = 57.5
+Color = Black
+Category = Void Aura
+Pokedex = Void energy overwhelms Lucario's aura, twisting it into a destructive force that tears through the energy surrounding its opponents.
+Generation = 9
+#-------------------------------
+[LUCARIO,3]
+FormName = Galaxy Corruption
+Types = FIGHTING,GALAXY
+Abilities = INNERFOCUS
+HiddenAbilities = JUSTIFIED
+Height = 1.3
+Weight = 57.5
+Color = Blue
+Category = Star Aura
+Pokedex = Cosmic energy floods Lucario's aura, transforming it into a brilliant stellar force capable of sensing disturbances across immense distances.
+Generation = 9
 #-------------------------------
 [ABOMASNOW,1]
 FormName = Mega Abomasnow
