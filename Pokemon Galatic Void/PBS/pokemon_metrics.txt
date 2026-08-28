@@ -904,7 +904,7 @@ ShadowSize = 2
 BackSprite = 0,39
 FrontSprite = 0,14
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 1
 #-------------------------------
 [CHIKORITA]
 BackSprite = 0,37
@@ -1058,7 +1058,7 @@ ShadowSize = 1
 #-------------------------------
 [TOGETIC]
 BackSprite = 0,33
-FrontSprite = 0,22
+FrontSprite = 0,16
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -1574,9 +1574,9 @@ ShadowSize = 2
 #-------------------------------
 [MIGHTYENA]
 BackSprite = 0,24
-FrontSprite = 0,20
+FrontSprite = 2,23
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [ZIGZAGOON]
 BackSprite = 0,42
@@ -6856,4 +6856,100 @@ ShadowSize = 2
 BackSprite = 0,13
 FrontSprite = 0,25
 ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[WISPBIT]
+BackSprite = 0,20
+FrontSprite = 0,13
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[VACUUB]
+BackSprite = 0,30
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SNOWPLOW]
+BackSprite = 0,36
+FrontSprite = 0,22
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[RIFTALON]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[NULLIMP]
+BackSprite = 0,23
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[NEBUNOX]
+BackSprite = 0,29
+FrontSprite = 5,15
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[LUNACORN]
+BackSprite = 0,2
+FrontSprite = -4,11
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ABYSSPROUT]
+BackSprite = 0,19
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ABYSSURSA]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ASTRAPTOR]
+BackSprite = 0,28
+FrontSprite = 0,20
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ASTROFIN]
+BackSprite = 0,50
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[COMETIP]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[COSMOLE]
+BackSprite = 0,43
+FrontSprite = 0,24
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DREADBLOOM]
+BackSprite = 0,17
+FrontSprite = 0,20
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[EVENTIDE]
+BackSprite = 0,25
+FrontSprite = 0,20
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GRAVETTLE]
+BackSprite = 0,47
+FrontSprite = 0,33
+ShadowX = 19
 ShadowSize = 2

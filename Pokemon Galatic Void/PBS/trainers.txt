@@ -146,7 +146,7 @@ Pokemon = BLASTOISE,63
 #-------------------------------
 [LEADER_Age,Age]
 Items = FULLRESTORE,POTION
-LoseText = Ah… impressive. You didn't get swept away after all.
+LoseText = ...
 Pokemon = SKRELP,16
     Moves = WATERPULSE,ACID,SMOKESCREEN,HARDEN
     AbilityIndex = 0
@@ -277,7 +277,7 @@ Pokemon = TWINS,18
     Moves = PSYBEAM,CONFUSERAY,DISABLE,MEANLOOK
 #-------------------------------
 [TEAMVOID,Grunt,5]
-LoseText = Boss!
+LoseText = ...
 Pokemon = PACKBATS,18
     Moves = BITE,WINGATTACK,QUICKATTACK,FOCUSENERGY
 Pokemon = CROOBER,17
@@ -439,11 +439,11 @@ Pokemon = SNEASEL,21
     Moves = QUICKATTACK,ICYWIND,FEINTATTACK,METALCLAW
 #-------------------------------
 [HIKER,Grant]
-LoseText = You climbed right over my defenses!
-Pokemon = GRAVELER,20
-    Moves = ROCKTHROW,MAGNITUDE,DEFENSECURL,ROLLOUT
-Pokemon = STALAD,20
-    Moves = BITE,HEADBUTT,LEER,ROCKTOMB
+LoseText = You climbed right over my strategy!
+Pokemon = CONKREEP,26
+    Moves = METALCLAW,HEADBUTT,SMARTSTRIKE,IRONDEFENSE
+Pokemon = GRAVETTLE,28
+    Moves = BUGBITE,ROCKTHROW,STARPULSE,IRONDEFENSE
 #-------------------------------
 [BACKPACKER_F,Riley]
 LoseText = I guess you were better prepared!
@@ -493,7 +493,7 @@ Pokemon = BUDEW,5
 Pokemon = PETIDAW,6
     Moves = TACKLE,GROWL,SANDATTACK
 #-------------------------------
-[PICNICKER_1,Gorlok ]
+[PICNICKER_1,Gorlok]
 LoseText = My strategy got squashed!
 Pokemon = CATERPIE,5
     Moves = TACKLE,STRINGSHOT
@@ -535,7 +535,7 @@ Pokemon = FINNEON,19
     Moves = WATERGUN,GUST,ATTRACT,SAFEGUARD
 Pokemon = HORSEA,20
     Moves = BUBBLE,SMOKESCREEN,WATERGUN,TWISTER
-
+#-------------------------------
 [LASS,Meg]
 LoseText = Okay, I definitely underestimated you!
 Pokemon = BUDEW,19
@@ -598,13 +598,6 @@ Pokemon = STANTLER,26
 Pokemon = LUNACORN,27
     Moves = STARPULSE,SYNTHESIS,MAGICALLEAF,CONFUSERAY
 #-------------------------------
-[HIKER,Grant]
-LoseText = You climbed right over my strategy!
-Pokemon = CONKREEP,26
-    Moves = METALCLAW,HEADBUTT,SMARTSTRIKE,IRONDEFENSE
-Pokemon = GRAVETTLE,28
-    Moves = BUGBITE,ROCKTHROW,STARPULSE,IRONDEFENSE
-#-------------------------------
 [COOLTRAINER_M,Darius]
 LoseText = Okay, you've earned that badge.
 Pokemon = TROPIUS,27
@@ -631,10 +624,8 @@ Pokemon = LUNACORN,28
 #-------------------------------
 [FISHERMAN,Reed]
 LoseText = Guess the fish weren't biting today!
-
 Pokemon = POLIWHIRL,27
     Moves = WATERGUN,HYPNOSIS,MUDSHOT,BUBBLEBEAM
-
 Pokemon = BASCULIN,28
     Moves = AQUAJET,BITE,HEADBUTT,SCARYFACE
 #-------------------------------
@@ -669,13 +660,6 @@ Pokemon = LUNACORN,31
     Item = SITRUSBERRY
     IV = 15,15,15,15,15,15
 #-------------------------------
-[FISHERMAN,Reed]
-LoseText = Guess the fish weren't biting today!
-Pokemon = POLIWHIRL,27
-    Moves = WATERGUN,HYPNOSIS,MUDSHOT,BUBBLEBEAM
-Pokemon = BASCULIN,28
-    Moves = AQUAJET,BITE,HEADBUTT,SCARYFACE
-#-------------------------------
 [AROMALADY,Maribel]
 LoseText = I thought I had that one!
 Pokemon = ROSELIA,27
@@ -709,26 +693,19 @@ Pokemon = LUNACORN,31
 #-------------------------------
 [MEDIUM,Selene]
 LoseText = The spirits were quieter than usual...
-
 Pokemon = WISPBIT,29
     Moves = HEX,WILLOWISP,SHADOWBALL,COSMICPOWER
-
 Pokemon = PUMPKABOO,30
     Moves = RAZORLEAF,LEECHSEED,SHADOWSNEAK,CONFUSERAY
-
 Pokemon = NULLIMP,31
     Moves = HEX,VOIDCLAW,WILLOWISP,BLACKOUT
 #-------------------------------
-
 [PSYCHIC_M,Lucian]
 LoseText = I couldn't predict that outcome...
-
 Pokemon = HAUNTER,29
     Moves = HEX,CONFUSERAY,SHADOWBALL,SPITE
-
 Pokemon = NEBUNOX,30
     Moves = BITE,STARPULSE,NASTYPLOT,DARKPULSE
-
 Pokemon = MIMIKYU,31
     Moves = SHADOWSNEAK,CHARM,FEINTATTACK,SHADOWCLAW
 #-------------------------------
@@ -746,7 +723,7 @@ Pokemon = LUCARIO,32
     IV = 15,15,15,15,15,15
 #-------------------------------
 [AROMALADY_A,Aurelia]
-LoseText = Your light shines brighter than mine!
+LoseText = ...
 Pokemon = VOLBEAT,29
     Moves = CONFUSERAY,QUICKATTACK,MOONLIGHT,SIGNALBEAM
 Pokemon = LUXIO,30
@@ -760,16 +737,12 @@ Pokemon = AMPHAROS,32
 #-------------------------------
 [MEDIUM_C,Camellia]
 LoseText = The spirits have chosen their answer...
-
 Pokemon = HAUNTER,30
     Moves = HEX,CONFUSERAY,SHADOWBALL,SPITE
-
 Pokemon = MIMIKYU,31
     Moves = SHADOWSNEAK,CHARM,SHADOWCLAW,FEINTATTACK
-
 Pokemon = NULLIMP,31
     Moves = HEX,VOIDCLAW,WILLOWISP,BLACKOUT
-
 Pokemon = TREVENANT,33
     Moves = HEX,LEECHSEED,WILLOWISP,SHADOWCLAW
     Item = SITRUSBERRY
@@ -777,49 +750,35 @@ Pokemon = TREVENANT,33
 #-------------------------------
 [BIRDKEEPER,Theo]
 LoseText = Guess I got clipped!
-
 Pokemon = STARAVIA,31
     Moves = WINGATTACK,QUICKATTACK,DOUBLETEAM,ENDEAVOR
-
 Pokemon = MURKROW,32
     Moves = WINGATTACK,FEINTATTACK,HAZE,TAUNT
 #-------------------------------
-
 [POKEMONBREEDER,Maisie]
 LoseText = Looks like we still have some growing to do!
-
 Pokemon = DEERLING,31
     Moves = DOUBLEKICK,LEECHSEED,TAKEDOWN,AROMATHERAPY
-
 Pokemon = TEDDIURSA,32
     Moves = FURYSWIPES,FEINTATTACK,SWEETSCENT,SLASH
-
 Pokemon = ROSELIA,33
     Moves = GIGADRAIN,LEECHSEED,STUNSPORE,MAGICALLEAF
 #-------------------------------
-
 [RUINMANIAC,Cliff]
 LoseText = Maybe I should stick to exploring...
-
 Pokemon = SANDSLASH,32
     Moves = BULLDOZE,FURYCUTTER,SWIFT,SLASH
-
 Pokemon = GRAVELER,33
     Moves = ROCKTHROW,BULLDOZE,SELFDESTRUCT,ROCKBLAST
-
 Pokemon = MAWILE,33
     Moves = BITE,FAIRYWIND,IRONDEFENSE,CRUNCH
 #-------------------------------
-
 [BACKPACKER_F,Jade]
 LoseText = Okay, that was worth stopping for!
-
 Pokemon = GOGOAT,32
     Moves = RAZORLEAF,TAKEDOWN,BULLDOZE,SYNTHESIS
-
 Pokemon = ABSOL,33
     Moves = SLASH,BITE,SWORDSDANCE,QUICKATTACK
-
 Pokemon = NEBUNOX,34
     Moves = STARPULSE,BITE,NASTYPLOT,DARKPULSE
 #-------------------------------
@@ -873,7 +832,6 @@ Pokemon = SANDACONDA,32
 #-------------------------------
 [NEGAEVAN,Nega Evan,1]
 LoseText = Huh... you actually pulled it off.
-
 Pokemon = LUCARIO,43
     Moves = AURASPHERE,METEORMASH,DARKPULSE,CALMMIND
     Item = WISEGLASSES
@@ -901,7 +859,6 @@ Pokemon = TYRANITAR,47
 #-------------------------------
 [NEGAEVAN,Nega Evan,2]
 LoseText = Okay... you're becoming a problem.
-
 Pokemon = CERULEDGE,55
     Moves = BITTERBLADE,SHADOWCLAW,SWORDSDANCE,NIGHTSLASH
     Item = CHARCOAL
@@ -929,34 +886,27 @@ Pokemon = DARKRAI,60
 #-------------------------------
 [NEGAEVAN,Nega Evan,3]
 LoseText = ...You beat everything I had?
-
 Pokemon = TYRANITAR,78
     Moves = STONEEDGE,CRUNCH,EARTHQUAKE,DRAGONDANCE
     Item = SMOOTHROCK
     IV = 31,31,31,31,31,31
-
 Pokemon = DELPHOX,79
     Moves = FLAMETHROWER,PSYCHIC,SHADOWBALL,CALMMIND
     Item = LIFEORB
     IV = 31,31,31,31,31,31
-
 Pokemon = CERULEDGE,80
-   Moves = BITTERBLADE,SHADOWCLAW,SWORDSDANCE,CLOSECOMBAT
+    Moves = BITTERBLADE,SHADOWCLAW,SWORDSDANCE,CLOSECOMBAT
     Item = SPELLTAG
     IV = 31,31,31,31,31,31
-
 Pokemon = DARKRAI,81
     Moves = DARKPULSE,HYPNOSIS,DREAMEATER,NASTYPLOT
     Item = LEFTOVERS
     IV = 31,31,31,31,31,31
-
 Pokemon = ARCEUS,82
     Moves = JUDGMENT,RECOVER,EARTHPOWER,CALMMIND
     Item = SITRUSBERRY
     IV = 31,31,31,31,31,31
-
 Pokemon = LUCARIO,85
     Moves = AURASPHERE,METEORMASH,DARKPULSE,SWORDSDANCE
     Item = LUCARIOVOIDCORE
     IV = 31,31,31,31,31,31
-#-------------------------------

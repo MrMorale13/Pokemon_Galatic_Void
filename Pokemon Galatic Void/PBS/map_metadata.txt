@@ -104,6 +104,7 @@ Environment = Grass
 #-------------------------------
 [022]   # King City
 Name = King City
+Outdoor = true
 ShowArea = true
 #-------------------------------
 [023]   # Lerucean Town
@@ -157,13 +158,14 @@ BattleBack = field
 MapSize = 2,1101
 #-------------------------------
 [032]   # V&G Route 1
-Name = V&G Route 1
+Name = Route 1
 Outdoor = true
 ShowArea = true
 Environment = Grass
 #-------------------------------
 [033]   # Crescent Hill
 Name = Crescent Hill
+Outdoor = true
 ShowArea = true
 #-------------------------------
 [034]   # Ice Cave
@@ -413,6 +415,7 @@ BattleBack = city
 #-------------------------------
 [076]   # Azure Bay
 Name = Azure Bay City
+Outdoor = true
 ShowArea = true
 #-------------------------------
 [080]   # V&G Route 3
@@ -438,15 +441,16 @@ Outdoor = true
 Weather = Rain,100
 #-------------------------------
 [084]   # V&G Route 3.5
-Name = V&G Route 3.5
+Name = Route 3
 Outdoor = true
 Weather = Storm,100
 Environment = Grass
 #-------------------------------
-[085]   # Richmond Hill 
+[085]   # Silverpine Town
 Name = Silverpine Town
 Outdoor = true
-Weather = Storm,50
+ShowArea = true
+Weather = Rain,100
 SnapEdges = true
 #-------------------------------
 [086]   # Haunted Gym Battle
@@ -454,14 +458,16 @@ Name = Haunted Gym Battle
 DarkMap = true
 #-------------------------------
 [092]   # cave r3
-Name = Starfall Cavern
+Name = Starfall Cavern 1f
+Outdoor = true
 DarkMap = true
 Environment = Cave
 #-------------------------------
 [097]   # Cave r3_bottom
+Name = Starfallen Cavern bf
 #-------------------------------
 [098]   # Cave r3_top
-Name = Cave r3_top
+Name = Starfallen Cavern 2f
 DarkMap = true
 Environment = Cave
 #-------------------------------
@@ -469,12 +475,19 @@ Environment = Cave
 Name = Haunted Gym Basement
 DarkMap = true
 #-------------------------------
+[100]   # ???
+Name = ???
+ShowArea = true
+#-------------------------------
 [101]   # King Trail
+Name = King Trail
 Outdoor = true
+ShowArea = true
 Bicycle = true
 Environment = Forest
 #-------------------------------
 [102]   # King Trail A2
+Name = King Trail A2
 Outdoor = true
 Environment = Forest
 #-------------------------------
@@ -484,7 +497,19 @@ Outdoor = true
 Weather = Fog,100
 Environment = ForestGrass
 #-------------------------------
+[104]   # Old Maple
+Name = Old Maple
+Outdoor = true
+ShowArea = true
+#-------------------------------
 [115]   # V&G Route 4
+Name = V&G Route 4
 Outdoor = true
 Bicycle = true
 Environment = Grass
+#-------------------------------
+[116]   # V&G Route 5
+Name = Route 5
+Outdoor = true
+Weather = Sandstorm,25
+Environment = Rock

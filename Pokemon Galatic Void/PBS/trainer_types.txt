@@ -24,20 +24,22 @@ BaseMoney = 60
 Name = Rival
 Gender = Male
 BaseMoney = 16
-BattleBGM = Champion_Evan
+BattleBGM = Rival_Evan
 VictoryBGM = Battle victory trainer
 #-------------------------------
 [RIVAL2]
 Name = Rival
 Gender = Male
 BaseMoney = 36
-BattleBGM = Champion_Evan
+BattleBGM = Rival_Evan
 VictoryBGM = Battle victory trainer
 #-------------------------------
 [RIVAL3]
 Name = Rival
 Gender = Male
 BaseMoney = 36
+BattleBGM = Rival_Evan
+VictoryBGM = Battle victory trainer
 #-------------------------------
 [AROMALADY]
 Name = Aroma Lady
@@ -531,7 +533,5 @@ VictoryBGM = Battle victory trainer
 Name = Nega Evan
 Gender = Male
 BaseMoney = 100
-SkillLevel = 100
 BattleBGM = Corrupt_Evan
 VictoryBGM = Battle victory trainer
-#-------------------------------
