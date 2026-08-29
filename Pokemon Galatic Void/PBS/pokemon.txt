@@ -23936,6 +23936,31 @@ Habitat = Forest
 Category = Thief Bird
 Pokedex = Croober watches travelers from the treetops before swooping down to steal food and shiny objects. Its dark feathers make it difficult to spot after sunset.
 Generation = 9
+Evolutions = RAVENDLER,Level,34
+#-------------------------------
+[RAVENDLER]
+Name = Ravendler
+Types = DARK,FLYING
+BaseStats = 70,100,70,100,65,70
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 170
+EVs = ATTACK,2
+CatchRate = 90
+Happiness = 70
+Abilities = KEENEYE
+HiddenAbilities = BIGPECKS
+Moves = 1,PECK,1,LEER,1,QUICKATTACK,1,BITE,18,WINGATTACK,22,TAUNT,26,AERIALACE,30,ASSURANCE,34,PLUCK,38,AGILITY,42,CRUNCH,46,AIRSLASH,50,TAILWIND,54,BRAVEBIRD
+EggGroups = Flying
+HatchSteps = 3840
+Height = 1.2
+Weight = 24.5
+Color = Black
+Shape = Winged
+Habitat = Forest
+Category = Raven Pokémon
+Pokedex = It patrols the skies in near silence, watching travelers from the treetops. Males display blue feathers while females bear vivid red markings.
+Generation = 9
 #-------------------------------
 [CERULEDGE]
 Name = Ceruledge
