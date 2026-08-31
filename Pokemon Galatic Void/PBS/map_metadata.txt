@@ -527,10 +527,13 @@ Weather = Sandstorm,25
 Environment = Rock
 #-------------------------------
 [123]   # Red House
+Name = Red House
 BattleBack = indoor
 #-------------------------------
 [124]   # Yellow House
+Name = Yellow House
 BattleBack = indoor
 #-------------------------------
 [125]   # Green House
+Name = Green House
 BattleBack = indoor
