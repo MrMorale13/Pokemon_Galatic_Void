@@ -60,11 +60,11 @@
 83,North,22,81,South,0
 # ocean border 2 (83) - ocean 2 (82)
 83,North,0,82,South,0
-# Silverpine Town (85) - V&G Route 3.5 (84)
-85,North,9,84,South,0
 # King Trail A2 (102) - V&G Route 4 (115)
 102,North,9,115,South,0
 # V&G Route 4 (115) - Old Maple (104)
 115,North,0,104,South,1
 # V&G Route 5 (116) - Old Maple (104)
 116,West,0,104,East,0
+# Silverpine Town (85) - V&G Route 3.5 (84)
+85,9,0,84,0,36
