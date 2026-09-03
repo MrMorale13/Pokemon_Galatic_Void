@@ -198,11 +198,11 @@ Pokemon = SKINDLING,14
 #-------------------------------
 [RIVAL1,Evan,4]
 LoseText = Seriously? I thought I had you this time...
-Pokemon = RALTS,12
-    Moves = CONFUSION,GROWL,DOUBLETEAM,TELEPORT
+Pokemon = PIKACHU,12
+    Moves = THUNDERSHOCK,THUNDERWAVE,DOUBLETEAM,ELECTROBALL
     IV = 15,15,15,15,15,15
-Pokemon = ROCKRUFF,13
-    Moves = TACKLE,LEER,SANDATTACK,ROCKTHROW
+Pokemon = POLIWAG,13
+    Moves = WATERGUN,HYPNOSIS,POUND,MUDSHOT
     IV = 15,15,15,15,15,15
 Pokemon = DAMPYBARA,14
     Moves = WATERGUN,BITE,GROWL,QUICKATTACK
@@ -211,16 +211,75 @@ Pokemon = DAMPYBARA,14
 #-------------------------------
 [RIVAL1,Evan,5]
 LoseText = Seriously? I thought I had you this time...
-Pokemon = RALTS,12
-    Moves = CONFUSION,GROWL,DOUBLETEAM,TELEPORT
+Pokemon = SANDSHREW,12
+    Moves = SCRATCH,DEFENSECURL,SANDATTACK,ROLLOUT
     IV = 15,15,15,15,15,15
-Pokemon = ROCKRUFF,13
-    Moves = TACKLE,LEER,SANDATTACK,ROCKTHROW
+Pokemon = ODDISH,13
+    Moves = ABSORB,ACID,GROWTH,MEGADRAIN
     IV = 15,15,15,15,15,15
 Pokemon = RHINPLINK,14
     Moves = VINEWHIP,TACKLE,GROWL,ROCKTHROW
     Item = ORANBERRY
     IV = 20,20,20,20,20,20
+#-------------------------------
+[RIVAL1,Evan,6]
+LoseText = What?! I barely gave you room to breathe!
+Pokemon = CROOBER,26
+    Moves = WINGATTACK,FEINTATTACK,ASSURANCE,QUICKATTACK
+    IV = 18,18,18,18,18,18
+Pokemon = LYCANROC,27
+    Moves = ACCELEROCK,ROCKTOMB,BITE,HOWL
+    IV = 18,18,18,18,18,18
+Pokemon = HERACROSS,27
+    Moves = AERIALACE,BRICKBREAK,FURYATTACK,ENDURE
+    IV = 20,20,20,20,20,20
+Pokemon = BASCULIN,28
+    Moves = AQUAJET,BITE,HEADBUTT,SCARYFACE
+    IV = 20,20,20,20,20,20
+Pokemon = SKINGNITE,29
+    Moves = FLAMECHARGE,SLASH,FIREFANG,QUICKATTACK
+    Item = SITRUSBERRY
+    IV = 22,22,22,22,22,22
+#-------------------------------
+[RIVAL1,Evan,7]
+LoseText = Seriously?! Even the rain wasn't enough?!
+Pokemon = PELIPPER,26
+    Moves = WATERPULSE,WINGATTACK,SUPERSONIC,TAILWIND
+    AbilityIndex = 1
+    IV = 18,18,18,18,18,18
+Pokemon = POLIWHIRL,27
+    Moves = WATERGUN,HYPNOSIS,MUDSHOT,BUBBLEBEAM
+    IV = 18,18,18,18,18,18
+Pokemon = ROSELIA,27
+    Moves = MEGADRAIN,LEECHSEED,STUNSPORE,MAGICALLEAF
+    IV = 20,20,20,20,20,20
+Pokemon = LOMBRE,28
+    Moves = FAKEOUT,BUBBLEBEAM,MEGADRAIN,TEETERDANCE
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = GLOVET,29
+    Moves = AQUAJET,BRICKBREAK,ICEPUNCH,WATERGUN
+    Item = SITRUSBERRY
+    IV = 22,22,22,22,22,22
+#-------------------------------
+[RIVAL1,Evan,8]
+LoseText = No way... I planned for everything this time!
+Pokemon = PINECO,28
+    Moves = SPIKES,PROTECT,ROLLOUT,RAPIDSPIN
+    IV = 18,18,18,18,18,18
+Pokemon = SHUPPET,27
+    Moves = WILLOWISP,HEX,CURSE,SHADOWSNEAK
+    IV = 18,18,18,18,18,18
+Pokemon = STANTLER,28
+    Moves = HYPNOSIS,STOMP,CONFUSERAY,CALMMIND
+    IV = 20,20,20,20,20,20
+Pokemon = PAWNIARD,28
+    Moves = METALCLAW,FURYCUTTER,FEINTATTACK,SCARYFACE
+    IV = 20,20,20,20,20,20
+Pokemon = TRUNKORN,29
+    Moves = RAZORLEAF,BULLDOZE,LEECHSEED,GROWTH
+    Item = SITRUSBERRY
+    IV = 22,22,22,22,22,22
 #-------------------------------
 [TEAMVOID,Grunt]
 LoseText = The admin won't like this...
