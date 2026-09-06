@@ -595,7 +595,7 @@ Pokemon = FINNEON,19
 Pokemon = HORSEA,20
     Moves = BUBBLE,SMOKESCREEN,WATERGUN,TWISTER
 #-------------------------------
-[LASS,Meg]
+[BEAUTY,Meg]
 LoseText = Okay, I definitely underestimated you!
 Pokemon = BUDEW,19
     Moves = ABSORB,GROWTH,STUNSPORE,MEGADRAIN
