@@ -7,283 +7,71 @@ module GalacticVoidCorruption
   VOID   = :VOID
   GALAXY = :GALAXY
 
-  # Keep Corruption forms away from existing
-  # Mega/regional/alternate forms.
   VOID_FORM   = 10
   GALAXY_FORM = 11
 
-  # Format:
-  # ITEM => [
-  #   SPECIES,
-  #   MODE,
-  #   NORMAL FORM,
-  #   CORRUPTION FORM
-  # ]
-  #
-  # Form 10 = Void Corruption
-  # Form 11 = Galaxy Corruption
-
+  # ITEM => [SPECIES, MODE, NORMAL FORM, CORRUPTION FORM]
   STONES = {
+    :OBLIVIXVOIDCORE   => [:OBLIVIX,   VOID,   0, VOID_FORM],
+    :OBLIVIXSTARCORE   => [:OBLIVIX,   GALAXY, 0, GALAXY_FORM],
 
-    #=======================================================================
-    # BOTH VOID + GALAXY
-    #=======================================================================
+    :ERUPTILEVOIDCORE  => [:ERUPTILE,  VOID,   0, VOID_FORM],
+    :ERUPTILESTARCORE  => [:ERUPTILE,  GALAXY, 0, GALAXY_FORM],
 
-    :OBLIVIXVOIDCORE => [
-      :OBLIVIX,
-      VOID,
-      0,
-      VOID_FORM
-    ],
+    :MORTARINEVOIDCORE => [:MORTARINE, VOID,   0, VOID_FORM],
+    :MORTARINESTARCORE => [:MORTARINE, GALAXY, 0, GALAXY_FORM],
 
-    :OBLIVIXSTARCORE => [
-      :OBLIVIX,
-      GALAXY,
-      0,
-      GALAXY_FORM
-    ],
+    :GALLADEVOIDCORE   => [:GALLADE,   VOID,   0, VOID_FORM],
+    :GALLADESTARCORE   => [:GALLADE,   GALAXY, 0, GALAXY_FORM],
 
-    :ERUPTILEVOIDCORE => [
-      :ERUPTILE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
+    :GARCHOMPSTARCORE  => [:GARCHOMP,  GALAXY, 0, GALAXY_FORM],
+    :HYDREIGONSTARCORE => [:HYDREIGON, GALAXY, 0, GALAXY_FORM],
 
-    :ERUPTILESTARCORE => [
-      :ERUPTILE,
-      GALAXY,
-      0,
-      GALAXY_FORM
-    ],
+    :GENGARVOIDCORE    => [:GENGAR,    VOID,   0, VOID_FORM],
+    :FLAREONVOIDCORE   => [:FLAREON,   VOID,   0, VOID_FORM],
+    :SWAMPERTVOIDCORE  => [:SWAMPERT,  VOID,   0, VOID_FORM],
+    :ELECTIVIREVOIDCORE=> [:ELECTIVIRE,VOID,   0, VOID_FORM],
 
-    :MORTARINEVOIDCORE => [
-      :MORTARINE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
+    # Lucario:
+    # 0 = Normal
+    # 1 = Mega
+    # 2 = Void
+    # 3 = Galaxy
+    :LUCARIOVOIDCORE   => [:LUCARIO,   VOID,   0, 2],
+    :LUCARIOSTARCORE   => [:LUCARIO,   GALAXY, 0, 3],
 
-    :MORTARINESTARCORE => [
-      :MORTARINE,
-      GALAXY,
-      0,
-      GALAXY_FORM
-    ],
+    :KINGAMBITVOIDCORE => [:KINGAMBIT, VOID,   0, VOID_FORM],
+    :CERULEDGEVOIDCORE => [:CERULEDGE, VOID,   0, VOID_FORM],
+    :HARIYAMAVOIDCORE  => [:HARIYAMA,  VOID,   0, VOID_FORM],
+    :MACHAMPVOIDCORE   => [:MACHAMP,   VOID,   0, VOID_FORM],
+    :METAGROSSVOIDCORE => [:METAGROSS, VOID,   0, VOID_FORM],
+    :GOLURKVOIDCORE    => [:GOLURK,    VOID,   0, VOID_FORM],
+    :SABLEYEVOIDCORE   => [:SABLEYE,   VOID,   0, VOID_FORM],
+    :AGGRONVOIDCORE    => [:AGGRON,    VOID,   0, VOID_FORM],
+    :TYRANTRUMVOIDCORE => [:TYRANTRUM, VOID,   0, VOID_FORM],
+    :RHYPERIORVOIDCORE => [:RHYPERIOR, VOID,   0, VOID_FORM],
+    :URSHIFUVOIDCORE   => [:URSHIFU,   VOID,   0, VOID_FORM],
+    :BANETTEVOIDCORE   => [:BANETTE,   VOID,   0, VOID_FORM],
+    :VICTREEBELVOIDCORE=> [:VICTREEBEL,VOID,   0, VOID_FORM],
+    :VIKAVOLTVOIDCORE  => [:VIKAVOLT,  VOID,   0, VOID_FORM],
+    :VOLCARONAVOIDCORE => [:VOLCARONA, VOID,   0, VOID_FORM],
+    :WAILORDVOIDCORE   => [:WAILORD,   VOID,   0, VOID_FORM],
 
-    :GALLADEVOIDCORE => [
-      :GALLADE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
+    # Tyranitar:
+    # 0 = Normal
+    # 1 = Mega
+    # 2 = Void
+    :TYRANITARVOIDCORE => [:TYRANITAR, VOID,   0, 2],
 
-    :GALLADESTARCORE => [
-      :GALLADE,
-      GALAXY,
-      0,
-      GALAXY_FORM
-    ],
-
-
-    #=======================================================================
-    # GALAXY ONLY
-    #=======================================================================
-
-    :GARCHOMPSTARCORE => [
-      :GARCHOMP,
-      GALAXY,
-      0,
-      GALAXY_FORM
-    ],
-
-    :HYDREIGONSTARCORE => [
-      :HYDREIGON,
-      GALAXY,
-      0,
-      GALAXY_FORM
-    ],
-
-
-    #=======================================================================
-    # VOID ONLY
-    #=======================================================================
-
-    :GENGARVOIDCORE => [
-      :GENGAR,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :FLAREONVOIDCORE => [
-      :FLAREON,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :SWAMPERTVOIDCORE => [
-      :SWAMPERT,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :ELECTIVIREVOIDCORE => [
-      :ELECTIVIRE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :LUCARIOVOIDCORE => [
-    :LUCARIO,
-      VOID,
-      0,
-      2
-    ],
-
-    :LUCARIOSTARCORE => [
-      :LUCARIO,
-      GALAXY,
-      0,
-      3
-    ],
-
-    :KINGAMBITVOIDCORE => [
-      :KINGAMBIT,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :CERULEDGEVOIDCORE => [
-      :CERULEDGE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :HARIYAMAVOIDCORE => [
-      :HARIYAMA,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :MACHAMPVOIDCORE => [
-      :MACHAMP,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :METAGROSSVOIDCORE => [
-      :METAGROSS,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :GOLURKVOIDCORE => [
-      :GOLURK,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :SABLEYEVOIDCORE => [
-      :SABLEYE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :AGGRONVOIDCORE => [
-      :AGGRON,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :TYRANTRUMVOIDCORE => [
-      :TYRANTRUM,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :RHYPERIORVOIDCORE => [
-      :RHYPERIOR,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :URSHIFUVOIDCORE => [
-      :URSHIFU,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :BANETTEVOIDCORE => [
-      :BANETTE,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :VICTREEBELVOIDCORE => [
-      :VICTREEBEL,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :VIKAVOLTVOIDCORE => [
-      :VIKAVOLT,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :VOLCARONAVOIDCORE => [
-      :VOLCARONA,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :WAILORDVOIDCORE => [
-      :WAILORD,
-      VOID,
-      0,
-      VOID_FORM
-    ],
-
-    :TYRANITARVOIDCORE => [
-      :TYRANITAR,
-      VOID,
-      0,
-      2
-    ],
-
-    :MAWILEVOIDCORE => [
-      :MAWILE,
-      VOID,
-      0,
-      VOID_FORM
-    ]
-
+    :MAWILEVOIDCORE    => [:MAWILE,    VOID,   0, VOID_FORM]
   }
 
   DRAIN_DENOMINATOR = 8
 
-  #-----------------------------------------------------------------------------
-  # Gets the Corruption Stone data for this Pokemon.
-  #-----------------------------------------------------------------------------
+
+  #=============================================================================
+  # Gets Corruption Core data
+  #=============================================================================
 
   def self.stone_data(pkmn)
     return nil if !pkmn
@@ -297,9 +85,9 @@ module GalacticVoidCorruption
   end
 
 
-  #-----------------------------------------------------------------------------
-  # Checks that the required form actually exists.
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Checks whether the required Corruption form exists
+  #=============================================================================
 
   def self.form_exists?(species, form)
     form_id =
@@ -315,9 +103,9 @@ module GalacticVoidCorruption
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Stat multipliers
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   def self.attack_multiplier(mode)
     return 2.5 if mode == VOID
@@ -363,15 +151,14 @@ class Pokemon
   def hasCorruptionForm?
     return false if corrupted?
 
-    data = getCorruptionData
+    data =
+      getCorruptionData
 
     return false if !data
 
-    # Must be in the correct normal form.
     return false if
       form_simple != data[2]
 
-    # The corrupted form must exist.
     return GalacticVoidCorruption.form_exists?(
       data[0],
       data[3]
@@ -380,7 +167,8 @@ class Pokemon
 
 
   def makeCorrupted
-    data = getCorruptionData
+    data =
+      getCorruptionData
 
     return false if !data
 
@@ -453,9 +241,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Attack
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   alias \
     gv_corruption_attack \
@@ -481,9 +269,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Special Attack
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   alias \
     gv_corruption_spatk \
@@ -509,9 +297,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Defense
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   alias \
     gv_corruption_defense \
@@ -537,9 +325,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Special Defense
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   alias \
     gv_corruption_spdef \
@@ -565,9 +353,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Raw Speed
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   alias \
     gv_corruption_speed \
@@ -593,9 +381,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
-  # Actual battle turn-order Speed
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Actual battle Speed
+  #=============================================================================
 
   alias \
     gv_corruption_pbSpeed \
@@ -621,9 +409,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
-  # Corruption Stones can't be stolen from their proper species.
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Matching Corruption Cores cannot be stolen
+  #=============================================================================
 
   alias \
     gv_corruption_unlosableItem \
@@ -638,6 +426,7 @@ class Battle::Battler
 
     if data &&
        data[0] == @species
+
       return true
     end
 
@@ -647,9 +436,9 @@ class Battle::Battler
   end
 
 
-  #-----------------------------------------------------------------------------
-  # Revert if the Pokemon faints.
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Revert after fainting
+  #=============================================================================
 
   alias \
     gv_corruption_pbFaint \
@@ -675,16 +464,16 @@ end
 #===============================================================================
 # Battle Corruption System
 #
-# -1 = Corruption hasn't been used
-# >=0 = Battler selected to Corrupt this turn
-# -2 = Trainer has already used Corruption
+# -1 = Corruption available
+# >=0 = Battler selected to Corrupt
+# -2 = Trainer already used Corruption
 #===============================================================================
 
 class Battle
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Corruption state
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   def corruption
     @corruption ||= [
@@ -709,9 +498,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Can this battler Corrupt?
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   def pbCanCorrupt?(idxBattler)
     battler =
@@ -731,6 +520,7 @@ class Battle
     if battler.effects[
          PBEffects::SkyDrop
        ] >= 0
+
       return false
     end
 
@@ -748,9 +538,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Register Corruption
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   def pbRegisterCorruption(
     idxBattler
@@ -760,8 +550,6 @@ class Battle
         idxBattler
       )
 
-    # One Pokemon can't select Mega and
-    # Corruption at the same time.
     pbUnregisterMegaEvolution(
       idxBattler
     )
@@ -788,9 +576,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Unregister Corruption
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   def pbUnregisterCorruption(
     idxBattler
@@ -822,9 +610,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
+  #=============================================================================
   # Toggle Corruption
-  #-----------------------------------------------------------------------------
+  #=============================================================================
 
   def pbToggleRegisteredCorruption(
     idxBattler
@@ -862,9 +650,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
-  # Is this battler registered to Corrupt?
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Is this battler registered?
+  #=============================================================================
 
   def pbRegisteredCorruption?(
     idxBattler
@@ -892,7 +680,7 @@ class Battle
 
 
   #=============================================================================
-  # Actually Corrupt
+  # Perform Corruption
   #=============================================================================
 
   def pbCorrupt(idxBattler)
@@ -924,19 +712,22 @@ class Battle
       ][owner] !=
       idxBattler
 
+
     old_ability =
       battler.ability_id
+
 
     data =
       battler.pokemon.
         getCorruptionData
+
 
     mode =
       data[1]
 
 
     #---------------------------------------------------------------------------
-    # Break Illusion, like Mega Evolution does.
+    # Break Illusion like normal Mega Evolution
     #---------------------------------------------------------------------------
 
     if battler.hasActiveAbility?(
@@ -955,7 +746,7 @@ class Battle
 
 
     #---------------------------------------------------------------------------
-    # Transformation message
+    # Core activation message
     #---------------------------------------------------------------------------
 
     pbDisplay(
@@ -967,10 +758,9 @@ class Battle
     )
 
 
-    #---------------------------------------------------------------------------
-    # Placeholder animation.
-    # Later we'll replace this with a custom Corruption animation.
-    #---------------------------------------------------------------------------
+    #===========================================================================
+    # MEGA EVOLUTION ANIMATION - FIRST HALF
+    #===========================================================================
 
     pbCommonAnimation(
       "MegaEvolution",
@@ -979,29 +769,37 @@ class Battle
 
 
     #---------------------------------------------------------------------------
-    # Change form
+    # Change into Corruption form
     #---------------------------------------------------------------------------
 
     return false if
       !battler.pokemon.
         makeCorrupted
 
+
     battler.form =
       battler.pokemon.form
+
 
     battler.pbUpdate(
       true
     )
+
 
     @scene.pbChangePokemon(
       battler,
       battler.pokemon
     )
 
+
     @scene.pbRefreshOne(
       idxBattler
     )
 
+
+    #===========================================================================
+    # MEGA EVOLUTION ANIMATION - SECOND HALF
+    #===========================================================================
 
     pbCommonAnimation(
       "MegaEvolution2",
@@ -1010,7 +808,7 @@ class Battle
 
 
     #---------------------------------------------------------------------------
-    # Void/Galaxy message
+    # Corruption result message
     #---------------------------------------------------------------------------
 
     if mode ==
@@ -1040,7 +838,7 @@ class Battle
 
 
     #---------------------------------------------------------------------------
-    # This trainer has now used Corruption.
+    # Corruption has now been used
     #---------------------------------------------------------------------------
 
     corruption[
@@ -1049,19 +847,20 @@ class Battle
 
 
     #---------------------------------------------------------------------------
-    # Trigger changed ability if the Corrupted form has one.
+    # Handle changed ability
     #---------------------------------------------------------------------------
 
     battler.pbOnLosingAbility(
       old_ability
     )
 
+
     battler.
       pbTriggerAbilityOnGainingIt
 
 
     #---------------------------------------------------------------------------
-    # Recalculate priority because Void changes Speed.
+    # Recalculate turn order
     #---------------------------------------------------------------------------
 
     if Settings::
@@ -1075,6 +874,7 @@ class Battle
       )
     end
 
+
     return true
   end
 
@@ -1082,7 +882,7 @@ class Battle
   #=============================================================================
   # Corruption HP Drain
   #
-  # Both Void and Galaxy lose 1/8 maximum HP every round.
+  # Both Void and Galaxy lose 1/8 max HP every round.
   #=============================================================================
 
   def pbCorruptionDrain(
@@ -1131,9 +931,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
-  # Add the drain to the real v21.1 end-of-round phase.
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Add drain to end-of-round effects
+  #=============================================================================
 
   alias \
     gv_corruption_pbEOREndBattlerSelfEffects \
@@ -1153,13 +953,14 @@ class Battle
 
 
   #=============================================================================
-  # Activate Corruption before attacks.
+  # Activate Corruption before moves
   #=============================================================================
 
   def pbAttackPhaseCorruption
     pbPriority.each do |battler|
 
-      next if battler.wild?
+      next if
+        battler.wild?
 
       next if
         battler.fainted?
@@ -1191,6 +992,7 @@ class Battle
   end
 
 
+  # Run after normal Mega Evolution processing
   alias \
     gv_corruption_pbAttackPhaseMegaEvolution \
     pbAttackPhaseMegaEvolution
@@ -1203,7 +1005,7 @@ class Battle
 
 
   #=============================================================================
-  # Prevent one Pokemon from Mega Evolving and Corrupting simultaneously.
+  # Prevent Mega + Corruption simultaneously
   #=============================================================================
 
   alias \
@@ -1236,6 +1038,10 @@ class Battle
   end
 
 
+  #=============================================================================
+  # Registering Mega clears pending Corruption
+  #=============================================================================
+
   alias \
     gv_corruption_pbRegisterMegaEvolution \
     pbRegisterMegaEvolution
@@ -1253,10 +1059,9 @@ class Battle
   end
 
 
-  #-----------------------------------------------------------------------------
-  # pbCancelChoice in Essentials already unregisters Mega Evolution.
-  # By hooking this, cancelling a command also unregisters Corruption.
-  #-----------------------------------------------------------------------------
+  #=============================================================================
+  # Cancelling Mega also clears pending Corruption
+  #=============================================================================
 
   alias \
     gv_corruption_pbUnregisterMegaEvolution \
@@ -1276,9 +1081,7 @@ class Battle
 
 
   #=============================================================================
-  # Reset unfinished selections at the beginning of each command phase.
-  #
-  # -2 remains untouched because that means Corruption has already been used.
+  # Reset unfinished selections each command phase
   #=============================================================================
 
   alias \
@@ -1310,7 +1113,7 @@ class Battle
   #=============================================================================
   # Battle cleanup
   #
-  # Corruption is battle-only and must never remain after the battle ends.
+  # Corruption is battle-only.
   #=============================================================================
 
   alias \
@@ -1335,6 +1138,7 @@ class Battle
         next if !pkmn
 
         if pkmn.corrupted?
+
           pkmn.makeUncorrupted
         end
       end
