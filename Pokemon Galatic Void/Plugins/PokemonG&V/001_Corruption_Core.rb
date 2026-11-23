@@ -758,14 +758,10 @@ class Battle
     )
 
 
-    #===========================================================================
-    # MEGA EVOLUTION ANIMATION - FIRST HALF
-    #===========================================================================
-
-    pbCommonAnimation(
-      "MegaEvolution",
-      battler
-    )
+    # Use the built-in transformation animation, which is registered in this
+    # project's Essentials animation data and therefore always resolves during
+    # battle.
+    pbCommonAnimation("MegaEvolution", battler)
 
 
     #---------------------------------------------------------------------------
@@ -797,14 +793,8 @@ class Battle
     )
 
 
-    #===========================================================================
-    # MEGA EVOLUTION ANIMATION - SECOND HALF
-    #===========================================================================
-
-    pbCommonAnimation(
-      "MegaEvolution2",
-      battler
-    )
+    # Play the registered reveal animation after refreshing the new form.
+    pbCommonAnimation("MegaEvolution2", battler)
 
 
     #---------------------------------------------------------------------------
