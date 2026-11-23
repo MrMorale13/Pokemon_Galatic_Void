@@ -537,3 +537,12 @@ BattleBack = indoor
 [125]   # Green House
 Name = Green House
 BattleBack = indoor
+#-------------------------------
+[142]   # Route 17
+Name = Route 17
+#-------------------------------
+[143]   # Jeen Town
+Name = Jeen Town
+#-------------------------------
+[145]   # NewRoute4
+Name = NewRoute4
