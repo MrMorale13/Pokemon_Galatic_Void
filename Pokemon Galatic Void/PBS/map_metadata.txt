@@ -537,3 +537,7 @@ BattleBack = indoor
 [125]   # Green House
 Name = Green House
 BattleBack = indoor
+#-------------------------------
+[143]   # Jeen Town
+#-------------------------------
+[146]   # NR4ext
