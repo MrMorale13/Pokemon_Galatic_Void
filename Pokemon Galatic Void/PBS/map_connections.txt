@@ -34,12 +34,18 @@
 69,North,0,66,South,10
 # Silverpine Town (85) - V&G Route 3.5 (84)
 85,9,0,84,0,36
+# Crescent Hill (33) - NewRoute2 (144)
+33,East,0,144,West,0
+# NewRoute4 (145) - NewRoute2 (144)
+145,North,56,144,South,0
+# Jeen Town (143) - NewRoute2 (144)
+143,West,0,144,East,0
 # V&G Route 2 (21) - Crescent Hill (33)
 21,East,0,33,West,2
 # Azure Bay (76) - Crescent Hill (33)
 76,East,0,33,West,79
-# NewRoute2 (144) - Crescent Hill (33)
-144,West,0,33,East,0
+# NR4ext (146) - Crescent Hill (33)
+146,West,0,33,East,81
 # Azure Bay (76) - V&G Route 2 (21)
 76,North,17,21,South,0
 # NewRoute4 (145) - V&G Route 2 (21)
@@ -72,14 +78,14 @@
 116,West,0,104,East,0
 # King Trail A2 (102) - V&G Route 4 (115)
 102,North,9,115,South,0
-# Jeen Town (143) - NewRoute2 (144)
-143,West,0,144,East,0
-# NewRoute4 (145) - NewRoute2 (144)
-145,North,56,144,South,0
+# Jeen Town (143) - NewRoute4 (145)
+143,West,52,145,East,0
+# NR4ext (146) - NewRoute4 (145)
+146,North,0,145,South,56
 # Route 17 (142) - Jeen Town (143)
 142,West,3,143,East,0
-# NewRoute4 (145) - Jeen Town (143)
-145,East,0,143,West,52
+# NR4ext (146) - Jeen Town (143)
+146,East,0,143,West,81
 # V&G Route 1 (32) - Route 17 (142)
 32,West,0,142,East,0
 # King City (22) - V&G Route 1 (32)
