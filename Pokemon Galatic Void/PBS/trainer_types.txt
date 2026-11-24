@@ -544,3 +544,8 @@ SkillLevel = 70
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
 #-------------------------------
+#-------------------------------
+[OFFICER]
+Name = Officer
+Gender = Male
+BaseMoney = 16

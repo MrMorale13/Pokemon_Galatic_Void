@@ -759,11 +759,11 @@ class Battle
 
 
     #===========================================================================
-    # MEGA EVOLUTION ANIMATION - FIRST HALF
+    # CORRUPTION ANIMATION
     #===========================================================================
 
     pbCommonAnimation(
-      "MegaEvolution",
+      "Corruption",
       battler
     )
 
@@ -794,16 +794,6 @@ class Battle
 
     @scene.pbRefreshOne(
       idxBattler
-    )
-
-
-    #===========================================================================
-    # MEGA EVOLUTION ANIMATION - SECOND HALF
-    #===========================================================================
-
-    pbCommonAnimation(
-      "MegaEvolution2",
-      battler
     )
 
 

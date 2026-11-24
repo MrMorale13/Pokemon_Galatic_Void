@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [YOUNGSTER,Timmy]
 LoseText = Aww, I lost.
@@ -1003,3 +1003,72 @@ Pokemon = TYRANITAR,36
     Item = TYRANITARVOIDCORE
     IV = 31,31,31,31,31,31
 #-------------------------------
+
+# New route trainers for Route 17, NewRoute2, NewRoute4 and NR4ext.
+# Levels follow the connecting Route 1, Route 2 and Azure Bay encounter bands.
+#-------------------------------
+[OFFICER,Rory]
+LoseText = I thought I was ready for the next town!
+Pokemon = PETIDAW,6
+Pokemon = SENTRET,7
+#-------------------------------
+[BUGCATCHER,Lewis]
+LoseText = My little team needs more time to grow!
+Pokemon = CATERPIE,6
+Pokemon = SPROUTSY,7
+#-------------------------------
+[LASS,Mae]
+LoseText = I got distracted watching the river!
+Pokemon = RALTS,7
+Pokemon = BUNEARY,8
+#-------------------------------
+[HIKER,Colin]
+LoseText = That path was steeper than I expected!
+Pokemon = GEOCKO,9
+Pokemon = SANDSHREW,10
+#-------------------------------
+[PICNICKER,Elle]
+LoseText = The picnic can wait. I need a rematch!
+Pokemon = BUNEARY,10
+Pokemon = RALTS,11
+#-------------------------------
+[FISHERMAN,Noel]
+LoseText = My catch got away this time!
+Pokemon = WOOPER,10
+Pokemon = MAGIKARP,11
+#-------------------------------
+[YOUNGSTER,Quinn]
+LoseText = Rockruff, you were great out there!
+Pokemon = ROCKRUFF,12
+Pokemon = SANDILE,13
+#-------------------------------
+[BUGCATCHER,Juniper]
+LoseText = The flowers helped us practice, at least!
+Pokemon = COMBEE,12
+Pokemon = BUDEW,13
+#-------------------------------
+[CAMPER,Marcus]
+LoseText = We had fun exploring together!
+Pokemon = BUIZEL,13
+Pokemon = MEOWTH,14
+#-------------------------------
+[COOLTRAINER_F,Leah]
+LoseText = I still have a lot to learn about team balance.
+Pokemon = MAREEP,14
+Pokemon = ROSELIA,15
+Pokemon = GOOBOLT,16
+#-------------------------------
+[FISHERMAN,Rowan]
+LoseText = The water was calm, but that battle wasn't!
+Pokemon = SHELLOS,14
+Pokemon = WOOPER,15
+#-------------------------------
+[BACKPACKER_M,Calvin]
+LoseText = I packed plenty of supplies, but not enough strategy!
+Pokemon = ROCKRUFF,15
+Pokemon = BUNEARY,16
+#-------------------------------
+[BACKPACKER_F,Sky]
+LoseText = I found another trail to explore!
+Pokemon = SHELLOS,12
+Pokemon = BUIZEL,13
