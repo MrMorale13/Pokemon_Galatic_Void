@@ -6912,3 +6912,22 @@ Price = 0
 Flags = Fling_80
 Description = A dark core that allows Mawile to enter Void Corruption.
 #-------------------------------
+#-------------------------------
+[LABPACKAGE]
+Name = Lab Package
+NamePlural = Lab Packages
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Consumable = false
+Description = A sealed mineral sample from Jeen Town Mart, addressed to the King City lab.
+
+#-------------------------------
+[BAYSAMPLECASE]
+Name = Bay Sample Case
+NamePlural = Bay Sample Cases
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Consumable = false
+Description = A sealed tide-pool sample from Azure Bay Mart for Professor Nova.

@@ -1072,3 +1072,57 @@ Pokemon = BUNEARY,16
 LoseText = I found another trail to explore!
 Pokemon = SHELLOS,12
 Pokemon = BUIZEL,13
+
+#-------------------------------
+[CAMPER,Finn]
+LoseText = You saw that coming!
+Pokemon = SENTRET,9
+Pokemon = PIDGEY,10
+
+#-------------------------------
+[PICNICKER,Fern]
+LoseText = Looks like we need more practice.
+Pokemon = BUDEW,10
+Pokemon = ODDISH,10
+
+#-------------------------------
+[YOUNGSTER,Remy]
+LoseText = You took the lead!
+Pokemon = ZIGZAGOON,10
+Pokemon = ROCKRUFF,11
+
+#-------------------------------
+[HIKER,Dale]
+LoseText = Those boots can wait.
+Pokemon = GEODUDE,10
+Pokemon = MACHOP,11
+
+#-------------------------------
+[HIKER,Petra]
+LoseText = You reached the top first!
+Pokemon = ONIX,12
+Pokemon = MACHOP,13
+
+#-------------------------------
+[AROMALADY,Iris]
+LoseText = That was a fine display!
+Pokemon = COMBEE,12
+Pokemon = ROSELIA,14
+
+#-------------------------------
+[HIKER,Ellis]
+LoseText = Now I know where we stand.
+Pokemon = SANDSHREW,13
+Pokemon = MAGNEMITE,14
+
+#-------------------------------
+[PICNICKER,Tess]
+LoseText = You earned the last sandwich.
+Pokemon = MARILL,13
+Pokemon = BUNEARY,14
+
+#-------------------------------
+[BIRDKEEPER,Wren]
+LoseText = What a sharp eye!
+Pokemon = TAILLOW,14
+Pokemon = SPEAROW,15
