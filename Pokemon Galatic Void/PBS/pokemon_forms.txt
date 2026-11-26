@@ -2388,3 +2388,7 @@ Abilities = CHLOROPHYLL
 HiddenAbilities = FLAMEBODY
 Moves = 1,ABSORB,1,GROWTH,1,ACID,1,EMBER,1,MAGICALLEAF,21,FLAMEBURST,25,MEGADRAIN,29,STUNSPORE,34,PETALBLIZZARD,39,FLAMETHROWER,44,SOLARBEAM
 #-------------------------------
+#-------------------------------
+[GENGAR,10]
+FormName = Void Corruption
+Types = GHOST,VOID
