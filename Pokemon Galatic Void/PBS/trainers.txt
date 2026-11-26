@@ -64,13 +64,13 @@ Pokemon = ELECTABUZZ,20
 #-------------------------------
 [YOUNGSTER,Ben]
 LoseText = Aww, I lost.
-Pokemon = RATTATA,11
-Pokemon = EKANS,11
+Pokemon = BIDOOF,11
+Pokemon = BUDEW,11
 #-------------------------------
 [CAMPER,Jeff]
 LoseText = A very good battle, indeed!
-Pokemon = SPEAROW,16
-Pokemon = SENTRET,16
+Pokemon = HOOTHOOT,16
+Pokemon = SKITTY,16
 #-------------------------------
 [CAMPER,Jeff,1]
 LoseText = You beat me again!
@@ -87,7 +87,7 @@ Pokemon = PERSIAN,32
 #-------------------------------
 [HIKER,Ford]
 LoseText = You're too good for me!
-Pokemon = MACHOP,19
+Pokemon = GOOBOLT,19
 #-------------------------------
 [FISHERMAN,Andrew]
 LoseText = Washed out!
@@ -355,11 +355,9 @@ Pokemon = CUBCHESTRA,18
 #-------------------------------
 [YOUNGSTER,Jimmy]
 LoseText = I should have won.
-Pokemon = RAYQUAZA,100
-    Moves = DRAGONASCENT,DRAGONCLAW,EXTREMESPEED,DRAGONDANCE
+Pokemon = CROOBER,100
     IV = 31,31,31,31,31,31
-Pokemon = ZEKROM,100
-    Moves = BOLTSTRIKE,DRAGONCLAW,CRUNCH,DRAGONDANCE
+Pokemon = MAGNEMITE,100
     IV = 31,31,31,31,31,31
 #-------------------------------
 [LEADER_Anthony,Anthony]
@@ -547,8 +545,7 @@ Pokemon = PIKACHU,5
 #-------------------------------
 [LASS,Mia]
 LoseText = Okay, I definitely underestimated you!
-Pokemon = BUDEW,5
-    Moves = ABSORB,GROWTH,STUNSPORE
+Pokemon = ODDISH,5
 Pokemon = PETIDAW,6
     Moves = TACKLE,GROWL,SANDATTACK
 #-------------------------------
@@ -558,20 +555,17 @@ Pokemon = CATERPIE,5
     Moves = TACKLE,STRINGSHOT
 Pokemon = SPROUTSY,6
     Moves = TACKLE,GROWL,ABSORB
-Pokemon = BUDEW,6
-    Moves = ABSORB,GROWTH,STUNSPORE
+Pokemon = ODDISH,6
 #-------------------------------
 [BACKPACKER_M,Noah]
 LoseText = Loser...
 Pokemon = WOOPER,5
     Moves = WATERGUN,TAILWHIP,MUDSPORT
-Pokemon = PIDGEY,5
-    Moves = TACKLE,GUST,SANDATTACK
+Pokemon = HOOTHOOT,5
 #-------------------------------
 [TEACHER_F,Lily]
 LoseText = Looks like I still have something to learn!
-Pokemon = BUDEW,5
-    Moves = ABSORB,GROWTH
+Pokemon = ODDISH,5
 Pokemon = RALTS,6
     Moves = GROWL,DISARMINGVOICE,CONFUSION
 Pokemon = SPROUTSY,6
@@ -604,8 +598,7 @@ Pokemon = APPRENSITH,21
 #-------------------------------
 [LADY_1,Sabrina]
 LoseText = I think I might barf.
-Pokemon = SNOWPLOW,19
-    Moves = ABSORB,GROWTH,STUNSPORE
+Pokemon = SKRELP,19
 #-------------------------------
 [NERD_1,Nolan]
 LoseText = ERM What?
@@ -629,12 +622,9 @@ Pokemon = APPRENSITH,20
 #-------------------------------
 [BACKPACKER_LASS,Amy]
 LoseText = Okay... I really wasn't expecting that!
-Pokemon = FLABEBE,18
-    Moves = TACKLE,VINEWHIP,FAIRYWIND,LUCKYCHANT
-Pokemon = SKITTY,19
-    Moves = TACKLE,SING,ATTRACT,DOUBLESLAP
-Pokemon = APPRENSITH,20
-    Moves = FAIRYWIND,CHARM,CONFUSION,MEGADRAIN
+Pokemon = CARBINK,18
+Pokemon = MIMIEGG,19
+Pokemon = DEERLING,20
 #-------------------------------
 [BACKPACKER_M,Giovanni]
 LoseText = Guess this trail is tougher than I thought!
@@ -754,15 +744,13 @@ Pokemon = LUNACORN,31
 LoseText = The spirits were quieter than usual...
 Pokemon = WISPBIT,29
     Moves = HEX,WILLOWISP,SHADOWBALL,COSMICPOWER
-Pokemon = PUMPKABOO,30
-    Moves = RAZORLEAF,LEECHSEED,SHADOWSNEAK,CONFUSERAY
+Pokemon = PHANTUMP,30
 Pokemon = NULLIMP,31
     Moves = HEX,VOIDCLAW,WILLOWISP,BLACKOUT
 #-------------------------------
 [PSYCHIC_M,Lucian]
 LoseText = I couldn't predict that outcome...
-Pokemon = HAUNTER,29
-    Moves = HEX,CONFUSERAY,SHADOWBALL,SPITE
+Pokemon = NULLIMP,29
 Pokemon = NEBUNOX,30
     Moves = BITE,STARPULSE,NASTYPLOT,DARKPULSE
 Pokemon = MIMIKYU,31
@@ -809,8 +797,7 @@ Pokemon = TREVENANT,33
 #-------------------------------
 [BIRDKEEPER,Theo]
 LoseText = Guess I got clipped!
-Pokemon = STARAVIA,31
-    Moves = WINGATTACK,QUICKATTACK,DOUBLETEAM,ENDEAVOR
+Pokemon = FARFETCHD,31
 Pokemon = MURKROW,32
     Moves = WINGATTACK,FEINTATTACK,HAZE,TAUNT
 #-------------------------------
@@ -825,12 +812,9 @@ Pokemon = ROSELIA,33
 #-------------------------------
 [RUINMANIAC,Cliff]
 LoseText = Maybe I should stick to exploring...
-Pokemon = SANDSLASH,32
-    Moves = BULLDOZE,FURYCUTTER,SWIFT,SLASH
-Pokemon = GRAVELER,33
-    Moves = ROCKTHROW,BULLDOZE,SELFDESTRUCT,ROCKBLAST
-Pokemon = MAWILE,33
-    Moves = BITE,FAIRYWIND,IRONDEFENSE,CRUNCH
+Pokemon = WHISCASH,32
+Pokemon = CONQUESS,33
+Pokemon = PAWNIARD,33
 #-------------------------------
 [BACKPACKER_F,Jade]
 LoseText = Okay, that was worth stopping for!
@@ -845,8 +829,7 @@ Pokemon = NEBUNOX,34
 LoseText = You've definitely earned those three badges.
 Pokemon = LEAVANNY,33
     Moves = RAZORLEAF,SLASH,STRUGGLEBUG,FELLSTINGER
-Pokemon = LUCARIO,34
-    Moves = FORCEPALM,METALCLAW,BONECLUB,QUICKATTACK
+Pokemon = HERACROSS,34
 Pokemon = GRAVETTLE,34
     Moves = BUGBITE,ROCKSLIDE,STARPULSE,IRONDEFENSE
 Pokemon = ABSOL,35
@@ -1030,7 +1013,7 @@ Pokemon = SANDSHREW,10
 [PICNICKER,Elle]
 LoseText = The picnic can wait. I need a rematch!
 Pokemon = BUNEARY,10
-Pokemon = RALTS,11
+Pokemon = MARILL,11
 #-------------------------------
 [FISHERMAN,Noel]
 LoseText = My catch got away this time!
@@ -1100,7 +1083,7 @@ Pokemon = MACHOP,11
 #-------------------------------
 [HIKER,Petra]
 LoseText = You reached the top first!
-Pokemon = ONIX,12
+Pokemon = GEODUDE,12
 Pokemon = MACHOP,13
 
 #-------------------------------
@@ -1126,3 +1109,41 @@ Pokemon = BUNEARY,14
 LoseText = What a sharp eye!
 Pokemon = TAILLOW,14
 Pokemon = SPEAROW,15
+
+#-------------------------------
+[BACKPACKER_F,Callie]
+LoseText = I packed two lunches and forgot both forks!
+Pokemon = ROCKRUFF,15
+Pokemon = BUNEARY,16
+
+#-------------------------------
+[HIKER,Ronan]
+LoseText = That last step did me in.
+Pokemon = GRAVELER,34
+Pokemon = MACHOKE,35
+
+#-------------------------------
+[PICNICKER,Nell]
+LoseText = Time to fill our bottles.
+Pokemon = GOLBAT,34
+Pokemon = QUAGSIRE,36
+
+#-------------------------------
+[BIRDKEEPER,Corbin]
+LoseText = You beat us to the landing.
+Pokemon = TAILLOW,35
+Pokemon = RIFTALON,36
+
+#-------------------------------
+[HIKER,Flint]
+LoseText = You know this terrain.
+Pokemon = GRAVETTLE,36
+Pokemon = SANDSLASH,37
+Pokemon = ONIX,38
+
+#-------------------------------
+[COOLTRAINER_F,Vera]
+LoseText = I need to rethink my lead.
+Pokemon = MAWILE,36
+Pokemon = COMETIP,37
+Pokemon = QUAGSIRE,38
