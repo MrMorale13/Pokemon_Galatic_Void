@@ -758,44 +758,19 @@ class Battle
     )
 
 
-    #===========================================================================
-    # CORRUPTION ANIMATION
-    #===========================================================================
-
-    pbCommonAnimation(
-      "Corruption",
-      battler
-    )
-
-
-    #---------------------------------------------------------------------------
-    # Change into Corruption form
-    #---------------------------------------------------------------------------
-
-    return false if
-      !battler.pokemon.
-        makeCorrupted
-
-
-    battler.form =
-      battler.pokemon.form
-
-
-    battler.pbUpdate(
+    apply_form = proc do
+      next false unless battler.pokemon.makeCorrupted
+      battler.form = battler.pokemon.form
+      battler.pbUpdate(true)
+      @scene.pbChangePokemon(battler, battler.pokemon)
+      @scene.pbRefreshOne(idxBattler)
       true
-    )
-
-
-    @scene.pbChangePokemon(
-      battler,
-      battler.pokemon
-    )
-
-
-    @scene.pbRefreshOne(
-      idxBattler
-    )
-
+    end
+    if @showAnims && @scene.respond_to?(:pbCorruptionTransition)
+      return false unless @scene.pbCorruptionTransition(battler, &apply_form)
+    else
+      return false unless apply_form.call
+    end
 
     #---------------------------------------------------------------------------
     # Corruption result message
@@ -1138,3 +1113,60 @@ class Battle
     return ret
   end
 end
+# The common animation writes the battler cel each frame. Hold just that
+# battler and its shadow transparent until the new form is ready to reveal.
+module GalacticVoidCorruption
+  module SceneTransition
+    def pbGraphicsUpdate
+      @corruption_hidden_sprites&.each { |sprite| sprite.opacity = 0 }
+      super
+    end
+
+    def pbCorruptionTransition(battler)
+      body = @sprites["pokemon_#{battler.index}"]
+      return yield unless body && body.bitmap && body.visible
+      sprites = [body, @sprites["shadow_#{battler.index}"]].compact
+      original = sprites.map(&:opacity)
+      original_color = body.color.clone
+      blank = Bitmap.new(body.bitmap.width, body.bitmap.height)
+      old_bitmap = body.bitmap
+      begin
+        pbCorruptionFade(sprites, original, 0.18, true)
+        @corruption_hidden_sprites = sprites
+        # Extra animation cels can copy the user's bitmap independently.
+        body.bitmap = blank
+        begin
+          pbCommonAnimation("Corruption", battler)
+        ensure
+          body.bitmap = old_bitmap
+        end
+        changed = yield
+        @corruption_hidden_sprites = nil
+        body.color = original_color
+        pbCorruptionFade(sprites, original, 0.28, false)
+        changed
+      ensure
+        @corruption_hidden_sprites = nil
+        sprites.each_with_index { |sprite, i| sprite.opacity = original[i] }
+        body.color = original_color
+        blank.dispose
+      end
+    end
+
+    private
+
+    def pbCorruptionFade(sprites, original, seconds, fading_out)
+      start = System.uptime
+      loop do
+        t = [(System.uptime - start) / seconds, 1.0].min
+        eased = t * t * (3 - 2 * t)
+        alpha = fading_out ? 1 - eased : eased
+        sprites.each_with_index { |sprite, i| sprite.opacity = (original[i] * alpha).round }
+        pbUpdate
+        break if t >= 1
+      end
+    end
+  end
+end
+
+Battle::Scene.prepend(GalacticVoidCorruption::SceneTransition)

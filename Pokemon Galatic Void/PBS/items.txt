@@ -6931,3 +6931,11 @@ Price = 0
 Flags = KeyItem
 Consumable = false
 Description = A sealed tide-pool sample from Azure Bay Mart for Professor Nova.
+#-------------------------------
+[LUCARIOSTARCORE]
+Name = Lucario Starcore
+NamePlural = Lucario Starcores
+Pocket = 1
+Price = 0
+Flags = Fling_80
+Description = A radiant core that allows Lucario to enter Galaxy Corruption.

@@ -2392,3 +2392,123 @@ Moves = 1,ABSORB,1,GROWTH,1,ACID,1,EMBER,1,MAGICALLEAF,21,FLAMEBURST,25,MEGADRAI
 [GENGAR,10]
 FormName = Void Corruption
 Types = GHOST,VOID
+#-------------------------------
+[OBLIVIX,1]
+FormName = Void Corruption
+Types = DARK,VOID
+#-------------------------------
+[OBLIVIX,2]
+FormName = Galaxy Corruption
+Types = DARK,GALAXY
+#-------------------------------
+[ERUPTILE,10]
+FormName = Void Corruption
+Types = FIRE,VOID
+#-------------------------------
+[ERUPTILE,11]
+FormName = Galaxy Corruption
+Types = FIRE,GALAXY
+#-------------------------------
+[MORTARINE,10]
+FormName = Void Corruption
+Types = WATER,VOID
+#-------------------------------
+[MORTARINE,11]
+FormName = Galaxy Corruption
+Types = WATER,GALAXY
+#-------------------------------
+[GALLADE,10]
+FormName = Void Corruption
+Types = PSYCHIC,VOID
+#-------------------------------
+[GALLADE,11]
+FormName = Galaxy Corruption
+Types = PSYCHIC,GALAXY
+#-------------------------------
+[GARCHOMP,11]
+FormName = Galaxy Corruption
+Types = DRAGON,GALAXY
+#-------------------------------
+[HYDREIGON,11]
+FormName = Galaxy Corruption
+Types = DARK,GALAXY
+#-------------------------------
+[FLAREON,10]
+FormName = Void Corruption
+Types = FIRE,VOID
+#-------------------------------
+[SWAMPERT,10]
+FormName = Void Corruption
+Types = WATER,VOID
+#-------------------------------
+[ELECTIVIRE,10]
+FormName = Void Corruption
+Types = ELECTRIC,VOID
+#-------------------------------
+[KINGAMBIT,10]
+FormName = Void Corruption
+Types = DARK,VOID
+#-------------------------------
+[CERULEDGE,10]
+FormName = Void Corruption
+Types = FIRE,VOID
+#-------------------------------
+[HARIYAMA,10]
+FormName = Void Corruption
+Types = FIGHTING,VOID
+#-------------------------------
+[MACHAMP,10]
+FormName = Void Corruption
+Types = FIGHTING,VOID
+#-------------------------------
+[METAGROSS,10]
+FormName = Void Corruption
+Types = STEEL,VOID
+#-------------------------------
+[GOLURK,10]
+FormName = Void Corruption
+Types = GROUND,VOID
+#-------------------------------
+[SABLEYE,10]
+FormName = Void Corruption
+Types = DARK,VOID
+#-------------------------------
+[AGGRON,10]
+FormName = Void Corruption
+Types = STEEL,VOID
+#-------------------------------
+[TYRANTRUM,10]
+FormName = Void Corruption
+Types = ROCK,VOID
+#-------------------------------
+[RHYPERIOR,10]
+FormName = Void Corruption
+Types = GROUND,VOID
+#-------------------------------
+[URSHIFU,10]
+FormName = Void Corruption
+Types = FIGHTING,VOID
+#-------------------------------
+[BANETTE,10]
+FormName = Void Corruption
+Types = GHOST,VOID
+#-------------------------------
+[VICTREEBEL,10]
+FormName = Void Corruption
+Types = GRASS,VOID
+#-------------------------------
+[VIKAVOLT,10]
+FormName = Void Corruption
+Types = BUG,VOID
+#-------------------------------
+[VOLCARONA,10]
+FormName = Void Corruption
+Types = BUG,VOID
+#-------------------------------
+[WAILORD,10]
+FormName = Void Corruption
+Types = WATER,VOID
+#-------------------------------
+[MAWILE,10]
+FormName = Void Corruption
+Types = STEEL,VOID
