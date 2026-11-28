@@ -18,6 +18,7 @@ MapPosition = 0,13,12
 [004]   # Pokémon Lab
 Name = Pokémon Lab
 MapPosition = 0,13,12
+BattleBack = indoor2
 #-------------------------------
 [005]   # Route 1
 Name = Route 1
@@ -106,6 +107,7 @@ Environment = Grass
 Name = King City
 Outdoor = true
 ShowArea = true
+BattleBack = city
 #-------------------------------
 [023]   # Lerucean Town
 Name = Lerucean Town
@@ -168,6 +170,7 @@ Environment = Grass
 Name = Crescent Hill
 Outdoor = true
 ShowArea = true
+BattleBack = city
 #-------------------------------
 [034]   # Ice Cave
 Name = Route 3
@@ -297,11 +300,12 @@ MapPosition = 0,17,10
 Name = Battle Frontier
 HealingSpot = 52,30,10
 MapPosition = 0,17,10
+BattleBack = champion2
 #-------------------------------
 [056]   # Battle Tower Arena
 Name = Battle Frontier
 MapPosition = 0,17,10
-BattleBack = indoor1
+BattleBack = champion2
 Flags = DisableBoxLink
 #-------------------------------
 [057]   # House 4
@@ -418,6 +422,7 @@ BattleBack = city
 Name = Azure Bay City
 Outdoor = true
 ShowArea = true
+BattleBack = city
 #-------------------------------
 [080]   # V&G Route 05
 Name = Route 3
@@ -431,16 +436,22 @@ Environment = Grass
 Name = ocean 1
 Outdoor = true
 Weather = Rain,100
+BattleBack = water
+Environment = MovingWater
 #-------------------------------
 [082]   # ocean 2
 Name = ocean 2
 Outdoor = true
 Weather = Rain,100
+BattleBack = water
+Environment = MovingWater
 #-------------------------------
 [083]   # ocean border 2
 Name = ocean border 2
 Outdoor = true
 Weather = Rain,100
+BattleBack = water
+Environment = MovingWater
 #-------------------------------
 [084]   # V&G Route 05.5
 Name = Route 3
@@ -455,36 +466,39 @@ Outdoor = true
 ShowArea = true
 Weather = Rain,100
 SnapEdges = true
+BattleBack = city
 #-------------------------------
 [086]   # Haunted Gym Battle
 Name = Haunted Gym Battle
 DarkMap = true
+BattleBack = elite4
 #-------------------------------
 [092]   # cave on Route 5
 Name = Starfall Cavern 1f
-Outdoor = true
 DarkMap = true
-BattleBack = cave
+BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [097]   # Cave R5_bottom
 Name = Starfallen Cavern bf
-BattleBack = cave
+BattleBack = cave3
+Environment = Cave
 #-------------------------------
 [098]   # Cave R5_top
 Name = Starfallen Cavern 2f
 DarkMap = true
-BattleBack = cave
+BattleBack = cave2
 Environment = Cave
 #-------------------------------
 [099]   # Haunted Gym Basement
 Name = Haunted Gym Basement
 DarkMap = true
+BattleBack = elite4
 #-------------------------------
 [100]   # ???
 Name = ???
 ShowArea = true
-BattleBack = cave
+BattleBack = cave3
 Environment = Cave
 #-------------------------------
 [101]   # King Trail
@@ -512,38 +526,44 @@ Environment = ForestGrass
 Name = Old Maple
 Outdoor = true
 ShowArea = true
+BattleBack = forest
+Environment = Forest
 #-------------------------------
 [115]   # V&G Route 06
 Name = V&G Route 4
 Outdoor = true
 Bicycle = true
-BattleBack = field
-Environment = Grass
+BattleBack = forest
+Environment = Forest
 #-------------------------------
 [116]   # V&G Route 07
 Name = Route 5
 Outdoor = true
 Weather = Sandstorm,25
 Environment = Rock
+BattleBack = rocky
 #-------------------------------
 [123]   # Red House
 Name = Red House
-BattleBack = indoor
+BattleBack = indoor1
 #-------------------------------
 [124]   # Yellow House
 Name = Yellow House
-BattleBack = indoor
+BattleBack = indoor1
 #-------------------------------
 [125]   # Green House
 Name = Green House
-BattleBack = indoor
+BattleBack = indoor1
 #-------------------------------
 [142]   # V&G Route 17
 Outdoor = true
+BattleBack = forest
+Environment = Forest
 #-------------------------------
 [143]   # Jeen Town
 Name = Jeen Town
 Outdoor = true
+BattleBack = city
 #-------------------------------
 [144]   # V&G Route 02
 Outdoor = true
@@ -552,7 +572,85 @@ Environment = Forest
 #-------------------------------
 [145]   # V&G Route 04
 Outdoor = true
+BattleBack = field
+Environment = Grass
 #-------------------------------
 [146]   # V&G Route 04 Extension
 Name = V&G Route 04 Extension
 Outdoor = true
+BattleBack = field
+Environment = Grass
+
+#-------------------------------
+[147]   # LeftCaveR5
+BattleBack = cave1
+Environment = Cave
+
+#-------------------------------
+[149]   # RightCaveR5
+BattleBack = cave2
+Environment = Cave
+
+#-------------------------------
+[42]   # Crescent Hill Gym
+BattleBack = indoor3
+
+#-------------------------------
+[77]   # Azure Bay gym floor 1
+BattleBack = indoor2
+
+#-------------------------------
+[78]   # Azure Bay gym floor 2
+BattleBack = indoor2
+
+#-------------------------------
+[79]   # Azure Bay gym Battle
+BattleBack = indoor2
+
+#-------------------------------
+[87]   # Anthony Gym room
+BattleBack = elite4
+
+#-------------------------------
+[94]   # Routes Folder
+BattleBack = field
+
+#-------------------------------
+[112]   # Battle Tower Lobby
+BattleBack = champion2
+
+#-------------------------------
+[113]   # Stadium Cup 1f
+BattleBack = champion2
+
+#-------------------------------
+[138]   # Gym 4
+BattleBack = indoor3
+
+#-------------------------------
+[150]   # Dunip Dessert
+BattleBack = rocky
+Environment = Sand
+Outdoor = true
+
+#-------------------------------
+[152]   # Void Ruins
+BattleBack = rocky
+Environment = Rock
+Outdoor = true
+
+#-------------------------------
+[153]   # V&G Route 09
+BattleBack = rocky
+Environment = Sand
+Outdoor = true
+
+#-------------------------------
+[154]   # LeftExt
+BattleBack = rocky
+Environment = Sand
+Outdoor = true
+
+#-------------------------------
+[378]   # Gym Leader Rematch Arena
+BattleBack = champion2
