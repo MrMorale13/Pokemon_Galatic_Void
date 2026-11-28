@@ -25007,3 +25007,26 @@ Habitat = RoughTerrain
 Category = Big Blade
 Pokedex = Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.
 Generation = 9
+#-------------------------------
+[NIMBIKA]
+Name = Nimbika
+Types = GALAXY,FIGHTING
+BaseStats = 100,145,90,110,70,85
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 270
+EVs = ATTACK,3
+CatchRate = 3
+Happiness = 100
+Abilities = DRUMSOFLIBERATION,TOONFORCE
+Moves = 1,GUMGUMPISTOL,1,BOUNCE,1,POUND,1,LEER,5,QUICKATTACK,10,GUMGUMGATLING,15,DOUBLEHIT,20,GUMGUMJETPISTOL,25,BULKUP,30,DRAINPUNCH,35,GUMGUMREDHAWK,40,MEGAPUNCH,45,PLAYROUGH,50,HAMMERARM,55,CLOSECOMBAT,60,COSMICPOWER,65,EXTREMESPEED,70,METEORMASH,75,BAJRANGGUN,80,GIGAIMPACT,90,RECOVER,100,LASTRESORT
+EggGroups = Undiscovered
+HatchSteps = 30720
+Height = 1.8
+Weight = 65.0
+Color = Purple
+Shape = BipedalTail
+Category = Liberation
+Pokedex = Ancient legends speak of a Pokemon whose laughter echoes across the stars. Its body defies the laws of nature, and the rhythm of its heartbeat awakens hope in those who have lost their freedom.
+Generation = 9
+#-------------------------------

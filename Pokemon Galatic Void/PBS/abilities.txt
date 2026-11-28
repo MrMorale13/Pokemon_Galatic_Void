@@ -1300,3 +1300,10 @@ Description = Weakens Galaxy-type moves used against the Pokémon.
 Name = Cosmic Balance
 Description = Reduces damage from Galaxy- and Void-type moves.
 #-------------------------------
+[DRUMSOFLIBERATION]
+Name = Drums of Liberation
+Description = Once per battle, survives a fatal blow, restores 75% max HP, cures status and boosts Attack and Speed. Prevents flinching, trapping, paralysis and Speed reductions.
+#-------------------------------
+[TOONFORCE]
+Name = Toon Force
+Description = Grants immunity to Electric moves. Physical contact attacks have a 30% chance to lower the attacker's Attack.

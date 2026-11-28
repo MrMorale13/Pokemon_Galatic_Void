@@ -10227,3 +10227,64 @@ FunctionCode = DoubleDamageIfTargetIsType
 Flags = CanProtect,CanMirrorMove
 Description = Cosmic and void energies collide violently. It deals double damage to VOID Pokémon.
 #-------------------------------
+[GUMGUMPISTOL]
+Name = Gum-Gum Pistol
+Type = FIGHTING
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = IgnoreTargetEvasionStatStage
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user stretches its arm an incredible distance before delivering a powerful punch that ignores evasiveness.
+#-------------------------------
+[GUMGUMGATLING]
+Name = Gum-Gum Gatling
+Type = FIGHTING
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user unleashes a relentless barrage of elastic punches, striking two to five times.
+#-------------------------------
+[GUMGUMJETPISTOL]
+Name = Gum-Gum Jet Pistol
+Type = FIGHTING
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user launches an incredibly fast elastic punch. This move always goes first over ordinary attacks.
+#-------------------------------
+[GUMGUMREDHAWK]
+Name = Gum-Gum Red Hawk
+Type = FIRE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 30
+Description = The user ignites its stretched fist before launching a blazing punch that may burn the target.
+#-------------------------------
+[BAJRANGGUN]
+Name = Bajrang Gun
+Type = GALAXY
+Category = Physical
+Power = 150
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = IgnoreDefenseLowerUserDefSpDef1
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user unleashes a colossal celestial punch that ignores Defense changes but lowers its own Defense and Sp. Def.
