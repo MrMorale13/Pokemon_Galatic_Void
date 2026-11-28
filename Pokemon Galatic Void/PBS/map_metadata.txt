@@ -93,7 +93,7 @@ MapPosition = 0,13,10
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[021]   # V&G Route 2
+[021]   # V&G Route 03
 Name = Route 2
 Outdoor = true
 ShowArea = true
@@ -157,7 +157,7 @@ MapPosition = 0,14,6
 BattleBack = field
 MapSize = 2,1101
 #-------------------------------
-[032]   # V&G Route 1
+[032]   # V&G Route 01
 Name = Route 1
 Outdoor = true
 ShowArea = true
@@ -419,7 +419,7 @@ Name = Azure Bay City
 Outdoor = true
 ShowArea = true
 #-------------------------------
-[080]   # V&G Route 3
+[080]   # V&G Route 05
 Name = Route 3
 Outdoor = true
 ShowArea = true
@@ -442,7 +442,7 @@ Name = ocean border 2
 Outdoor = true
 Weather = Rain,100
 #-------------------------------
-[084]   # V&G Route 3.5
+[084]   # V&G Route 05.5
 Name = Route 3
 Outdoor = true
 Weather = Storm,100
@@ -460,18 +460,18 @@ SnapEdges = true
 Name = Haunted Gym Battle
 DarkMap = true
 #-------------------------------
-[092]   # cave r3
+[092]   # cave on Route 5
 Name = Starfall Cavern 1f
 Outdoor = true
 DarkMap = true
 BattleBack = cave
 Environment = Cave
 #-------------------------------
-[097]   # Cave r3_bottom
+[097]   # Cave R5_bottom
 Name = Starfallen Cavern bf
 BattleBack = cave
 #-------------------------------
-[098]   # Cave r3_top
+[098]   # Cave R5_top
 Name = Starfallen Cavern 2f
 DarkMap = true
 BattleBack = cave
@@ -513,14 +513,14 @@ Name = Old Maple
 Outdoor = true
 ShowArea = true
 #-------------------------------
-[115]   # V&G Route 4
+[115]   # V&G Route 06
 Name = V&G Route 4
 Outdoor = true
 Bicycle = true
 BattleBack = field
 Environment = Grass
 #-------------------------------
-[116]   # V&G Route 5
+[116]   # V&G Route 07
 Name = Route 5
 Outdoor = true
 Weather = Sandstorm,25
@@ -538,6 +538,19 @@ BattleBack = indoor
 Name = Green House
 BattleBack = indoor
 #-------------------------------
-[143]   # Jeen Town
+[142]   # V&G Route 17
+Outdoor = true
 #-------------------------------
-[146]   # NR4ext
+[143]   # Jeen Town
+Name = Jeen Town
+Outdoor = true
+#-------------------------------
+[144]   # V&G Route 02
+Outdoor = true
+#-------------------------------
+[145]   # V&G Route 04
+Outdoor = true
+#-------------------------------
+[146]   # V&G Route 04 Extension
+Name = V&G Route 04 Extension
+Outdoor = true
