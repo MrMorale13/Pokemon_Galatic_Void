@@ -92,5 +92,15 @@
 150,West,0,116,East,0
 # Void Ruins (152) - V&G Route 07 (116)
 152,South,0,116,North,80
+# V&G Route 09 (153) - V&G Route 07 (116)
+153,North,0,116,South,76
+# LeftExt (154) - V&G Route 07 (116)
+154,North,0,116,South,56
 # Void Ruins (152) - Dunip Dessert (150)
 152,South,0,150,North,25
+# V&G Route 09 (153) - Dunip Dessert (150)
+153,North,0,150,South,21
+# LeftExt (154) - Dunip Dessert (150)
+154,North,0,150,South,1
+# LeftExt (154) - V&G Route 09 (153)
+154,East,0,153,West,0
