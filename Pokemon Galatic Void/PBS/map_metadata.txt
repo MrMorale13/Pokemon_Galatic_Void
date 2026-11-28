@@ -547,6 +547,8 @@ Outdoor = true
 #-------------------------------
 [144]   # V&G Route 02
 Outdoor = true
+BattleBack = forest
+Environment = Forest
 #-------------------------------
 [145]   # V&G Route 04
 Outdoor = true

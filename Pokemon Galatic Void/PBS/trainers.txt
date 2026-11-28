@@ -992,13 +992,13 @@ Pokemon = TYRANITAR,36
 #-------------------------------
 [OFFICER,Rory]
 LoseText = I thought I was ready for the next town!
-Pokemon = PETIDAW,6
+Pokemon = PIKACHU,6
 Pokemon = SENTRET,7
 #-------------------------------
 [BUGCATCHER,Lewis]
 LoseText = My little team needs more time to grow!
 Pokemon = CATERPIE,6
-Pokemon = SPROUTSY,7
+Pokemon = SURSKIT,7
 #-------------------------------
 [LASS,Mae]
 LoseText = I got distracted watching the river!
@@ -1053,7 +1053,7 @@ Pokemon = BUNEARY,16
 #-------------------------------
 [BACKPACKER_F,Sky]
 LoseText = I found another trail to explore!
-Pokemon = SHELLOS,12
+Pokemon = MAREEP,12
 Pokemon = BUIZEL,13
 
 #-------------------------------
@@ -1083,19 +1083,19 @@ Pokemon = MACHOP,11
 #-------------------------------
 [HIKER,Petra]
 LoseText = You reached the top first!
-Pokemon = SANDSHREW,12
+Pokemon = STALAD,12
 Pokemon = ROCKRUFF,13
 
 #-------------------------------
 [AROMALADY,Iris]
 LoseText = That was a fine display!
 Pokemon = COMBEE,12
-Pokemon = ODDISH,14
+Pokemon = ROSELIA,14
 
 #-------------------------------
 [HIKER,Ellis]
 LoseText = Now I know where we stand.
-Pokemon = SANDSHREW,13
+Pokemon = GEOCKO,13
 Pokemon = MAGNEMITE,14
 
 #-------------------------------
@@ -1125,7 +1125,7 @@ Pokemon = MACHOKE,35
 #-------------------------------
 [PICNICKER,Nell]
 LoseText = Time to fill our bottles.
-Pokemon = COSMOLE,34
+Pokemon = GOLBAT,34
 Pokemon = QUAGSIRE,36
 
 #-------------------------------
@@ -1147,3 +1147,13 @@ LoseText = I need to rethink my lead.
 Pokemon = MAWILE,36
 Pokemon = COMETIP,37
 Pokemon = QUAGSIRE,38
+
+[HIKER,Bram]
+LoseText = You found the opening!
+Pokemon = GREXCLUB,34
+Pokemon = ONIX,35
+
+[PICNICKER,Mara]
+LoseText = You found the opening!
+Pokemon = BARBOACH,34
+Pokemon = COSMOLE,36
