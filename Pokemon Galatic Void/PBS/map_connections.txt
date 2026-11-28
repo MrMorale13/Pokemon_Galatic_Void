@@ -18,10 +18,26 @@
 7,East,0,23,West,78
 # Route 7 (47) - Cedolan City (7)
 47,West,0,7,East,0
+# V&G Route 03 (21) - Azure Bay (76)
+21,South,0,76,North,17
+# V&G Route 04 (145) - V&G Route 03 (21)
+145,West,0,21,East,50
+# Crescent Hill (33) - V&G Route 03 (21)
+33,West,0,21,East,0
+# King City (22) - V&G Route 01 (32)
+22,West,0,32,East,0
 # Route 3 (31) - Lerucean Town (23)
 31,South,32,23,North,0
 # Route 3 (31) - Ingido Plateau outside (35)
 31,West,0,35,East,10
+# V&G Route 01 (32) - V&G Route 17 (142)
+32,West,1,142,East,0
+# Crescent Hill (33) - Azure Bay (76)
+33,West,77,76,East,0
+# Crescent Hill (33) - V&G Route 02 (144)
+33,East,0,144,West,2
+# V&G Route 04 Extension (146) - Crescent Hill (33)
+146,West,0,33,East,79
 # Ingido Plateau outside (35) - Route 4 (39)
 35,West,11,39,East,0
 # Route 5 (41) - Route 4 Cycling Road (40)
@@ -32,59 +48,49 @@
 47,East,8,52,West,0
 # Route 8 (69) - Safari Zone outside (66)
 69,North,0,66,South,10
-# Silverpine Town (85) - V&G Route 05.5 (84)
-85,9,0,84,0,36
-# V&G Route 06 (115) - Old Maple (104)
-115,North,0,104,South,0
-# V&G Route 07 (116) - Old Maple (104)
-116,West,0,104,East,0
-# V&G Route 03 (21) - Azure Bay (76)
-21,South,0,76,North,17
 # V&G Route 04 (145) - Azure Bay (76)
 145,West,27,76,East,0
-# Crescent Hill (33) - Azure Bay (76)
-33,West,77,76,East,0
 # ocean 1 (81) - Azure Bay (76)
 81,North,0,76,South,4
 # ocean 2 (82) - Azure Bay (76)
 82,North,18,76,South,0
-# V&G Route 04 (145) - V&G Route 03 (21)
-145,West,0,21,East,50
-# Crescent Hill (33) - V&G Route 03 (21)
-33,West,0,21,East,0
-# Jeen Town (143) - V&G Route 04 (145)
-143,West,52,145,East,0
-# V&G Route 02 (144) - V&G Route 04 (145)
-144,South,0,145,North,56
-# V&G Route 04 Extension (146) - V&G Route 04 (145)
-146,North,0,145,South,56
-# V&G Route 17 (142) - Jeen Town (143)
-142,West,0,143,East,0
-# V&G Route 02 (144) - Jeen Town (143)
-144,East,0,143,West,0
-# V&G Route 04 Extension (146) - Jeen Town (143)
-146,East,0,143,West,81
-# V&G Route 01 (32) - V&G Route 17 (142)
-32,West,1,142,East,0
-# King City (22) - V&G Route 01 (32)
-22,West,0,32,East,0
-# Crescent Hill (33) - V&G Route 02 (144)
-33,East,0,144,West,2
-# V&G Route 04 Extension (146) - Crescent Hill (33)
-146,West,0,33,East,79
 # V&G Route 05 (80) - ocean 1 (81)
 80,North,0,81,South,0
-# ocean 2 (82) - ocean 1 (81)
-82,East,0,81,West,0
-# ocean border 2 (83) - ocean 1 (81)
-83,North,22,81,South,0
 # ocean 2 (82) - V&G Route 05 (80)
 82,East,39,80,West,0
 # ocean border 2 (83) - V&G Route 05 (80)
 83,East,0,80,West,0
+# ocean 2 (82) - ocean 1 (81)
+82,East,0,81,West,0
+# ocean border 2 (83) - ocean 1 (81)
+83,North,22,81,South,0
 # ocean border 2 (83) - ocean 2 (82)
 83,North,0,82,South,0
+# Silverpine Town (85) - V&G Route 05.5 (84)
+85,9,0,84,0,36
+# V&G Route 17 (142) - Jeen Town (143)
+142,West,0,143,East,0
+# Jeen Town (143) - V&G Route 04 (145)
+143,West,52,145,East,0
+# V&G Route 02 (144) - Jeen Town (143)
+144,East,0,143,West,0
+# V&G Route 04 Extension (146) - Jeen Town (143)
+146,East,0,143,West,81
+# V&G Route 02 (144) - V&G Route 04 (145)
+144,South,0,145,North,56
+# V&G Route 04 Extension (146) - V&G Route 04 (145)
+146,North,0,145,South,56
+# V&G Route 06 (115) - Old Maple (104)
+115,North,0,104,South,0
+# V&G Route 07 (116) - Old Maple (104)
+116,West,0,104,East,0
+# Void Ruins (152) - Old Maple (104)
+152,South,0,104,North,130
 # King Trail A2 (102) - V&G Route 06 (115)
 102,North,9,115,South,0
 # Dunip Dessert (150) - V&G Route 07 (116)
 150,West,0,116,East,0
+# Void Ruins (152) - V&G Route 07 (116)
+152,South,0,116,North,80
+# Void Ruins (152) - Dunip Dessert (150)
+152,South,0,150,North,25
