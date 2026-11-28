@@ -1038,7 +1038,7 @@ Pokemon = MEOWTH,14
 [COOLTRAINER_F,Leah]
 LoseText = I still have a lot to learn about team balance.
 Pokemon = MAREEP,14
-Pokemon = ROSELIA,15
+Pokemon = MAGNEMITE,15
 Pokemon = GOOBOLT,16
 #-------------------------------
 [FISHERMAN,Rowan]
@@ -1083,14 +1083,14 @@ Pokemon = MACHOP,11
 #-------------------------------
 [HIKER,Petra]
 LoseText = You reached the top first!
-Pokemon = GEODUDE,12
-Pokemon = MACHOP,13
+Pokemon = SANDSHREW,12
+Pokemon = ROCKRUFF,13
 
 #-------------------------------
 [AROMALADY,Iris]
 LoseText = That was a fine display!
 Pokemon = COMBEE,12
-Pokemon = ROSELIA,14
+Pokemon = ODDISH,14
 
 #-------------------------------
 [HIKER,Ellis]
@@ -1102,7 +1102,7 @@ Pokemon = MAGNEMITE,14
 [PICNICKER,Tess]
 LoseText = You earned the last sandwich.
 Pokemon = MARILL,13
-Pokemon = BUNEARY,14
+Pokemon = MAREEP,14
 
 #-------------------------------
 [BIRDKEEPER,Wren]
@@ -1125,13 +1125,13 @@ Pokemon = MACHOKE,35
 #-------------------------------
 [PICNICKER,Nell]
 LoseText = Time to fill our bottles.
-Pokemon = GOLBAT,34
+Pokemon = COSMOLE,34
 Pokemon = QUAGSIRE,36
 
 #-------------------------------
 [BIRDKEEPER,Corbin]
 LoseText = You beat us to the landing.
-Pokemon = TAILLOW,35
+Pokemon = GREXCLUB,35
 Pokemon = RIFTALON,36
 
 #-------------------------------
